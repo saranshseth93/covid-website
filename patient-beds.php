@@ -30,7 +30,7 @@
     <!-- <embed src="/assets/pdfs/AMC REQUISITIONED HOSPITAL STATUS 19-04-2021 5.00 PM ONLINE.pdf" type="application/pdf" width="100%" height="600px" />  
             </div> -->
     <iframe
-      src="/assets/PdfViewer/web/viewer.html?file=/assets/pdfs/AMC REQUISITIONED HOSPITAL STATUS 21-04-2021  9.30 AM.pdf"
+      src="/assets/PdfViewer/web/viewer.html?file=/assets/pdfs/AMC REQUISITIONED HOSPITAL STATUS 21-04-2021  5.00 PM.pdf"
       class="pdf-viewer mt-5"></iframe>
     <!-- <canvas id="the-canvas" class=""></canvas>
             <div>
