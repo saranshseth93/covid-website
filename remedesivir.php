@@ -189,6 +189,21 @@
           <td>Rs 35,000 only, Payment via account Courier via Mumbai</td>
           <td></td>
         </tr>
+        <tr>
+          <th>14</th>
+          <td>India</td>
+          <td>Hetero Healthcare for COVIFOR Helpline number</td>
+          <td>Toll Free:<a href="tel:18001034696">18001034696</a>
+          </td>
+          <td>At Present in Waiting List</td>
+          <td><b><u>Process:</u></b><br />Call on the toll free number and register yourself(Registration is
+            compulsory). Then
+            you will receive a link on your phone after registration. Fill in all the details and <b>before submitting
+              take a screenshot of the details filled in. Without this screenshot injection won't be given.</b>After
+            that send the below things to whatsapp number: <a href="tel:+919320985814">9320985814</a><br />1) Screenshot
+            Taken<br />2)Original Prescription<br />3)Adhaar Card Photo<br />4)Covid +ve report.</td>
+          <td>21/04/2021</td>
+        </tr>
       </table>
 
     </div>
