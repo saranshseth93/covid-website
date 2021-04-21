@@ -27,6 +27,16 @@
         <h2 class="col">Availability of COVID Beds in Private Hospitals</h2>
       </div>
 
+      <label for="exampleDataList" class="form-label">Datalist example</label>
+      <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
+      <datalist id="datalistOptions">
+        <option value="San Francisco">
+        <option value="New York">
+        <option value="Seattle">
+        <option value="Los Angeles">
+        <option value="Chicago">
+      </datalist>
+
 
       <div class="mt-3 mb-3">
         <button type="button" onClick="filterCards(this);" data-click="all"

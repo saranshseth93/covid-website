@@ -15,12 +15,12 @@
   display: block;
 }
 
-.selective-results {
-  display: block;
-}
-
 .not-results {
   display: none;
+}
+
+.capitalize {
+  text-transform: capitalize;
 }
 
 @media screen and (max-width: 415px) {

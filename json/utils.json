@@ -14,7 +14,6 @@
   "property_name": "Ahmedabad",
   "domain_name": "covidmadad.com",
   "beds": {
-    "hide_last_updated": true,
     "area_filter_options": [
       "All Areas",
       "Ahmedabad",
