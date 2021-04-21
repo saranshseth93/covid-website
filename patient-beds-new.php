@@ -27,14 +27,9 @@
         <h2 class="col">Availability of COVID Beds in Private Hospitals</h2>
       </div>
 
-      <label for="exampleDataList" class="form-label">Datalist example</label>
-      <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
-      <datalist id="datalistOptions">
-        <option value="San Francisco">
-        <option value="New York">
-        <option value="Seattle">
-        <option value="Los Angeles">
-        <option value="Chicago">
+      <input class="form-control" list="area-filter" id="area-filter-input" placeholder="Search Area...">
+      <datalist id="area-filter">
+
       </datalist>
 
 

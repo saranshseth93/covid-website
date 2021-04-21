@@ -2,22 +2,36 @@ jQuery(
   (function () {
     "use strict";
 
+    setupAreas();
     setupCards();
   })()
 );
+
+function setupAreas() {
+  $.getJSON("/json/utils.json", function (data) {
+    let options = "";
+
+    if (data != undefined) {
+      $.each(data.beds.area_filter_options, function (i, v) {
+        options += `<option value="${v}">${v}</option>`;
+      });
+
+      $("#area-filter").html(options);
+    }
+  });
+}
 
 function setupCards(filter = "all") {
   $.getJSON(
     "https://covidamd.com/data/covidamd.com/bed_data.json?_=aa6328a_20210420124307",
     function (data) {
-      console.log(filter);
       let html = "";
       // JSON result in `data` variable
       if (data !== null || data !== undefined) {
         $.each(data, function (index, value) {
-          html += `<div class="col card-component ${
-            index < 4 && filter == "all" ? "shown" : ""
-          } ${
+          let display = "";
+
+          display =
             filter == "all"
               ? "all-results"
               : filter == "available" &&
@@ -37,8 +51,10 @@ function setupCards(filter = "all") {
               : filter == "icu-ventilator" &&
                 value.available_icu_beds_with_ventilator != 0
               ? "all-results"
-              : "not-results"
-          }">
+              : "not-results";
+          html += `<div class="col card-component ${
+            index < 4 && filter == "all" ? "shown" : ""
+          } ${display}">
           <div class="card mt-3">
             <div class="card-body">
               <h5 class="card-title capitalize">${value.hospital_name.toLowerCase()}</h5>
