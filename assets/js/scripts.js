@@ -65,7 +65,7 @@ jQuery(
                 .delay(150)
                 .animate(
                   {
-                    scrollTop: $toHash.offset().top - _offset,
+                    scrollTop: $toHash.offset().top - _offset
                   },
                   1000
                 );
@@ -81,7 +81,7 @@ jQuery(
       var _navbar_id = $main_navbar.attr("id");
       $body.scrollspy({
         target: "#" + _navbar_id,
-        offset: $navbar.innerHeight(),
+        offset: $navbar.innerHeight()
       });
     }
     menu_spy();
@@ -220,9 +220,9 @@ jQuery(
                       .find("input")
                       .removeClass("input-focused");
                   }
-                },
+                }
               });
-            },
+            }
           });
           $self.find(".select").on("change", function () {
             $(this).valid();
@@ -248,8 +248,8 @@ jQuery(
                   "mfp-figure mfp-with-anim"
                 );
                 this.st.mainClass = this.st.el.attr("data-effect");
-              },
-            },
+              }
+            }
           });
         });
       }
@@ -263,7 +263,7 @@ jQuery(
     axios
       .post(API_URL)
       // Handle a successful response from the server
-      .then((response) => {
+      .then(response => {
         // Getting a data object from response that contains the necessary data from the server
 
         const data = response.data.data;
@@ -292,7 +292,7 @@ jQuery(
         );
       })
       // Catch and print errors if any
-      .catch((error) => console.error("Error: ", error));
+      .catch(error => console.error("Error: ", error));
 
     // Constant URL value for JAAS API
     const DAILY_URL =
@@ -314,7 +314,7 @@ jQuery(
         $(".covid-stats-recovered-24").html(
           new Intl.NumberFormat().format(dailyData[1].value)
         );
-      },
+      }
     });
 
     function processData(allText) {
@@ -341,7 +341,7 @@ jQuery(
       for (let i = 0; i < result.length; i++) {
         dailyData.push({
           status: result[i][2].replace("Status:", ""),
-          value: result[i][15].replace("GJ:", ""),
+          value: result[i][15].replace("GJ:", "")
         });
       }
       return dailyData;

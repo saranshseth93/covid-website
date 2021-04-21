@@ -85,6 +85,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.8.335/pdf.worker.min.js"></script>
   <script src="assets/js/bundle.js?ver=112"></script>
   <script src="assets/js/scripts.js?ver=112"></script>
+  <?php include('footer.html'); ?>
 </body>
 
 </html>
