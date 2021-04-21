@@ -2,7 +2,7 @@ jQuery(
   (function () {
     "use strict";
 
-    setupAreas();
+    // setupAreas();
     setupCards();
   })()
 );
@@ -128,7 +128,7 @@ function filterCards(btn) {
 }
 
 function loadMore() {
-  var increment = 4;
+  var increment = 6;
   var startFilter = 0;
   var endFilter = increment;
   var $this = $(".cards");

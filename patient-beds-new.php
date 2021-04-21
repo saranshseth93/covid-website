@@ -16,6 +16,19 @@
   <link rel="stylesheet" href="assets/css/styles.css?ver=112">
   <link rel="stylesheet" href="assets/css/patient-beds.css?ver=112">
 </head>
+<style>
+.btn-success {
+  color: #fff;
+  background-color: #198754;
+  border-color: #198754;
+}
+
+.btn-sm {
+  padding: .25rem .5rem;
+  font-size: .875rem;
+  border-radius: .2rem;
+}
+</style>
 
 <body class="nk-body">
   <div class="top-bar">COVID 19 Helpline <a href="tel:+917926403333">079 26403333</a> | <a href="tel:+917926409999">079
@@ -27,10 +40,10 @@
         <h2 class="col">Availability of COVID Beds in Private Hospitals</h2>
       </div>
 
-      <input class="form-control" list="area-filter" id="area-filter-input" placeholder="Search Area...">
+      <!-- <input class="form-control" list="area-filter" id="area-filter-input" placeholder="Search Area...">
       <datalist id="area-filter">
 
-      </datalist>
+      </datalist> -->
 
 
       <div class="mt-3 mb-3">
@@ -55,6 +68,10 @@
       <div class="d-grid gap-2 col-12 mx-auto mt-3">
         <p class="lead">Displayed <b class="shownLength"></b> Of <b class="listLength"></b> Results.</p>
         <button class="showMore btn btn-primary" type="button">View More</button>
+        <a class="btn btn-success btn-sm float-right border-reset"
+          href="/assets/pdfs/AMC REQUISITIONED HOSPITAL STATUS 21-04-2021  5.00 PM.pdf"
+          download="/assets/pdfs/AMC REQUISITIONED HOSPITAL STATUS 21-04-2021  5.00 PM.pdf"><i class="fas fa-download"
+            style="margin-right:10px;"></i>Download PDF</a>
       </div>
 
     </div>
