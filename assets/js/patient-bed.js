@@ -140,6 +140,7 @@ function searchHospital() {
   str_needle = o_edit.toUpperCase();
   let searchStrings = str_needle.split(/\W/);
   let count = 0;
+  let found = false;
   console.log(searchStrings);
 
   for (let i = 0, len = searchStrings.length; i < len; i++) {
@@ -163,6 +164,7 @@ function searchHospital() {
               .removeClass("shown")
               .addClass("all-results");
             count++;
+            found = true;
           } else {
             $(nameDivs[j])
               .parent()
@@ -173,27 +175,29 @@ function searchHospital() {
               .removeClass("all-results");
           }
         }
-
-        for (let j = 0, divsLen = areaDivs.length; j < divsLen; j++) {
-          if (
-            areaDivs[j].textContent.toUpperCase().indexOf(currentSearch) !== -1
-          ) {
-            $(areaDivs[j])
-              .parent()
-              .parent()
-              .parent()
-              .removeClass("not-results")
-              .removeClass("shown")
-              .addClass("all-results");
-            count++;
-          } else {
-            $(areaDivs[j])
-              .parent()
-              .parent()
-              .parent()
-              .addClass("not-results")
-              .removeClass("shown")
-              .removeClass("all-results");
+        if (!found) {
+          for (let j = 0, divsLen = areaDivs.length; j < divsLen; j++) {
+            if (
+              areaDivs[j].textContent.toUpperCase().indexOf(currentSearch) !==
+              -1
+            ) {
+              $(areaDivs[j])
+                .parent()
+                .parent()
+                .parent()
+                .removeClass("not-results")
+                .removeClass("shown")
+                .addClass("all-results");
+              count++;
+            } else {
+              $(areaDivs[j])
+                .parent()
+                .parent()
+                .parent()
+                .addClass("not-results")
+                .removeClass("shown")
+                .removeClass("all-results");
+            }
           }
         }
       } else {
