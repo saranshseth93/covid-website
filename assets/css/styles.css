@@ -2369,10 +2369,10 @@ select ~ .error:after {
 /** 06.3 Navbar */
 .nk-navbar {
   position: absolute;
-  top: 0;
+  top: 30px;
   left: 0;
   right: 0;
-  padding: 30px 0;
+  padding: 0;
   z-index: 999;
   background-color: transparent;
   transition: all 0.4s;
@@ -2384,6 +2384,8 @@ select ~ .error:after {
 }
 .nk-navbar.has-fixed.is-light {
   background-color: #fff;
+  top: 0px;
+  padding: 30px 0;
 }
 .nk-navbar.has-fixed.is-light .logo-dark {
   display: block;

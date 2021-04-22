@@ -55,6 +55,14 @@
         <h2 class="col">Availability of COVID Beds in Private Hospitals</h2>
       </div>
 
+      <div class="input-group mb-4 mt-4">
+        <input type="text" id="search-input" class="form-control" placeholder="Search area or hospital name..."
+          aria-label="Search area or hospital name..." aria-describedby="button-addon2">
+        <button class="btn btn-outline-secondary" type="button" id="button-addon2" onClick="searchHospital();"><i
+            class="fas fa-search-location" style="margin-right: 5px; font-size: 1.2rem;"></i>Find</button>
+        <button class="btn btn-light" type="button" onClick="resetSearch();">Clear</button>
+      </div>
+
       <!-- <input class="form-control" list="area-filter" id="area-filter-input" placeholder="Search Area...">
       <datalist id="area-filter">
 
@@ -79,6 +87,10 @@
       </div>
 
 
+      <div class="text-center error-image">
+        <img src="/assets/images/search.gif" width="300" alt="Error">
+        <h4>Oops! No Results Found</h4>
+      </div>
       <div class="row row-cols-1 row-cols-md-2 g-4 cards"></div>
       <div class="d-grid gap-2 col-12 mx-auto mt-3">
         <p class="lead">Displayed <b class="shownLength"></b> Of <b class="listLength"></b> Results.</p>
