@@ -4,6 +4,10 @@ jQuery(
 
     // setupAreas();
     setupCards();
+
+    $("#search-input").focus(function () {
+      resetFilters();
+    });
   })()
 );
 
@@ -23,7 +27,8 @@ function setupAreas() {
 
 function setupCards(filter = "all") {
   $.getJSON(
-    "https://covidamd.com/data/covidamd.com/bed_data.json?_=aa6328a_20210420124307",
+    "https://covidamd.com/data/covidamd.com/bed_data.json?_=" +
+      moment().format("YYYYMMDDHH"),
     function (data) {
       let html = "";
       // JSON result in `data` letiable
@@ -131,6 +136,7 @@ function filterCards(btn) {
 }
 
 function searchHospital() {
+  resetFilters();
   let o_edit = $("#search-input").val();
   str_needle = o_edit.toUpperCase();
   let searchStrings = str_needle.split(/\W/);
@@ -138,74 +144,83 @@ function searchHospital() {
   console.log(searchStrings);
 
   for (let i = 0, len = searchStrings.length; i < len; i++) {
+    let notPincode = isNaN(searchStrings[i]);
     let currentSearch = searchStrings[i].toUpperCase();
     if (currentSearch !== "") {
       nameDivs = document.getElementsByClassName("hospital-name");
       areaDivs = document.getElementsByClassName("hospital-area");
       pincodeDivs = document.getElementsByClassName("hospital-pincode");
-      for (let j = 0, divsLen = nameDivs.length; j < divsLen; j++) {
-        if (
-          nameDivs[j].textContent.toUpperCase().indexOf(currentSearch) !== -1
-        ) {
-          $(nameDivs[j])
-            .parent()
-            .parent()
-            .parent()
-            .removeClass("not-results")
-            .removeClass("shown")
-            .addClass("all-results");
-          count++;
-        } else {
-          $(nameDivs[j])
-            .parent()
-            .parent()
-            .parent()
-            .addClass("not-results")
-            .removeClass("shown")
-            .removeClass("all-results");
+
+      if (notPincode) {
+        for (let j = 0, divsLen = nameDivs.length; j < divsLen; j++) {
+          if (
+            nameDivs[j].textContent.toUpperCase().indexOf(currentSearch) !== -1
+          ) {
+            $(nameDivs[j])
+              .parent()
+              .parent()
+              .parent()
+              .removeClass("not-results")
+              .removeClass("shown")
+              .addClass("all-results");
+            count++;
+          } else {
+            $(nameDivs[j])
+              .parent()
+              .parent()
+              .parent()
+              .addClass("not-results")
+              .removeClass("shown")
+              .removeClass("all-results");
+          }
         }
-      }
-    }
-    for (let j = 0, divsLen = pincodeDivs.length; j < divsLen; j++) {
-      if (
-        pincodeDivs[j].textContent.toUpperCase().indexOf(currentSearch) !== -1
-      ) {
-        $(pincodeDivs[j])
-          .parent()
-          .parent()
-          .parent()
-          .removeClass("not-results")
-          .removeClass("shown")
-          .addClass("all-results");
-        count++;
+
+        for (let j = 0, divsLen = areaDivs.length; j < divsLen; j++) {
+          if (
+            areaDivs[j].textContent.toUpperCase().indexOf(currentSearch) !== -1
+          ) {
+            $(areaDivs[j])
+              .parent()
+              .parent()
+              .parent()
+              .removeClass("not-results")
+              .removeClass("shown")
+              .addClass("all-results");
+            count++;
+          } else {
+            $(areaDivs[j])
+              .parent()
+              .parent()
+              .parent()
+              .addClass("not-results")
+              .removeClass("shown")
+              .removeClass("all-results");
+          }
+        }
       } else {
-        $(pincodeDivs[j])
-          .parent()
-          .parent()
-          .parent()
-          .addClass("not-results")
-          .removeClass("shown")
-          .removeClass("all-results");
-      }
-    }
-    for (let j = 0, divsLen = areaDivs.length; j < divsLen; j++) {
-      if (areaDivs[j].textContent.toUpperCase().indexOf(currentSearch) !== -1) {
-        $(areaDivs[j])
-          .parent()
-          .parent()
-          .parent()
-          .removeClass("not-results")
-          .removeClass("shown")
-          .addClass("all-results");
-        count++;
-      } else {
-        $(areaDivs[j])
-          .parent()
-          .parent()
-          .parent()
-          .addClass("not-results")
-          .removeClass("shown")
-          .removeClass("all-results");
+        for (let j = 0, divsLen = pincodeDivs.length; j < divsLen; j++) {
+          let pincode = pincodeDivs[j].textContent;
+          pincode = pincode.replace("Pincode: ", "");
+          if (pincode == currentSearch) {
+            console.log(currentSearch);
+            $(pincodeDivs[j])
+              .parent()
+              .parent()
+              .parent()
+              .removeClass("not-results")
+              .removeClass("shown")
+              .addClass("all-results");
+            count++;
+          } else {
+            $(pincodeDivs[j])
+              .parent()
+              .parent()
+              .parent()
+              .addClass("not-results")
+              .removeClass("shown")
+              .removeClass("all-results");
+          }
+        }
       }
     }
 
@@ -219,7 +234,28 @@ function searchHospital() {
   }
 }
 
+function resetFilters() {
+  $(".btn-outline-primary")
+    .removeClass("active")
+    .attr("disabled", true)
+    .addClass("no-pointer");
+  $('[data-click="all"]').addClass("active");
+  setupCards("all");
+}
+
+function setFilters() {
+  $("#search-input").val("");
+  $(".error-image").hide();
+  $(".btn-outline-primary")
+    .removeClass("active")
+    .attr("disabled", false)
+    .removeClass("no-pointer");
+  $('[data-click="all"]').addClass("active");
+  setupCards("all");
+}
+
 function resetSearch() {
+  setFilters();
   $("#search-input").val("");
   $(".error-image").hide();
   setupCards();
@@ -239,6 +275,7 @@ function loadMore() {
   } else {
     $(".showMore").hide();
   }
+  console.log(endFilter);
   if (endFilter < elementLength) {
     $(".card-component.all-results")
       .slice(startFilter, endFilter)
@@ -256,10 +293,8 @@ function loadMore() {
     $(".shownLength").text(
       endFilter < elementLength ? endFilter : elementLength
     );
-    $(".cards .card-component.all-results")
-      .not(".shown")
-      .not(".not-results")
-      .show();
+    console.log("hello");
+    $(".cards .card-component.all-results").not(".not-results").show();
     $(".cards .card-component.not-results").hide();
   }
   $(".shownLength").text(endFilter < elementLength ? endFilter : elementLength);

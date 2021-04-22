@@ -42,8 +42,8 @@
   </style>
   <div class="alert alert-info alert-dismissible fade show" role="alert">
     For more up-to-date data <strong><a class="alert-link"
-        href="/assets/pdfs/AMC REQUISITIONED HOSPITAL STATUS 22-04-2021 9.30 AM  ONLINE.pdf"
-        download="/assets/pdfs/AMC REQUISITIONED HOSPITAL STATUS 22-04-2021 9.30 AM  ONLINE.pdf">Download
+        href="/assets/pdfs/AMC REQUISITIONED HOSPITAL STATUS 22-04-2021  5.00 PM.pdf"
+        download="/assets/pdfs/AMC REQUISITIONED HOSPITAL STATUS 22-04-2021  5.00 PM.pdf">Download
         PDF</a>.</strong>
     <button type="button" class="btn-close float-right" data-dismiss="alert" data-bs-dismiss="alert" aria-label="Close"
       style="background: transparent; border: none;font-size: 1.25rem;">
@@ -61,6 +61,10 @@
         <button class="btn btn-outline-secondary" type="button" id="button-addon2" onClick="searchHospital();"><i
             class="fas fa-search-location" style="margin-right: 5px; font-size: 1.2rem;"></i>Find</button>
         <button class="btn btn-light" type="button" onClick="resetSearch();">Clear</button>
+      </div>
+
+      <div class="text-center">
+        <h3>OR</h3>
       </div>
 
       <!-- <input class="form-control" list="area-filter" id="area-filter-input" placeholder="Search Area...">
@@ -96,9 +100,9 @@
         <p class="lead">Displayed <b class="shownLength"></b> Of <b class="listLength"></b> Results.</p>
         <button class="showMore btn btn-primary" type="button">View More</button>
         <a class="btn btn-success btn-sm float-right border-reset"
-          href="/assets/pdfs/AMC REQUISITIONED HOSPITAL STATUS 22-04-2021 9.30 AM  ONLINE.pdf"
-          download="/assets/pdfs/AMC REQUISITIONED HOSPITAL STATUS 22-04-2021 9.30 AM  ONLINE.pdf"><i
-            class="fas fa-download" style="margin-right:10px;"></i>Download PDF</a>
+          href="/assets/pdfs/AMC REQUISITIONED HOSPITAL STATUS 22-04-2021  5.00 PM.pdf"
+          download="/assets/pdfs/AMC REQUISITIONED HOSPITAL STATUS 22-04-2021  5.00 PM.pdf"><i class="fas fa-download"
+            style="margin-right:10px;"></i>Download PDF</a>
       </div>
 
     </div>
@@ -107,6 +111,7 @@
 
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.8.335/pdf.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
   <script src="https://kit.fontawesome.com/852453daca.js" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>

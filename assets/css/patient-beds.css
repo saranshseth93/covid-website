@@ -61,6 +61,10 @@
   display: none;
 }
 
+.no-pointer {
+  cursor: not-allowed;
+}
+
 @media screen and (max-width: 415px) {
   .pdf-viewer {
     top: 82%;
