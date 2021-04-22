@@ -136,7 +136,6 @@ function filterCards(btn) {
 }
 
 function searchHospital() {
-  resetFilters();
   let o_edit = $("#search-input").val();
   str_needle = o_edit.toUpperCase();
   let searchStrings = str_needle.split(/\W/);
@@ -226,6 +225,7 @@ function searchHospital() {
 
     if (count !== 0) {
       $(".error-image").hide();
+      $(".card .card-component").hide();
     } else {
       $(".error-image").show();
     }

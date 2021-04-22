@@ -56,8 +56,9 @@
       </div>
 
       <div class="input-group mb-4 mt-4">
-        <input type="text" id="search-input" class="form-control" placeholder="Search area or hospital name..."
-          aria-label="Search area or hospital name..." aria-describedby="button-addon2">
+        <input type="text" id="search-input" class="form-control"
+          placeholder="Search area or hospital name or Pincode..."
+          aria-label="Search area or hospital name or Pincode..." aria-describedby="button-addon2">
         <button class="btn btn-outline-secondary" type="button" id="button-addon2" onClick="searchHospital();"><i
             class="fas fa-search-location" style="margin-right: 5px; font-size: 1.2rem;"></i>Find</button>
         <button class="btn btn-light" type="button" onClick="resetSearch();">Clear</button>
