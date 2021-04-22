@@ -204,6 +204,15 @@
             Taken<br />2)Original Prescription<br />3)Adhaar Card Photo<br />4)Covid +ve report.</td>
           <td>21/04/2021</td>
         </tr>
+        <!-- <tr>
+          <th>15</th>
+          <td>Rajkot</td>
+          <td>Rajkot Remdesivir Helpline</td>
+          <td>Send your case number and report details on Whatsapp</td>
+          <td>Available</td>
+          <td></td>
+          <td>21/04/2021</td>
+        </tr> -->
       </table>
 
     </div>
