@@ -11,8 +11,8 @@
   <!-- Site Title  -->
   <title>COVID-19 Madad | Initiative to help COVID affected</title>
   <!-- Bundle and Base CSS -->
-  <link rel="stylesheet" href="assets/css/bundle.css?ver=112">
-  <link rel="stylesheet" href="assets/css/styles.css?ver=112">
+  <link rel="stylesheet" href="assets/css/bundle.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body class="nk-body">
@@ -1441,8 +1441,8 @@
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
   <script src="https://kit.fontawesome.com/852453daca.js" crossorigin="anonymous"></script>
-  <script src="assets/js/bundle.js?ver=112"></script>
-  <script src="assets/js/scripts.js?ver=112"></script>
+  <script src="assets/js/bundle.js"></script>
+  <script src="assets/js/scripts.js"></script>
 
   <?php include('modal.html'); ?>
 </body>

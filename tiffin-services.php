@@ -11,8 +11,8 @@
   <!-- Site Title  -->
   <title>COVID-19 Madad | Initiative to help COVID affected</title>
   <!-- Bundle and Base CSS -->
-  <link rel="stylesheet" href="assets/css/bundle.css?ver=112">
-  <link rel="stylesheet" href="assets/css/styles.css?ver=112">
+  <link rel="stylesheet" href="assets/css/bundle.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
   <link rel="stylesheet" href="assets/css/tiffin-services.css">
 </head>
 
@@ -33,8 +33,8 @@
   <script src="https://kit.fontawesome.com/852453daca.js" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  <script src="assets/js/bundle.js?ver=112"></script>
-  <script src="assets/js/scripts.js?ver=112"></script>
+  <script src="assets/js/bundle.js"></script>
+  <script src="assets/js/scripts.js"></script>
 </body>
 
 </html>
