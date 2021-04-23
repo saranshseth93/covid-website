@@ -34,21 +34,18 @@
   <div class="top-bar">COVID 19 Helpline <a href="tel:+917926403333">079 26403333</a> | <a href="tel:+917926409999">079
       26409999</a></div>
   <?php include('header-2.html'); ?>
-  <style>
-  .alert {
-    top: 80px;
-    padding-right: 1.25rem;
-  }
-  </style>
+
   <div class="alert alert-info alert-dismissible fade show" role="alert">
     For more up-to-date data <strong><a class="alert-link"
         href="/assets/pdfs/AMC REQUISITIONED HOSPITAL STATUS 23-04-2021 9.30 AM  ONLINE.pdf"
         download="/assets/pdfs/AMC REQUISITIONED HOSPITAL STATUS 23-04-2021 9.30 AM  ONLINE.pdf">Download
         PDF</a>.</strong>
     <button type="button" class="btn-close float-right" data-dismiss="alert" data-bs-dismiss="alert" aria-label="Close"
-      style="background: transparent; border: none;font-size: 1.25rem;">
+      style="background: transparent; border: none;font-size: 1.25rem;padding: 0;
+    margin: 0;">
       <i class="far fa-times-circle"></i></button>
   </div>
+
   <div class="nk-banner">
     <div class="container-lg">
       <div class="row">
