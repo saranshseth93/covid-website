@@ -461,8 +461,8 @@ h6,
 }
 .has-overlay > div:not(.overlay):not(.is-sticky),
 .has-overlay > ul:not(.overlay) {
-  z-index: 5;
-  position: relative;
+  /* z-index: 5; */
+  /* position: relative; */
 }
 
 .overlay {
