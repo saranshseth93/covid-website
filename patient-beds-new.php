@@ -28,6 +28,11 @@
   font-size: .875rem;
   border-radius: .2rem;
 }
+
+.alert {
+  top: 80px;
+  padding-right: 1.25rem;
+}
 </style>
 
 <body class="nk-body">
