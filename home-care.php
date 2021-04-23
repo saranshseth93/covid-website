@@ -42,6 +42,20 @@
             Guidelines for home care service providers)</a>
         </p>
       </div>
+      <div class="row mt-3 p-3">
+        <div class="text-center">
+          <h2>HCG Hospital (Navrangpura, Ahmedabad)</h2>
+          <img class="rounded mr-3" src="/assets/images/hcg_hos_1.jpeg" width="500" />
+          <img src="/assets/images/hcg_hos_2.jpeg" width="500" />
+        </div>
+      </div>
+      <div class="row mt-3 p-3">
+        <div class="text-center">
+          <h2>Tapan Hospital (Prahladnagar, Satellite, Ahmedabad)</h2>
+          <img class="rounded mr-3" src="/assets/images/tapan_hospital_1.jpeg" width="800" />
+          <img src="/assets/images/tapan_hospital_2.jpeg" width="800" />
+        </div>
+      </div>
     </div>
 
     <!-- <embed src="/assets/pdfs/AMC REQUISITIONED HOSPITAL STATUS 19-04-2021 5.00 PM ONLINE.pdf" type="application/pdf" width="100%" height="600px" />  

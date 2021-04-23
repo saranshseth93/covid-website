@@ -131,6 +131,21 @@
           <td>Can support with blood plasma or oxygen requirement. But her phone was constantly busy</td>
           <td>19/04/2021</td>
         </tr>
+        <tr>
+          <th>11</th>
+          <td>Ahmedabad</td>
+          <td>CANCER INSTITUTE</td>
+          <td></td>
+          <td><a href="tel:+917922688409">079-22688409</a>
+            <br /><a href="tel:+917922688061">079-22688061</a>
+            <br /><a href="tel:+917922688062">079-22688062</a>
+            <br /><a href="mailto:rima.kusumgar@gcriindia.org">rima.kusumgar@gcriindia.org</a>
+          </td>
+          <td><b>Available</b><br />Blood Bank, The Gujarat Cancer Research Institute, M.P. Shah Cancer Hospital, Civil
+            Hospital Campus,
+            Asarwa,, Ahmedabad, Ahmedabad, Gujarat.</td>
+          <td>22/04/2021</td>
+        </tr>
       </table>
 
     </div>
