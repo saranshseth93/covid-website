@@ -3,9 +3,9 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="author" content="Softnio">
+  <meta name="author" content="Covid Madad">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
+  <meta name="description" content="An Initiative to help COVID Affected">
   <!-- Fav Icon  -->
   <link rel="shortcut icon" href="images/favicon.svg">
   <!-- Site Title  -->
