@@ -121,6 +121,25 @@
                 <span class="page_details">Page: <span id="page_num"></span> / <span id="page_count"></span></span>
               </div> -->
 
+    <main class="nk-pages">
+      <section class="section section-l bg-light section-spread" id="news">
+        <div class="container">
+          <div class="section-content">
+            <div class="row g-gs justify-content-between">
+              <div class="col-lg-auto">
+                <div class="text-block text-center mb-4">
+                  <h5 class="subtitle">Latest</h5>
+                  <h2 class="title">News & Updates</h2>
+                  <h6 class="subtitle">*Sharing as received*</h6>
+                </div>
+                <?php include('news.php'); ?>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.8.335/pdf.min.js"></script>
     <script src="https://kit.fontawesome.com/852453daca.js" crossorigin="anonymous"></script>
