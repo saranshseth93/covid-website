@@ -12,9 +12,9 @@
   <title>COVID-19 Madad | Initiative to help COVID affected</title>
   <!-- Bundle and Base CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.8.335/pdf_viewer.min.css" />
-  <link rel="stylesheet" href="assets/css/bundle.css?ver=112">
-  <link rel="stylesheet" href="assets/css/styles.css?ver=112">
-  <link rel="stylesheet" href="assets/css/remedesivir.css?ver=112">
+  <link rel="stylesheet" href="assets/css/bundle.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/remedesivir.css">
 </head>
 
 <body class="nk-body">
@@ -55,9 +55,9 @@
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.8.335/pdf.worker.min.js"></script>
-  <script src="assets/js/bundle.js?ver=112"></script>
-  <script src="assets/js/scripts.js?ver=112"></script>
-  <script src="assets/js/doctor.js?ver=112"></script>
+  <script src="assets/js/bundle.js"></script>
+  <script src="assets/js/scripts.js"></script>
+  <script src="assets/js/doctor.js"></script>
 
   <?php include('footer.html'); ?>
 </body>

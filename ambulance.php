@@ -11,9 +11,10 @@
   <!-- Site Title  -->
   <title>COVID-19 Madad | Initiative to help COVID affected</title>
   <!-- Bundle and Base CSS -->
-  <link rel="stylesheet" href="assets/css/bundle.css?ver=112">
-  <link rel="stylesheet" href="assets/css/styles.css?ver=112">
-  <link rel="stylesheet" href="assets/css/remedesivir.css?ver=112">
+  <link rel="stylesheet" href="assets/css/bundle.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.24/css/dataTables.bootstrap4.min.css" />
+  <link rel="stylesheet" href="assets/css/remedesivir.css">
 </head>
 
 <body class="nk-body">
@@ -27,51 +28,19 @@
       </div>
 
       <table class="table table-striped table-bordered table-responsive-md mt-3">
-        <tr>
-          <th>#</th>
-          <th>City</th>
-          <th>Organisation</th>
-          <th>Contact Person</th>
-          <th>Contact</th>
-          <th>Status</th>
-          <th>Verified on</th>
-        </tr>
-        <tr>
-          <th>1</th>
-          <td>Ahmedabad</td>
-          <td>Individual</td>
-          <td>Maulik Trivedi</td>
-          <td><a href="tel:+919898236060">9898236060</a></td>
-          <td>Available</td>
-          <td>18/04/2021</td>
-        </tr>
-        <tr>
-          <th>2</th>
-          <td>Ahmedabad</td>
-          <td>Dalk Health Care & Emergency Services</td>
-          <td>Chintan Patel</td>
-          <td><a href="tel:+919099004779">9099004779</a></td>
-          <td>Available</td>
-          <td>19/04/2021</td>
-        </tr>
-        <tr>
-          <th>3</th>
-          <td>Ahmedabad</td>
-          <td>Kings Air Ambulance</td>
-          <td>Kings Air Ambulance</td>
-          <td><a href="tel:+917091360313">7091360313</a></td>
-          <td>Available</td>
-          <td>19/04/2021</td>
-        </tr>
-        <tr>
-          <th>4</th>
-          <td>Ahmedabad</td>
-          <td>Panchmukhi Air Ambulance</td>
-          <td>Panchmukhi Air Ambulance</td>
-          <td><a href="tel:+919955990333">9955990333</a></td>
-          <td>Available</td>
-          <td>19/04/2021</td>
-        </tr>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>City</th>
+            <th>Organisation</th>
+            <th>Contact Person</th>
+            <th>Contact</th>
+            <th>Status</th>
+            <th>Remarks</th>
+            <th>Verified on</th>
+          </tr>
+        </thead>
+        <tbody id="ambulance-table"></tbody>
 
       </table>
 
@@ -81,10 +50,9 @@
   <script src="https://kit.fontawesome.com/852453daca.js" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  <script src="assets/js/patient-bed.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.8.335/pdf.worker.min.js"></script>
-  <script src="assets/js/bundle.js?ver=112"></script>
-  <script src="assets/js/scripts.js?ver=112"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+  <script src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
+  <script src="/assets/js/ambulance.js"></script>
   <?php include('footer.html'); ?>
 </body>
 
