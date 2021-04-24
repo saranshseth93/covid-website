@@ -6,7 +6,9 @@
     <div class="glider">
       <?php 
           $directory = "news";
-          $images = glob($directory . "/*.{jpg,png,jpeg,gif}", GLOB_BRACE);
+          $images = glob($directory . "/*.{jpg,png,jpeg,gif,PNG,JPG,JPEG,GIF}", GLOB_BRACE);
+
+          shuffle($images);
 
           foreach($images as $image)
           { ?>
