@@ -1463,8 +1463,6 @@
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
   <script src="https://kit.fontawesome.com/852453daca.js" crossorigin="anonymous"></script>
-  <script src="assets/js/bundle.js"></script>
-  <script src="assets/js/scripts.js"></script>
 
   <?php include('modal.html'); ?>
 </body>

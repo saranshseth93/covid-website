@@ -1,87 +1,214 @@
 <div class="nk-navbar is-light is-sticky" id="navbar">
   <div class="container">
-      <div class="nk-navbar-wrap">
-          <div class="nk-navbar-logo logo">
-              <a href="./" class="logo-link">
-                  <img class="logo" src="images/logo.svg" srcset="images/logo.svg 2x" alt="logo">
-              </a>
-          </div><!-- .nk-navbar-logo -->
-          <div class="nk-navbar-toggle d-lg-none">
-              <a href="#" class="toggle" data-menu-toggle="navbar-menu"><em class="icon-menu icon ni ni-menu"></em><em class="icon-close icon ni ni-cross"></em></a>
-          </div><!-- .nk-navbar-toggle -->
-          <nav class="nk-navbar-menu" id="navbar-menu">
-              <ul class="nk-menu">
-                  <li class="nk-menu-item"><a class="scrollto nav-link nk-menu-link" href="#home">Home</a></li>
-              
-                  <li class="nk-menu-item"><a class="nav-link nk-menu-link nk-menu-toggle" href="#">COVID Information <i class="fas fa-chevron-down"></i></a>
-                      <ul class="nk-menu-dropdown nk-menu-sub">
-                          <li class="nk-menu-item"><a class="scrollto nav-link nk-menu-link" href="#about">About Corona</a></li>
-                  <li class="nk-menu-item"><a class="scrollto nav-link nk-menu-link" href="#symptoms">Symptoms</a></li>
-                  <li class="nk-menu-item"><a class="scrollto nav-link nk-menu-link" href="#prevention">Prevention</a></li>
-                  <li class="nk-menu-item"><a class="scrollto nav-link nk-menu-link" href="#treatment">Treatment</a></li>
-                  <li class="nk-menu-item"><a class="scrollto nav-link nk-menu-link" href="#faq">FAQ</a></li>
-                  <li class="nk-menu-item"><a href="#protect" class="scrollto nav-link nk-menu-link">Do's &amp; Don’ts</a></li>
-                      </ul>
-                  </li>
-                  <li class="nk-menu-item"><a class="nav-link nk-menu-link nk-menu-toggle" href="#">COVID Services <i class="fas fa-chevron-down"></i></a>
-                      <ul class="nk-menu-dropdown nk-menu-sub">
-                  <li class="nk-menu-item"><a href="patient-beds-new.php"  class="nav-success btn-sm nav-link nk-menu-link">Availability of COVID Beds<span class="text-small"> - Ahmedabad</span></a></li>
-                  <li class="nk-menu-item"><a href="remedesivir.php"  class="nav-success btn-sm nav-link nk-menu-link">Remedesivir<span class="text-small"> - Ahmedabad</span></a></li>
-                  <li class="nk-menu-item"><a href="plasma.php"  class="nav-success btn-sm nav-link nk-menu-link">Plasma Support</a></li>
-                  <li class="nk-menu-item">
-                    <a
-                      href="ambulance.php"
-                      
-                      class="nav-success btn-sm nav-link nk-menu-link"
-                      >Ambulance Support<span class="text-small">
-                        - Ahmedabad</span
-                      ></a
-                    >
-                  </li>
-                  <li class="nk-menu-item">
-                    <a href="oxygen.php" class="nav-link nk-menu-link">Oxygen Supply</a>
-                  </li>
-                  <li class="nk-menu-item">
-                    <a href="rtpcr.php" class="nav-link nk-menu-link">RT-PCR</a>
-                  </li>
-                  <li class="nk-menu-item">
-                    <a href="covid-care.php" class="nav-link nk-menu-link">COVID Care Facilities</a>
-                  </li>
-                  <li class="nk-menu-item">
-                    <a href="doctor.php" class="nav-link nk-menu-link"
-                      >Doctor On Call</a
-                    >
-                  </li>
-                  <li class="nk-menu-item"><a href="home-care.php"  class="nav-success btn-sm nav-link nk-menu-link">Home Care Facilities<span class="text-small"> - Ahmedabad</span></span></a></li>
-                  <li class="nk-menu-item"><a href="tiffin-services.php"  class="nav-link nk-menu-link">Tiffin Service<span class="text-small"> - Ahmedabad</span></a></li>
-                  <li class="nk-menu-item"><a href="https://ahna.org.in/Registration/UserSpace/Home.php" target="_blank" class="nav-link nk-menu-link">Patient Complain</a></li>
-                      </ul>
+    <div class="nk-navbar-wrap">
+      <div class="nk-navbar-logo logo">
+        <a href="./" class="logo-link">
+          <img
+            class="logo"
+            src="images/logo.svg"
+            srcset="images/logo.svg 2x"
+            alt="logo"
+          />
+        </a>
+      </div>
+      <!-- .nk-navbar-logo -->
+      <div class="nk-navbar-toggle d-lg-none">
+        <a href="#" class="toggle" data-menu-toggle="navbar-menu"
+          ><em class="icon-menu icon ni ni-menu"></em
+          ><em class="icon-close icon ni ni-cross"></em
+        ></a>
+      </div>
+      <!-- .nk-navbar-toggle -->
+      <nav class="nk-navbar-menu" id="navbar-menu">
+        <ul class="nk-menu">
+          <li class="nk-menu-item">
+            <a class="scrollto nav-link nk-menu-link" href="#home">Home</a>
+          </li>
 
-                  </li>
-                  <li class="nk-menu-item m-1"><a href="admission.php"  class="nav-link nk-menu-link">Admission Criteria for COVID Patients</a></li>
-                  <li class="nk-menu-item m-1"><button type="button" class="btn" data-toggle="modal" data-target="#contactModal">
-                    <i class="fas fa-envelope" style="margin-right: 5px;"></i>Contact Us
-                  </button></li>
-              </ul>
-          </nav><!-- .nk-navbar-menu -->
-      </div><!-- .nk-navbar-wrap -->
-  </div><!-- .container -->
-</div><!-- .nk-navbar -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+          <li class="nk-menu-item">
+            <a class="nav-link nk-menu-link nk-menu-toggle" href="#"
+              >COVID Information <i class="fas fa-chevron-down"></i
+            ></a>
+            <ul class="nk-menu-dropdown nk-menu-sub">
+              <li class="nk-menu-item">
+                <a class="scrollto nav-link nk-menu-link" href="#about"
+                  >About Corona</a
+                >
+              </li>
+              <li class="nk-menu-item">
+                <a class="scrollto nav-link nk-menu-link" href="#symptoms"
+                  >Symptoms</a
+                >
+              </li>
+              <li class="nk-menu-item">
+                <a class="scrollto nav-link nk-menu-link" href="#prevention"
+                  >Prevention</a
+                >
+              </li>
+              <li class="nk-menu-item">
+                <a class="scrollto nav-link nk-menu-link" href="#treatment"
+                  >Treatment</a
+                >
+              </li>
+              <li class="nk-menu-item">
+                <a class="scrollto nav-link nk-menu-link" href="#faq">FAQ</a>
+              </li>
+              <li class="nk-menu-item">
+                <a href="#protect" class="scrollto nav-link nk-menu-link"
+                  >Do's &amp; Don’ts</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="nk-menu-item">
+            <a class="nav-link nk-menu-link nk-menu-toggle" href="#"
+              >COVID Services <i class="fas fa-chevron-down"></i
+            ></a>
+            <ul class="nk-menu-dropdown nk-menu-sub">
+              <li class="nk-menu-item">
+                <a
+                  href="patient-beds-new.php"
+                  class="nav-success btn-sm nav-link nk-menu-link"
+                  >Availability of COVID Beds<span class="text-small">
+                    - Ahmedabad</span
+                  ></a
+                >
+              </li>
+              <li class="nk-menu-item">
+                <a
+                  href="remedesivir.php"
+                  class="nav-success btn-sm nav-link nk-menu-link"
+                  >Remedesivir<span class="text-small"> - Ahmedabad</span></a
+                >
+              </li>
+              <li class="nk-menu-item">
+                <a
+                  href="plasma.php"
+                  class="nav-success btn-sm nav-link nk-menu-link"
+                  >Plasma Support</a
+                >
+              </li>
+              <li class="nk-menu-item">
+                <a
+                  href="ambulance.php"
+                  class="nav-success btn-sm nav-link nk-menu-link"
+                  >Ambulance Support<span class="text-small">
+                    - Ahmedabad</span
+                  ></a
+                >
+              </li>
+              <li class="nk-menu-item">
+                <a href="oxygen.php" class="nav-link nk-menu-link"
+                  >Oxygen Supply</a
+                >
+              </li>
+              <li class="nk-menu-item">
+                <a href="rtpcr.php" class="nav-link nk-menu-link">RT-PCR</a>
+              </li>
+              <li class="nk-menu-item">
+                <a href="covid-care.php" class="nav-link nk-menu-link"
+                  >COVID Care Facilities</a
+                >
+              </li>
+              <li class="nk-menu-item">
+                <a href="doctor.php" class="nav-link nk-menu-link"
+                  >Doctor On Call</a
+                >
+              </li>
+              <li class="nk-menu-item">
+                <a
+                  href="home-care.php"
+                  class="nav-success btn-sm nav-link nk-menu-link"
+                  >Home Care Facilities<span class="text-small">
+                    - Ahmedabad</span
+                  ></a
+                >
+              </li>
+              <li class="nk-menu-item">
+                <a href="tiffin-services.php" class="nav-link nk-menu-link"
+                  >Tiffin Service<span class="text-small"> - Ahmedabad</span></a
+                >
+              </li>
+              <li class="nk-menu-item">
+                <a
+                  href="https://ahna.org.in/Registration/UserSpace/Home.php"
+                  target="_blank"
+                  class="nav-link nk-menu-link"
+                  >Patient Complain</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="nk-menu-item m-1">
+            <a href="admission.php" class="nav-link nk-menu-link"
+              >Admission Criteria for COVID Patients</a
+            >
+          </li>
+          <li class="nk-menu-item m-1">
+            <button
+              type="button"
+              class="btn"
+              data-toggle="modal"
+              data-target="#contactModal"
+            >
+              <i class="fas fa-envelope" style="margin-right: 5px"></i>Contact
+              Us
+            </button>
+          </li>
+        </ul>
+      </nav>
+      <!-- .nk-navbar-menu -->
+    </div>
+    <!-- .nk-navbar-wrap -->
+  </div>
+  <!-- .container -->
+</div>
+<!-- .nk-navbar -->
+<script
+  src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+  integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+  integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+  crossorigin="anonymous"
+></script>
 <style>
   .alert {
     top: 80px;
     padding-right: 1.25rem;
   }
-  .alert-link{
+  .alert-link {
     padding-top: 20px;
     padding-bottom: 20px;
     line-height: 40px;
   }
 </style>
 <div class="alert alert-dark text-center p-4" role="alert">
-  <a href="patient-beds-new.php" class="alert-link">Availability of COVID Beds</a><i class="fas fa-ellipsis-v mr-3 ml-3 text-light"></i><a href="remedesivir.php" class="alert-link">Remedesivir</a><i class="fas fa-ellipsis-v mr-3 ml-3 text-light"></i><a href="plasma.php" class="alert-link">Plasma</a><i class="fas fa-ellipsis-v mr-3 ml-3 text-light"></i><a href="ambulance.php" class="alert-link">Ambulance</a><i class="fas fa-ellipsis-v mr-3 ml-3 text-light"></i><a href="oxygen.php" class="alert-link">Oxygen Supply</a><i class="fas fa-ellipsis-v mr-3 ml-3 text-light"></i><a href="rtpcr.php" class="alert-link">RT-PCR</a><i class="fas fa-ellipsis-v mr-3 ml-3 text-light"></i><a href="covid-care.php" class="alert-link">COVID Care</a><i class="fas fa-ellipsis-v mr-3 ml-3 text-light"></i><a href="doctor.php" class="alert-link">Doctor On Call</a><i class="fas fa-ellipsis-v mr-3 ml-3 text-light"></i><a href="home-care.php" class="alert-link">Home Care</a><i class="fas fa-ellipsis-v mr-3 ml-3 text-light"></i><a href="tiffin-services.php" class="alert-link">Tiffin Service</a>
-  
+  <a href="patient-beds-new.php" class="alert-link"
+    >Availability of COVID Beds</a
+  ><i class="fas fa-ellipsis-v mr-3 ml-3 text-light"></i
+  ><a href="remedesivir.php" class="alert-link">Remedesivir</a>
+  <i class="fas fa-ellipsis-v mr-3 ml-3 text-light"></i
+  ><a href="plasma.php" class="alert-link">Plasma</a
+  ><i class="fas fa-ellipsis-v mr-3 ml-3 text-light"></i
+  ><a href="ambulance.php" class="alert-link">Ambulance</a>
+  <i class="fas fa-ellipsis-v mr-3 ml-3 text-light"></i
+  ><a href="oxygen.php" class="alert-link">Oxygen Supply</a
+  ><i class="fas fa-ellipsis-v mr-3 ml-3 text-light"></i
+  ><a href="rtpcr.php" class="alert-link">RT-PCR</a>
+  <i class="fas fa-ellipsis-v mr-3 ml-3 text-light"></i
+  ><a href="covid-care.php" class="alert-link">COVID Care</a
+  ><i class="fas fa-ellipsis-v mr-3 ml-3 text-light"></i
+  ><a href="doctor.php" class="alert-link">Doctor On Call</a>
+  <i class="fas fa-ellipsis-v mr-3 ml-3 text-light"></i
+  ><a href="home-care.php" class="alert-link">Home Care</a
+  ><i class="fas fa-ellipsis-v mr-3 ml-3 text-light"></i
+  ><a href="tiffin-services.php" class="alert-link">Tiffin Service</a>
 </div>
