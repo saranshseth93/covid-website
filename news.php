@@ -8,12 +8,16 @@
           $directory = "news";
           $images = glob($directory . "/*.{jpg,png,jpeg,gif,PNG,JPG,JPEG,GIF}", GLOB_BRACE);
 
-          shuffle($images);
+          usort($images, function($a,$b){
+            return filemtime($b) - filemtime($a);
+          });
 
           foreach($images as $image)
           { ?>
       <div class="text-center">
-        <?php echo '<img style="max-height: 400px;" src="'.$image .'" alt="'.$image.'" />'; ?></div>
+        <?php echo '<img style="max-height: 400px;" src="'.$image .'" alt="'.$image.'" />';
+        ?>
+      </div>
       <?php } ?>
     </div>
 
