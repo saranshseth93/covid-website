@@ -7,6 +7,8 @@ jQuery(
       slidesToShow: 1,
       slidesToScroll: 1,
       scrollLock: true,
+      rewind: true,
+      draggable: true,
       dots: "#resp-dots",
       arrows: {
         prev: ".glider-prev",
@@ -20,6 +22,8 @@ jQuery(
             // Set to `auto` and provide item width to adjust to viewport
             slidesToShow: "auto",
             slidesToScroll: "auto",
+            rewind: true,
+            draggable: true,
             itemWidth: 150,
             duration: 0.25
           }
@@ -30,6 +34,8 @@ jQuery(
           settings: {
             slidesToShow: 2,
             slidesToScroll: 1,
+            rewind: true,
+            draggable: true,
             itemWidth: 150,
             duration: 0.25
           }

@@ -130,6 +130,24 @@
     </header><!-- .nk-header -->
 
     <main class="nk-pages">
+      <section class="section section-l bg-light section-spread" id="news">
+        <div class="container">
+          <div class="section-content">
+            <div class="row g-gs justify-content-between">
+              <div class="col-lg-auto">
+                <div class="text-block text-center mb-4">
+                  <h5 class="subtitle">Latest</h5>
+                  <h2 class="title">News</h2>
+                </div>
+                <?php include('news.php'); ?>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <main class="nk-pages">
       <section class="section section-l bg-white section-about" id="about">
         <div class="container">
           <div class="section-content">
@@ -616,7 +634,8 @@
                             <p>A novel coronavirus is a new coronavirus that has not been previously identified. The
                               virus causing coronavirus disease 2019 (COVID-19), is not the same as the <a
                                 href="https://www.cdc.gov/coronavirus/2019-ncov/index.html"
-                                target="_blank">coronaviruses that commonly circulate among humans</a> and cause mild
+                                target="_blank">coronaviruses
+                                that commonly circulate among humans</a> and cause mild
                               illness, like the common cold.</p>
                           </div>
                         </div>
@@ -715,7 +734,8 @@
                       <div class="accordion-item">
                         <h5 class="accordion-title collapsed" data-toggle="collapse" data-target="#covid-spreads-03">Can
                           someone who has had COVID-19 spread the illness to others? <span
-                            class="accordion-icon"></span></h5>
+                            class="accordion-icon"></span>
+                        </h5>
                         <div id="covid-spreads-03" class="collapse">
                           <div class="accordion-content">
                             <p>The virus that causes COVID-19 is <a
