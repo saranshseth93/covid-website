@@ -259,6 +259,15 @@
             <td><a href="tel=+919820344456">9820344456</a></td>
             <td>24/04/2021</td>
           </tr>
+          <tr class="table-success">
+            <td>20</td>
+            <td>Ahmedabad</td>
+            <td></td>
+            <td><b>Tocilizumab</b></td>
+            <td>Available</td>
+            <td><a href="tel=+918048881954">8048881954</a></td>
+            <td>24/04/2021</td>
+          </tr>
         </tbody>
       </table>
 
