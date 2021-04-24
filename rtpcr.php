@@ -11,7 +11,7 @@
   <!-- Site Title  -->
   <title>COVID-19 Madad | Initiative to help COVID affected</title>
   <!-- Bundle and Base CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.8.335/pdf_viewer.min.css" />
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.24/css/dataTables.bootstrap4.min.css" />
   <link rel="stylesheet" href="assets/css/bundle.css">
   <link rel="stylesheet" href="assets/css/styles.css">
   <link rel="stylesheet" href="assets/css/remedesivir.css">
@@ -28,19 +28,19 @@
       </div>
 
       <table class="table mt-3 table-striped table-responsive-md table-bordered">
-
-        <tr>
-          <th>#</th>
-          <th>City</th>
-          <th>Organisation</th>
-          <th>Person</th>
-          <th>Contact</th>
-          <th>Time</th>
-          <th>Status</th>
-          <th>Remarks</th>
-          <th>Verified On</th>
-        </tr>
-
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>City</th>
+            <th>Organisation</th>
+            <th>Person</th>
+            <th>Contact</th>
+            <th>Time</th>
+            <th>Status</th>
+            <th>Remarks</th>
+            <th>Verified On</th>
+          </tr>
+        </thead>
         <tbody id="rtpcr-table">
 
         </tbody>
@@ -56,9 +56,7 @@
   <script src="https://kit.fontawesome.com/852453daca.js" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.8.335/pdf.worker.min.js"></script>
-  <script src="assets/js/bundle.js"></script>
-  <script src="assets/js/scripts.js"></script>
+  <script src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
   <script src="assets/js/rtpcr.js"></script>
 
   <?php include('footer.html'); ?>
