@@ -21,7 +21,7 @@ jQuery(
             "24/04/2021 18:36:39"
           ],
           [
-            data.values.length + 1,
+            data.values.length + 2,
             "Ahmedabad",
             "Individual",
             "Abhishek",
@@ -34,7 +34,7 @@ jQuery(
             "24/04/2021 18:36:39"
           ],
           [
-            data.values.length + 1,
+            data.values.length + 3,
             "Ahmedabad",
             "Individual",
             "Nishalee",
@@ -47,7 +47,7 @@ jQuery(
             "24/04/2021 18:36:39"
           ],
           [
-            data.values.length + 1,
+            data.values.length + 4,
             "Ahmedabad",
             "Individual",
             "Everest",
@@ -60,7 +60,7 @@ jQuery(
             "24/04/2021 18:54:39"
           ],
           [
-            data.values.length + 1,
+            data.values.length + 5,
             "Ahmedabad",
             "Individual",
             "Dhrumil",
