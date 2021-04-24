@@ -137,7 +137,8 @@
               <div class="col-lg-auto">
                 <div class="text-block text-center mb-4">
                   <h5 class="subtitle">Latest</h5>
-                  <h2 class="title">News</h2>
+                  <h2 class="title">News & Updates</h2>
+                  <h6 class="subtitle">*Sharing as received*</h6>
                 </div>
                 <?php include('news.php'); ?>
               </div>
