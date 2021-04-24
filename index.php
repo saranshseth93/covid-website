@@ -1426,7 +1426,8 @@
                   <p>Disclaimer: We hope you find the information presented on this website useful. This website is for
                     general information and raise awareness of (2019-nCoV) only. <br class="d-none d-lg-block">
                     All the information based on WHO, NHS and CDC website. Information on our website is meant for
-                    awareness, if you have any doubt please verify from respective site.</p>
+                    awareness, if you have any doubt please verify from respective site.<br />Read our terms at: <a
+                      href="terms.php">https://covidmadad.com/terms.php</a></p>
                 </div>
               </div>
             </div>
