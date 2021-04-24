@@ -92,6 +92,9 @@
           class="btn btn-outline-primary m-1">ICU with
           Ventilator</button>
       </div>
+      <div class="m-2 text-center ">
+        <small class="text-primary lead"><i class="fas fa-sync mr-2"></i>Updated everyday</small>
+      </div>
 
 
       <div class="text-center error-image">
