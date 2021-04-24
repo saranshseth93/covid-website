@@ -108,6 +108,7 @@ jQuery(
       $(".table").DataTable({
         paging: false,
         info: false,
+        fixedHeader: true,
         aaSorting: [
           [7, "asc"],
           [9, "desc"]

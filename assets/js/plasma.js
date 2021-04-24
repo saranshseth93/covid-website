@@ -79,6 +79,7 @@ jQuery(
       $(".table").DataTable({
         paging: false,
         info: false,
+        fixedHeader: true,
         aaSorting: [[6, "desc"]]
       });
     });

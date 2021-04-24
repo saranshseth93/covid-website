@@ -39,7 +39,8 @@ jQuery(
       $(".table").DataTable({
         paging: false,
         info: false,
-        aaSorting: [[7, "desc"]]
+        aaSorting: [[7, "desc"]],
+        fixedHeader: true
       });
     });
   })()
