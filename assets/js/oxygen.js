@@ -29,7 +29,7 @@ jQuery(
             "",
             "",
             "Available",
-            "Oxygen Source",
+            "Portable Oxygen Source",
             "",
             "24/04/2021 18:36:39"
           ],
@@ -42,7 +42,7 @@ jQuery(
             "",
             "",
             "Available",
-            "Oxygen Source",
+            "Portable Oxygen Source",
             "",
             "24/04/2021 18:36:39"
           ]
