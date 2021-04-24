@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.8.335/pdf_viewer.min.css" />
   <link rel="stylesheet" href="assets/css/bundle.css">
   <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.24/css/dataTables.bootstrap4.min.css" />
   <link rel="stylesheet" href="assets/css/remedesivir.css">
 </head>
 
@@ -23,25 +24,25 @@
   <?php include('header-2.html'); ?>
   <div class="nk-banner">
     <div class="container-lg">
-      <div class="row">
+      <div class="row mb-3">
         <h2 class="col">Oxygen Supply</h2>
       </div>
 
-      <table class="table mt-3 table-striped table-responsive-md table-bordered">
-
-        <tr>
-          <th>#</th>
-          <th>City</th>
-          <th>Organisation</th>
-          <th>Person</th>
-          <th>Contact</th>
-          <th>Type</th>
-          <th>Timings</th>
-          <th>Status</th>
-          <th>Remarks</th>
-          <th>Verified On</th>
-        </tr>
-
+      <table class="table table-striped table-responsive-md table-bordered">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>City</th>
+            <th>Organisation</th>
+            <th>Person</th>
+            <th>Contact</th>
+            <th>Type</th>
+            <th>Timings</th>
+            <th>Status</th>
+            <th>Remarks</th>
+            <th>Verified On</th>
+          </tr>
+        </thead>
         <tbody id="oxygen-table">
 
         </tbody>
@@ -60,6 +61,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.8.335/pdf.worker.min.js"></script>
   <script src="assets/js/bundle.js"></script>
   <script src="assets/js/scripts.js"></script>
+  <script src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
   <script src="assets/js/oxygen.js"></script>
 
   <?php include('footer.html'); ?>
