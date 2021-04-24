@@ -16,12 +16,31 @@
   <link rel="stylesheet" href="https://cdn.datatables.net/1.10.24/css/dataTables.bootstrap4.min.css" />
   <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.1.8/css/fixedHeader.dataTables.min.css" />
   <link rel="stylesheet" href="assets/css/remedesivir.css">
+  <style>
+  .alert {
+    top: 80px;
+    padding-right: 1.25rem;
+  }
+  </style>
 </head>
 
 <body class="nk-body">
   <div class="top-bar">COVID 19 Helpline <a href="tel:+917926403333">079 26403333</a> | <a href="tel:+917926409999">079
       26409999</a></div>
   <?php include('header-2.html'); ?>
+
+
+  <div class="alert alert-info alert-dismissible fade show" role="alert">
+    Plasma from recovered COVID-19 patients is urgently needed across hospitals in India. <strong><u><a
+          class="alert-link" href="https://dhoondh.com/">Please donate Plasma if you have recently recovered from
+          COVID-19 or know someone
+          who can.</a></u></strong>
+    <button type="button" class="btn-close float-right" data-dismiss="alert" data-bs-dismiss="alert" aria-label="Close"
+      style="background: transparent; border: none;font-size: 1.25rem;padding: 0;
+    margin: 0;">
+      <i class="far fa-times-circle"></i></button>
+  </div>
+
   <div class="nk-banner">
     <div class="container-lg">
       <div class="row">
