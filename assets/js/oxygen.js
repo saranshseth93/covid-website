@@ -45,6 +45,32 @@ jQuery(
             "Portable Oxygen Source",
             "",
             "24/04/2021 18:36:39"
+          ],
+          [
+            data.values.length + 1,
+            "Ahmedabad",
+            "Individual",
+            "Everest",
+            "9925023784",
+            "",
+            "",
+            "Available",
+            "Oxygen Refill",
+            "",
+            "24/04/2021 18:54:39"
+          ],
+          [
+            data.values.length + 1,
+            "Ahmedabad",
+            "Individual",
+            "Dhrumil",
+            "9327384064",
+            "",
+            "",
+            "Available",
+            "Ventilators and Bipap Machine",
+            "",
+            "24/04/2021 18:54:55"
           ]
         );
         if (
