@@ -11,6 +11,8 @@
   <!-- Site Title  -->
   <title>COVID-19 Madad | Tiffin Services for COVID Patients</title>
   <!-- Bundle and Base CSS -->
+  <link href="/assets/fontawesome/css/all.css" rel="stylesheet">
+  <!--load all styles -->
   <link rel="stylesheet" href="assets/css/bundle.css">
   <link rel="stylesheet" href="assets/css/styles.css">
   <link rel="stylesheet" href="assets/css/tiffin-services.css">
@@ -32,7 +34,7 @@
       class="pdf-viewer"></iframe>
   </div>
 
-  <script src="https://kit.fontawesome.com/852453daca.js" crossorigin="anonymous"></script>
+  <script defer src="/assets/fontawesome/js/all.js"></script> <!--load all styles -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="assets/js/bundle.js"></script>

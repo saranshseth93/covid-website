@@ -11,6 +11,8 @@
   <!-- Site Title  -->
   <title>COVID-19 Madad | Oxygen Supply</title>
   <!-- Bundle and Base CSS -->
+  <link href="/assets/fontawesome/css/all.css" rel="stylesheet">
+  <!--load all styles -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.8.335/pdf_viewer.min.css" />
   <link rel="stylesheet" href="assets/css/bundle.css">
   <link rel="stylesheet" href="assets/css/styles.css">
@@ -76,7 +78,7 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.8.335/pdf.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
-  <script src="https://kit.fontawesome.com/852453daca.js" crossorigin="anonymous"></script>
+  <script defer src="/assets/fontawesome/js/all.js"></script> <!--load all styles -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.8.335/pdf.worker.min.js"></script>

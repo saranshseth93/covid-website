@@ -11,6 +11,8 @@
   <!-- Site Title  -->
   <title>COVID-19 Madad | Plasma Support</title>
   <!-- Bundle and Base CSS -->
+  <link href="/assets/fontawesome/css/all.css" rel="stylesheet">
+  <!--load all styles -->
   <link rel="stylesheet" href="assets/css/bundle.css">
   <link rel="stylesheet" href="assets/css/styles.css">
   <link rel="stylesheet" href="https://cdn.datatables.net/1.10.24/css/dataTables.bootstrap4.min.css" />
@@ -91,7 +93,7 @@
 
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.8.335/pdf.min.js"></script>
-  <script src="https://kit.fontawesome.com/852453daca.js" crossorigin="anonymous"></script>
+  <script defer src="/assets/fontawesome/js/all.js"></script> <!--load all styles -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
   <script src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>

@@ -11,6 +11,8 @@
   <!-- Site Title  -->
   <title>Covid 19 Gujarat | COVID Madad | Initiative to help COVID affected</title>
   <!-- Bundle and Base CSS -->
+  <link href="/assets/fontawesome/css/all.css" rel="stylesheet">
+  <!--load all styles -->
   <link rel="stylesheet" href="assets/css/bundle.css">
   <link rel="stylesheet" href="assets/css/styles.css">
 
@@ -1417,7 +1419,7 @@
   <!-- JavaScript -->
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
-  <script src="https://kit.fontawesome.com/852453daca.js" crossorigin="anonymous"></script>
+  <script defer src="/assets/fontawesome/js/all.js"></script> <!--load all styles -->
 
   <?php include('modal.html'); ?>
 </body>
