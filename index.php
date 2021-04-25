@@ -1352,54 +1352,6 @@
         </div><!-- .container -->
       </section><!-- .section -->
 
-      <section class="section section-l bg-light section-blog" id="news">
-        <div class="container">
-          <div class="section-head text-center wide-lg">
-            <h5 class="subtitle">Recent From Blog</h5>
-            <h2 class="title">Latest Update</h2>
-          </div><!-- .section-head -->
-          <div class="section-content">
-            <div class="row g-gs justify-content-center">
-              <div class="col-md-9 col-lg-4">
-                <div class="blog-item">
-                  <div class="blog-image">
-                    <img src="images/blog/blog-a.jpg" alt="">
-                  </div>
-                  <div class="blog-text">
-                    <h5 class="title"><a href="#">Caring for someone at home</a></h5>
-                    <p>Most people who get sick with COVID-19 will have only mild illness and should recover at home.
-                      Care at home can help stop the spread of COVID-19</p>
-                  </div>
-                </div><!-- .blog-item -->
-              </div><!-- .col -->
-              <div class="col-md-9 col-lg-4">
-                <div class="blog-item">
-                  <div class="blog-image">
-                    <img src="images/blog/blog-b.jpg" alt="">
-                  </div>
-                  <div class="blog-text">
-                    <h5 class="title"><a href="#">15 ways to keep safe and healthy</a></h5>
-                    <p>Most people who get sick with COVID-19 will have only mild illness and should recover at home.
-                      Care at home can help stop the spread of COVID-19</p>
-                  </div>
-                </div><!-- .blog-item -->
-              </div><!-- .col -->
-              <div class="col-md-9 col-lg-4">
-                <div class="blog-item">
-                  <div class="blog-image">
-                    <img src="images/blog/blog-c.jpg" alt="">
-                  </div>
-                  <div class="blog-text">
-                    <h5 class="title"><a href="#">If You Think You Are Sick</a></h5>
-                    <p>If you are sick with COVID-19 or think you might have it, follow the steps below to help protect
-                      other people in your home and community</p>
-                  </div>
-                </div><!-- .blog-item -->
-              </div><!-- .col -->
-            </div><!-- .row -->
-          </div><!-- .section-content -->
-        </div><!-- .container -->
-      </section><!-- .section -->
     </main><!-- .nk-pages -->
 
     <footer class="nk-footer bg-dark tc-light has-overlay">
