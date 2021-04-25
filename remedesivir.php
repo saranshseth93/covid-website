@@ -17,6 +17,28 @@
   <link rel="stylesheet" href="assets/css/bundle.css">
   <link rel="stylesheet" href="assets/css/styles.css">
   <link rel="stylesheet" href="assets/css/remedesivir.css">
+
+  <style>
+  .btn-success {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  }
+  </style>
 </head>
 
 <body class="nk-body">
@@ -48,6 +70,11 @@
             class="alert-link">remdesivir.tossilamc@gmail.com</a> with above mentioned 4 documents from hospital ID.
           If any documents are missing, application can be rejected.
           Successful application will get appointment for collecting.
+          <br />
+          <a href="/assets/pdfs/Remedesivir-eng.pdf" download="/assets/pdfs/Remedesivir-eng.pdf"
+            class="btn btn-success m-2">Download English Form</a>
+          <a href="/assets/pdfs/Remedesivir-guj.pdf" download="/assets/pdfs/Remedesivir-guj.pdf"
+            class="btn btn-success m-2">Download Gujarati Form</a>
           <hr>
           There is a very big shortage state-wide for Remedesivir. It is highly recommended to be patient. These numbers
           are verified, but it might be possible that it might not be working when you call or might be busy. <b>We are

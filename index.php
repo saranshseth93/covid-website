@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zxx" class="js">
+<html lang="en" class="js">
 
 <head>
   <meta charset="utf-8">
@@ -128,6 +128,8 @@
         </div><!-- .container -->
       </div><!-- .nk-banner -->
     </header><!-- .nk-header -->
+
+    <?php include('modal-whatsapp.php'); ?>
 
     <main class="nk-pages">
       <section class="section section-l bg-light section-spread" id="news">

@@ -19,7 +19,11 @@ jQuery(
 
             html += `<tr><th>${v[0]}</th><td>${v[1]}</td><td>${v[2]}</td><td>${
               v[3]
-            }</td><td>${v[4]}</td><td>${v[5]}</td><td>${v[6]}</td><td>${
+            }</td><td>${v[4]}</td><td>${
+              v[5] == "9825065275\n9825065605\nwww.devasyahospita.com"
+                ? "9825065275\n9825065605\nwww.devasyahospital.com"
+                : v[5]
+            }</td><td>${v[6]}</td><td>${
               v[7] != undefined ? v[7] : ""
             }</td><td data-order=${
               v[9] != "" ? moment(v[9], "DD/MM/YYYY HH:mm:ss").format("X") : ""
