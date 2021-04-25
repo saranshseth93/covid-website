@@ -13,8 +13,6 @@ jQuery(
       _menu_open = "menu-open",
       _mobile_menu = "mobile-menu";
 
-    $("#staticBackdrop").modal("show");
-
     ////////
     function sticky(elem, ofset) {
       var _top = $(window).scrollTop();
@@ -354,5 +352,7 @@ jQuery(
         return ele[0] == value;
       });
     }
+
+    $("#staticBackdrop").modal("show");
   })()
 );
