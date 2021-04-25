@@ -296,6 +296,15 @@
             <td><a href="tel=+918048881954">8048881954</a></td>
             <td>24/04/2021</td>
           </tr>
+          <tr class="table-success">
+            <td>21</td>
+            <td>Ahmedabad</td>
+            <td>Ahmedbhai</td>
+            <td><b>Remedesivir, Tocilizumab, Bevacizumab</b></td>
+            <td>Available</td>
+            <td><a href="tel=+918238529949">8238529949</a></td>
+            <td>25/04/2021 10:25AM</td>
+          </tr>
         </tbody>
       </table>
 
