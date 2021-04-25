@@ -61,22 +61,6 @@
           </div>
         </div>
         <div class="panel panel-default">
-          <div class="panel-heading" role="tab" id="headingTwo">
-            <h4 class="panel-title">
-              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"
-                aria-expanded="false" aria-controls="collapseTwo">
-                Tapan Hospital (Prahladnagar, Satellite, Ahmedabad) - Click for more details
-              </a>
-            </h4>
-          </div>
-          <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-            <div class="panel-body">
-              <img class="rounded mr-3" src="/assets/images/tapan_hospital_1.jpeg" width="800" />
-              <img src="/assets/images/tapan_hospital_2.jpeg" width="800" />
-            </div>
-          </div>
-        </div>
-        <div class="panel panel-default">
           <div class="panel-heading" role="tab" id="headingThree">
             <h4 class="panel-title">
               <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree"
