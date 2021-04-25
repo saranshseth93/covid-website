@@ -9,7 +9,7 @@
   <!-- Fav Icon  -->
   <link rel="shortcut icon" href="images/favicon.svg">
   <!-- Site Title  -->
-  <title>Covid 19 Gujarat | COVID-19 Madad | Initiative to help COVID affected</title>
+  <title>Covid 19 Gujarat | COVID Madad | Initiative to help COVID affected</title>
   <!-- Bundle and Base CSS -->
   <link rel="stylesheet" href="assets/css/bundle.css">
   <link rel="stylesheet" href="assets/css/styles.css">
