@@ -9,7 +9,7 @@
   <!-- Fav Icon  -->
   <link rel="shortcut icon" href="images/favicon.svg">
   <!-- Site Title  -->
-  <title>COVID-19 Madad | Initiative to help COVID affected</title>
+  <title>COVID-19 Madad | COVID Care Facilities</title>
   <!-- Bundle and Base CSS -->
 
   <link rel="stylesheet" href="assets/css/bundle.css">
