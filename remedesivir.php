@@ -298,9 +298,9 @@
           </tr>
           <tr class="table-success">
             <td>21</td>
-            <td>Ahmedabad</td>
+            <td>Patan</td>
             <td>Ahmedbhai</td>
-            <td><b>Remedesivir, Tocilizumab, Bevacizumab</b></td>
+            <td><b>Remedesivir, Tocilizumab, Bevacizumab</b> - Pickup only</td>
             <td>Available</td>
             <td><a href="tel=+918238529949">8238529949</a></td>
             <td>25/04/2021 10:25AM</td>
