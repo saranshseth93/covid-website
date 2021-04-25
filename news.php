@@ -35,6 +35,9 @@
   <i class="fas fa-arrow-up"></i>
 </button>
 
+<a href="https://www.feedingindia.org/donate/help-save-my-india?review_id=oxygen" target="_blank"
+  class="btn btn-info donate-button btn-lg"><i class="fas fa-hand-holding-medical mr-2"></i>Donate Now</a>
+
 
 
 
