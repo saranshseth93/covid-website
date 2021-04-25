@@ -51,7 +51,7 @@
                   <div class="status" style="margin-top: 20%;">
                     <div class="row g-gs">
                       <div class="col-lg-12 col-xl-12" data-covid="world" data-covid-update="last-update">
-                        <h1 class="status-title">Covid-19: India</h1>
+                        <h1 class="status-title">Covid 19 India</h1>
                         <div class="row g-gs pr-4">
                           <div class="col-sm-4 col-6">
                             <div class="status-item">
@@ -74,7 +74,7 @@
                         </div>
                       </div><!-- .col -->
                       <div class="col-lg-12 col-xl-12" data-covid="US">
-                        <h1 class="status-title">Covid-19: Gujarat</h1>
+                        <h1 class="status-title">Covid 19 Gujarat</h1>
                         <div class="row g-gs pr-4">
                           <div class="col-sm-4 col-6">
                             <div class="status-item">
@@ -98,7 +98,7 @@
                       </div><!-- .col -->
 
                       <div class="col-lg-12 col-xl-12" data-covid="world" data-covid-update="last-update">
-                        <h1 class="status-title">Covid-19: Gujarat <span class="text-small">(Last 24 hours)</span></h1>
+                        <h1 class="status-title">Covid 19 Gujarat <span class="text-small">(Last 24 hours)</span></h1>
                         <div class="row g-gs pr-4">
                           <div class="col-sm-4 col-6">
                             <div class="status-item">
