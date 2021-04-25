@@ -15,6 +15,8 @@
   <link rel="stylesheet" href="assets/css/bundle.css">
   <link rel="stylesheet" href="assets/css/styles.css">
   <link rel="stylesheet" href="assets/css/home-care.css">
+
+  <?php include(google-tag.html); ?>
 </head>
 
 <body class="nk-body">

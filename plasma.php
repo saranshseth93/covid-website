@@ -22,6 +22,8 @@
     padding-right: 1.25rem;
   }
   </style>
+
+  <?php include(google-tag.html); ?>
 </head>
 
 <body class="nk-body">
