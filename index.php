@@ -9,7 +9,7 @@
   <!-- Fav Icon  -->
   <link rel="shortcut icon" href="images/favicon.svg">
   <!-- Site Title  -->
-  <title>COVID 19 Madad Gujarat | Initiative to help COVID affected</title>
+  <title>Covid 19 Gujarat | COVID-19 Madad | Initiative to help COVID affected</title>
   <!-- Bundle and Base CSS -->
   <link rel="stylesheet" href="assets/css/bundle.css">
   <link rel="stylesheet" href="assets/css/styles.css">
@@ -51,7 +51,7 @@
                   <div class="status" style="margin-top: 20%;">
                     <div class="row g-gs">
                       <div class="col-lg-12 col-xl-12" data-covid="world" data-covid-update="last-update">
-                        <h6 class="status-title">In India</h6>
+                        <h1 class="status-title">Covid In India</h1>
                         <div class="row g-gs pr-4">
                           <div class="col-sm-4 col-6">
                             <div class="status-item">
@@ -74,7 +74,7 @@
                         </div>
                       </div><!-- .col -->
                       <div class="col-lg-12 col-xl-12" data-covid="US">
-                        <h6 class="status-title">In Gujarat</h6>
+                        <h1 class="status-title">Covid In Gujarat</h1>
                         <div class="row g-gs pr-4">
                           <div class="col-sm-4 col-6">
                             <div class="status-item">
@@ -98,7 +98,7 @@
                       </div><!-- .col -->
 
                       <div class="col-lg-12 col-xl-12" data-covid="world" data-covid-update="last-update">
-                        <h6 class="status-title">In Gujarat <span class="text-small">(Last 24 hours)</span></h6>
+                        <h1 class="status-title">Covid In Gujarat <span class="text-small">(Last 24 hours)</span></h1>
                         <div class="row g-gs pr-4">
                           <div class="col-sm-4 col-6">
                             <div class="status-item">
