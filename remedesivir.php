@@ -292,7 +292,7 @@
             <td>Patan</td>
             <td>Ahmedbhai</td>
             <td><a href="tel=+918238529949">8238529949</a></td>
-            <td>Unreachable</td>
+            <td>Seems Exhausted</td>
             <td><b>Remedesivir, Tocilizumab, Bevacizumab</b> - Pickup only</td>
             <td>25/04/2021 12:25PM</td>
           </tr>
