@@ -16,7 +16,7 @@
           foreach($images as $image)
           { ?>
       <div class="text-center">
-        <a href="<?php echo $image; ?>">
+        <a href="<?php echo $image; ?>" style="width: 555px; height: auto; max-height: 400px;">
           <?php echo '<img style="max-height: 400px;" src="'.$image .'" alt="'.$image.'" />';
         ?>
         </a>
