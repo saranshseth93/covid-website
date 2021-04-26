@@ -250,7 +250,7 @@
             <td>16</td>
             <td>Ahmedabad</td>
             <td>Hetero</td>
-            <td><a href="tel=+919768283810">9768283810</a></td>
+            <td><a href="tel:+919768283810">9768283810</a></td>
             <td>Available</td>
             <td>Read notes</td>
             <td>24/04/2021</td>
@@ -259,7 +259,7 @@
             <td>17</td>
             <td>Ahmedabad</td>
             <td>Deep</td>
-            <td><a href="tel=+918097253459">8097253459</a><br /><a href="tel=+918999375256">8999375256</a></td>
+            <td><a href="tel:+918097253459">8097253459</a><br /><a href="tel:+918999375256">8999375256</a></td>
             <td>Available</td>
             <td>Read notes - Remedesivir 100/Actimera 400</td>
             <td>24/04/2021</td>
@@ -268,7 +268,7 @@
             <td>18</td>
             <td>Ahmedabad</td>
             <td>Nexus</td>
-            <td><a href="tel=+919664400575">9664400575</a></td>
+            <td><a href="tel:+919664400575">9664400575</a></td>
             <td>Available</td>
             <td>Read notes - Remedesivir 100/Actimera 400</td>
             <td>24/04/2021</td>
@@ -277,7 +277,7 @@
             <td>19</td>
             <td>Ahmedabad</td>
             <td>Royal</td>
-            <td><a href="tel=+919820344456">9820344456</a></td>
+            <td><a href="tel:+919820344456">9820344456</a></td>
             <td>Available</td>
             <td>Read notes - Remedesivir 100/Actimera 400</td>
             <td>24/04/2021</td>
@@ -286,7 +286,7 @@
             <td>20</td>
             <td>Ahmedabad</td>
             <td></td>
-            <td><a href="tel=+918048881954">8048881954</a></td>
+            <td><a href="tel:+918048881954">8048881954</a></td>
             <td>Available</td>
             <td><b>Tocilizumab</b></td>
             <td>24/04/2021</td>
@@ -295,7 +295,7 @@
             <td>21</td>
             <td>Patan</td>
             <td>Ahmedbhai</td>
-            <td><a href="tel=+918238529949">8238529949</a></td>
+            <td><a href="tel:+918238529949">8238529949</a></td>
             <td>Hard to Reach</td>
             <td><b>Remedesivir, Tocilizumab, Bevacizumab</b> - 1 or 2 days waiting</td>
             <td>25/04/2021 06:00PM</td>
