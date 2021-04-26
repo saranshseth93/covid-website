@@ -46,9 +46,8 @@ jQuery(
     jQuery.noConflict();
 
     $(".popup-gallery").magnificPopup({
-      delegate: "a",
+      delegate: "div",
       type: "image",
-      midClick: true,
       gallery: {
         enabled: true,
         preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
