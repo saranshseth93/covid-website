@@ -71,6 +71,19 @@ jQuery(
             "Ventilators and Bipap Machine",
             "",
             "24/04/2021 18:54:55"
+          ],
+          [
+            data.values.length + 6,
+            "Ahmedabad",
+            "Shilpa Gas Agency",
+            "",
+            "9924298807\n8238892149\nshilpagasagency95@gmail.com",
+            "Rent or Sale",
+            "",
+            "Available",
+            "Medical Oxygen gases & Equipments",
+            "Pre-booking required",
+            "26/04/2021 08:25:55"
           ]
         );
         if (
@@ -80,6 +93,10 @@ jQuery(
         ) {
           let html = "";
           $.each(data.values, function (i, v) {
+            if (v[2] == "Gujarat Fire System") {
+              v[10] = "26/04/2021 08:25AM";
+              v[7] = "Available";
+            }
             let date = moment(v[10], "DD/MM/YYYY HH:mm:ss");
             let now = moment();
             let formattedDate = now.from(date, "days") + " ago";
