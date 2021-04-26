@@ -25,7 +25,7 @@ jQuery(
               v[12] != undefined ? v[12] : ""
             }</td><td>${v[13] != undefined ? v[13] : ""}</td><td>${
               v[6]
-            }</td><td>${v[7]}</td><td data-order=${
+            }</td><td>${v[7] != undefined ? v[7] : ""}</td><td data-order=${
               v[9] != "" ? moment(v[9], "DD/MM/YYYY HH:mm:ss").format("X") : ""
             }>${
               formattedDate == "Invalid date ago"
