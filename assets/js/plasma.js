@@ -76,6 +76,16 @@ jQuery(
             "Can organize plasma",
             "",
             "26/04/2021 08:36:39"
+          ],
+          [
+            data.values.length + 8,
+            "Ahmedabad",
+            "White Cross Blood Bank",
+            "",
+            "8866304644",
+            "Available",
+            "",
+            "26/04/2021 12:45:39"
           ]
         );
         if (
