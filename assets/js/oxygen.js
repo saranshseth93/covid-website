@@ -123,6 +123,19 @@ jQuery(
             "Oxygen Cylinder",
             "6L - 16k + GST - No pre-booking required",
             "26/04/2021 13:50:55"
+          ],
+          [
+            data.values.length + 9,
+            "Ahmedabad",
+            "JAN SEWA",
+            "",
+            "9814145420\n8447390017",
+            "Sale",
+            "",
+            "Available",
+            "Portable Oxygen Cylinder",
+            "12ltr - 400rs Only",
+            "26/04/2021 15:00:55"
           ]
         );
         if (
