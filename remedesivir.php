@@ -296,9 +296,9 @@
             <td>Patan</td>
             <td>Ahmedbhai</td>
             <td><a href="tel=+918238529949">8238529949</a></td>
-            <td>Seems Exhausted</td>
-            <td><b>Remedesivir, Tocilizumab, Bevacizumab</b> - Pickup only</td>
-            <td>25/04/2021 12:25PM</td>
+            <td>Available - Hard to Reach</td>
+            <td><b>Remedesivir, Tocilizumab, Bevacizumab</b> - 1 or 2 days waiting</td>
+            <td>25/04/2021 06:00PM</td>
           </tr>
         </tbody>
       </table>
@@ -328,7 +328,8 @@
 
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.8.335/pdf.min.js"></script>
-  <script defer src="/assets/fontawesome/js/all.js"></script> <!--load all styles -->
+  <script defer src="/assets/fontawesome/js/all.js"></script>
+  <!--load all styles -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.8.335/pdf.worker.min.js"></script>
