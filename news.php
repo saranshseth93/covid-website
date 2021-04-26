@@ -53,7 +53,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.8.335/pdf.worker.min.js"></script>
 
 <script src="/assets/js/glider.min.js"></script>
-<script src="assets/js/jquery.magnific-popup.min.js"></script>
+<script src="assets/js/jquery.magnific-popup.js"></script>
 <script src="assets/js/bundle.js"></script>
 <script src="assets/js/scripts.js"></script>
 <script src="assets/js/news.js"></script>
