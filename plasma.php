@@ -53,7 +53,7 @@
 
       <div class="row mt-3">
         <div class="alert alert-info col-12" role="alert">
-          <h4>Steps to register<strong class="text-small"> (Highly Recommended)</strong>:</h4>
+          <h4>Steps to register<strong class="text-small"> (Highly Recommended)</strong></h4>
           <hr>
           1) One immediate family member of the patient needs to fill in the patient detail on <a target="_blank"
             class="alert-link" href="www.dhoondh.com">www.dhoondh.com</a> <i class="fas fa-check-circle"></i><br />
