@@ -226,7 +226,7 @@
                 href="tel:1800222434">1-800-222-434</a><br />Direct Contact:<a
                 href="tel:+919833895800">9833895800</a><br /><a href="mailto:info@tajpharma.com">info@tajpharma.com</a>
             </td>
-            <td>Available</td>
+            <td>Out of Stock</td>
             <td>Rs 35,000 only, Payment via account Courier via Mumbai</td>
             <td></td>
           </tr>
