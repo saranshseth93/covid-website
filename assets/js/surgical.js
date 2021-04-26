@@ -11,6 +11,59 @@ jQuery(
           data.values != undefined &&
           data.values.length != 0
         ) {
+          data.values.push(
+            [
+              data.values.length + 1,
+              "Ahmedabad",
+              "SR Enterprise",
+              "",
+              "9824082238",
+              "Sale",
+              "",
+              "Available",
+              "Oxygen Regulator available, Bipap Machine from 28/04",
+              "",
+              "26/04/2021 21:00:55"
+            ],
+            [
+              data.values.length + 2,
+              "Ahmedabad",
+              "Individual",
+              "Bhavin Bhai",
+              "9998517492",
+              "Sale",
+              "",
+              "Available",
+              "Bipap Machine and concentrator",
+              "",
+              "26/04/2021 21:00:55"
+            ][
+              (data.values.length + 3,
+              "Ahmedabad",
+              "Individual",
+              "Archit Agarwal",
+              "9712680576",
+              "Sale",
+              "",
+              "Available",
+              "Oxygen Flow Meter",
+              "",
+              "26/04/2021 21:00:55")
+            ],
+            [
+              data.values.length + 4,
+              "Ahmedabad",
+              "Individual",
+              "Rahul Prajapati",
+              "8200003045",
+              "Sale",
+              "",
+              "Available",
+              "Bipap Machine - from 29/04",
+              "",
+              "26/04/2021 21:00:55"
+            ]
+          );
           let html = "";
           $.each(data.values, function (i, v) {
             let date = moment(v[10], "DD/MM/YYYY HH:mm:ss");
