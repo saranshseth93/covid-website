@@ -11,6 +11,17 @@ jQuery(
           data.values != undefined &&
           data.values.length != 0
         ) {
+          data.push([
+            data.value.length + 1,
+            "Ahmedabad",
+            "Sarthi Ambulance",
+            "",
+            "9825433151",
+            "Available",
+            "Only Pre-booking",
+            "26/04/2021 11:00:00"
+          ]);
+
           let html = "";
           $.each(data.values, function (i, v) {
             let date = moment(v[9], "DD/MM/YYYY HH:mm:ss");

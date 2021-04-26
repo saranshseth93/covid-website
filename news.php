@@ -16,7 +16,8 @@
           foreach($images as $image)
           { ?>
       <div class="text-center">
-        <a href="<?php echo $image; ?>" data-mfp-src="<?php echo $image; ?>" style="height: 400px !important;">
+        <a href="<?php echo $image; ?>" data-mfp-src="<?php echo $image; ?>"
+          style="height: 400px !important;display:block;">
           <?php echo '<img height="400" style="max-height: 400px;" src="'.$image .'" alt="'.$image.'" />';
         ?>
         </a>
