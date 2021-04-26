@@ -15,9 +15,11 @@
 
           foreach($images as $image)
           { ?>
-      <div class="text-center" data-mfp-src="<?php echo $image; ?>">
-        <?php echo '<img height="400" style="max-height: 400px;" src="'.$image .'" alt="'.$image.'" />';
+      <div class="text-center">
+        <a href="<?php echo $image; ?>" data-mfp-src="<?php echo $image; ?>" style="height: 400px !important;">
+          <?php echo '<img height="400" style="max-height: 400px;" src="'.$image .'" alt="'.$image.'" />';
         ?>
+        </a>
       </div>
       <?php } ?>
     </div>
