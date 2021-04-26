@@ -45,8 +45,8 @@ jQuery(
         info: false,
         fixedHeader: true,
         aaSorting: [
-          [6, "asc"],
-          [8, "desc"]
+          [10, "asc"],
+          [12, "desc"]
         ]
       });
     });
