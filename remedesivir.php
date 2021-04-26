@@ -180,10 +180,10 @@
             <td>9</td>
             <td>Gujarat</td>
             <td>CIPLA</td>
-            <td><a href="tel:+917604027966">7604027966</a><br /><a href="tel:+918657311088">8657311088</a><a
+            <td><a href="tel:+918657311088">8657311088</a><a
                 href="mailto:info.availaibility@cipla.com">info.availaibility@cipla.com</a></td>
             <td>Available</td>
-            <td>Picking up calls - Delivered in 3-4 hours all over india(They claim)</td>
+            <td>Won't sell it directly to individual, only sent to hospitals</td>
             <td>26/04/2021 06:20PM</td>
           </tr>
           <tr class="table-danger">
