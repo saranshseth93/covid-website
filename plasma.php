@@ -19,7 +19,7 @@
   <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.1.8/css/fixedHeader.dataTables.min.css" />
   <link rel="stylesheet" href="assets/css/remedesivir.css">
   <style>
-  .alert:not(.alert-info) {
+  .alert:not(.alert-warning) {
     top: 80px;
     padding-right: 1.25rem;
   }
@@ -52,7 +52,7 @@
       </div>
 
       <div class="row mt-3">
-        <div class="alert alert-info col-12" role="alert">
+        <div class="alert alert-warning col-12" role="alert">
           <h4>Steps to register<strong class="text-small"> (Highly Recommended)</strong></h4>
           <hr>
           1) One immediate family member of the patient needs to fill in the patient detail on <a target="_blank"
