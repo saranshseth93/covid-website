@@ -48,6 +48,7 @@ jQuery(
     $(".popup-gallery").magnificPopup({
       delegate: "div",
       type: "image",
+      mainClass: "mfp-img-mobile",
       gallery: {
         enabled: true,
         preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
