@@ -12,7 +12,7 @@ jQuery(
           data.values.length != 0
         ) {
           data.push([
-            data.value.length + 1,
+            data.values.length + 1,
             "Ahmedabad",
             "Sarthi Ambulance",
             "",
