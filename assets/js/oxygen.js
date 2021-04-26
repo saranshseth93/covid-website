@@ -110,6 +110,19 @@ jQuery(
             "Oxygen Cylinder",
             "9L - Need to collect from Paldi - Accepting PAYTM",
             "26/04/2021 12:40:55"
+          ],
+          [
+            data.values.length + 8,
+            "Ahmedabad",
+            "Abdul Bhai",
+            "",
+            "7990821601",
+            "Sale",
+            "",
+            "Available",
+            "Oxygen Cylinder",
+            "6L - 16k + GST - No pre-booking required",
+            "26/04/2021 13:50:55"
           ]
         );
         if (
