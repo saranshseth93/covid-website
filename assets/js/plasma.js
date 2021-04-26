@@ -46,6 +46,36 @@ jQuery(
             "Can organize plasma",
             "",
             "24/04/2021 18:36:39"
+          ],
+          [
+            data.values.length + 5,
+            "Ahmedabad",
+            "Individual",
+            "Bhavik Rajpurohit",
+            "8153830226",
+            "Can organize plasma",
+            "",
+            "26/04/2021 08:36:39"
+          ],
+          [
+            data.values.length + 6,
+            "Ahmedabad",
+            "Individual",
+            "Prajesh Bharwad",
+            "9724304143",
+            "Can organize plasma",
+            "",
+            "26/04/2021 08:36:39"
+          ],
+          [
+            data.values.length + 7,
+            "Ahmedabad",
+            "Individual",
+            "Pruthvish Pandya",
+            "9377406999",
+            "Can organize plasma",
+            "",
+            "26/04/2021 08:36:39"
           ]
         );
         if (
