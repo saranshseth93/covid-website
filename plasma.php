@@ -58,7 +58,8 @@
           1) One immediate family member of the patient needs to fill in the patient detail on <a target="_blank"
             class="alert-link" href="https://www.dhoondh.com/">www.dhoondh.com</a> <i
             class="fas fa-check-circle"></i><br />
-          <h5 class="text-center">Or Scan this QR<br /><img src="/assets/images/qrcode_dhoondh.png" width="300" /></h5>
+          <h5 class="text-center mt-2 mb-2">Or Scan this QR<br /><img src="/assets/images/qrcode_dhoondh.png"
+              width="200" class="p-2" /></h5>
           2) Email the prescription stating the patient requires plasma therapy on <a class="alert-link"
             href="mailto:plasmatch19@gmail.com">plasmatch19@gmail.com</a> along with the registration ID that is
           generated ID that is generated from the website itself. <i class="fas fa-check-circle"></i><br />

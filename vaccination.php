@@ -543,6 +543,7 @@
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
       <?php include('footer.html'); ?>
+      <script src="/assets/js/vaccination.js"></script>
 </body>
 
 </html>
