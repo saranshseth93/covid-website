@@ -43,6 +43,8 @@ jQuery(
       ]
     });
 
+    jQuery.noConflict();
+
     $(".popup-gallery").magnificPopup({
       delegate: "a",
       type: "image",
