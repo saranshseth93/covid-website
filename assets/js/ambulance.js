@@ -11,18 +11,32 @@ jQuery(
           data.values != undefined &&
           data.values.length != 0
         ) {
-          data.values.push([
-            data.values.length + 1,
-            "Ahmedabad",
-            "Sarthi Ambulance",
-            "",
-            "9825433151",
-            "",
-            "Available",
-            "Only Pre-booking",
-            "",
-            "26/04/2021 11:00:00"
-          ]);
+          data.values.push(
+            [
+              data.values.length + 1,
+              "Ahmedabad",
+              "Sarthi Ambulance",
+              "",
+              "9825433151",
+              "",
+              "Available",
+              "Only Pre-booking",
+              "",
+              "26/04/2021 11:00:00"
+            ],
+            [
+              data.values.length + 2,
+              "Ahmedabad",
+              "Smile on wheels",
+              "Jagdishbhai",
+              "9714467520\n9825035920",
+              "",
+              "Available",
+              "",
+              "",
+              "25/04/2021 11:00:00"
+            ]
+          );
 
           let html = "";
           $.each(data.values, function (i, v) {
