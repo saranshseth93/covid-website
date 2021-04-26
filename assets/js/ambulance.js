@@ -19,6 +19,7 @@ jQuery(
             "9825433151",
             "Available",
             "Only Pre-booking",
+            "",
             "26/04/2021 11:00:00"
           ]);
 
