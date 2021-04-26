@@ -296,7 +296,7 @@
             <td>Patan</td>
             <td>Ahmedbhai</td>
             <td><a href="tel=+918238529949">8238529949</a></td>
-            <td>Available - Hard to Reach</td>
+            <td>Hard to Reach</td>
             <td><b>Remedesivir, Tocilizumab, Bevacizumab</b> - 1 or 2 days waiting</td>
             <td>25/04/2021 06:00PM</td>
           </tr>
