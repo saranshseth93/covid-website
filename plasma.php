@@ -56,7 +56,8 @@
           <h4>Steps to register<strong class="text-small"> (Highly Recommended)</strong></h4>
           <hr>
           1) One immediate family member of the patient needs to fill in the patient detail on <a target="_blank"
-            class="alert-link" href="www.dhoondh.com">www.dhoondh.com</a> <i class="fas fa-check-circle"></i><br />
+            class="alert-link" href="https://www.dhoondh.com/">www.dhoondh.com</a> <i
+            class="fas fa-check-circle"></i><br />
           2) Email the prescription stating the patient requires plasma therapy on <a class="alert-link"
             href="mailto:plasmatch19@gmail.com">plasmatch19@gmail.com</a> along with the registration ID that is
           generated ID that is generated from the website itself. <i class="fas fa-check-circle"></i><br />
