@@ -11,7 +11,7 @@ jQuery(
           data.values != undefined &&
           data.values.length != 0
         ) {
-          data.push([
+          data.values.push([
             data.values.length + 1,
             "Ahmedabad",
             "Sarthi Ambulance",
