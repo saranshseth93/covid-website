@@ -17,6 +17,7 @@ jQuery(
             "Sarthi Ambulance",
             "",
             "9825433151",
+            "",
             "Available",
             "Only Pre-booking",
             "",
