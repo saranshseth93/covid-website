@@ -9,7 +9,7 @@
   <!-- Fav Icon  -->
   <link rel="shortcut icon" href="images/favicon.svg">
   <!-- Site Title  -->
-  <title>COVID-19 Madad | Ambulance Support</title>
+  <title>COVID-19 Madad | Surgical Supplies</title>
   <!-- Bundle and Base CSS -->
   <link href="/assets/fontawesome/css/all.css" rel="stylesheet">
   <!--load all styles -->
