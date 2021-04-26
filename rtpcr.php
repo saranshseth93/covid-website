@@ -9,7 +9,7 @@
   <!-- Fav Icon  -->
   <link rel="shortcut icon" href="images/favicon.svg">
   <!-- Site Title  -->
-  <title>COVID-19 Madad | RT-PCR Testing</title>
+  <title>COVID-19 Madad | COVID-19 Testing Testing</title>
   <!-- Bundle and Base CSS -->
   <link href="/assets/fontawesome/css/all.css" rel="stylesheet">
   <!--load all styles -->
@@ -28,7 +28,7 @@
   <div class="nk-banner">
     <div class="container-lg">
       <div class="row">
-        <h2 class="col">RT-PCR</h2>
+        <h2 class="col">COVID-19 Testing</h2>
       </div>
 
       <table class="table mt-3 table-striped table-responsive-md table-bordered">
@@ -75,7 +75,8 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.8.335/pdf.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
-  <script defer src="/assets/fontawesome/js/all.js"></script> <!--load all styles -->
+  <script defer src="/assets/fontawesome/js/all.js"></script>
+  <!--load all styles -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
