@@ -51,6 +51,20 @@
         <h2 class="col">Plasma Support</h2>
       </div>
 
+      <div class="row mt-3">
+        <div class="alert alert-info col-12" role="alert">
+          <h4>Steps to register<strong class="text-small"> (Highly Recommended)</strong>:</h4>
+          <hr>
+          1) One immediate family member of the patient needs to fill in the patient detail on <a target="_blank"
+            class="alert-link" href="www.dhoondh.com">www.dhoondh.com</a> <i class="fas fa-check-circle"></i><br />
+          2) Email the prescription stating the patient requires plasma therapy on <a class="alert-link"
+            href="mailto:plasmatch19@gmail.com">plasmatch19@gmail.com</a> along with the registration ID that is
+          generated ID that is generated from the website itself. <i class="fas fa-check-circle"></i><br />
+          3) You will be contacted when a donor is available matching your requirements.​ <i
+            class="fas fa-check-circle"></i><br />
+        </div>
+      </div>
+
       <table class="table table-striped table-responsive-md table-bordered mt-3">
         <thead>
           <tr>
@@ -93,7 +107,8 @@
 
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.8.335/pdf.min.js"></script>
-  <script defer src="/assets/fontawesome/js/all.js"></script> <!--load all styles -->
+  <script defer src="/assets/fontawesome/js/all.js"></script>
+  <!--load all styles -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
   <script src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
