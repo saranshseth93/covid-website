@@ -17,7 +17,7 @@
           { ?>
       <div class="text-center">
         <a href="<?php echo $image; ?>" style="width: 555px; height: 400px;">
-          <?php echo '<img style="max-height: 400px;" src="'.$image .'" alt="'.$image.'" />';
+          <?php echo '<img height="400" style="max-height: 400px;" src="'.$image .'" alt="'.$image.'" />';
         ?>
         </a>
       </div>
