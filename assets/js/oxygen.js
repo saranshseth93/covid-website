@@ -84,6 +84,19 @@ jQuery(
             "Medical Oxygen gases & Equipments",
             "Pre-booking required",
             "26/04/2021 08:25:55"
+          ],
+          [
+            data.values.length + 7,
+            "Ahmedabad",
+            "Humer Menon",
+            "",
+            "9974965117",
+            "Sale",
+            "",
+            "Available",
+            "Oxygen Cylinder",
+            "Price: 6Ltr - 15k + GST",
+            "26/04/2021 12:25:55"
           ]
         );
         if (
