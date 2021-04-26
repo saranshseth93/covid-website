@@ -40,6 +40,10 @@
             <th>Person</th>
             <th>Contact</th>
             <th>Time</th>
+            <th>Home Collection</th>
+            <th>RT-PCR</th>
+            <th>CT Scan</th>
+            <th>Rapid Antigen</th>
             <th>Status</th>
             <th>Remarks</th>
             <th>Verified On</th>
