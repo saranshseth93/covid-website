@@ -18,7 +18,7 @@
   <link rel="stylesheet" href="https://cdn.datatables.net/1.10.24/css/dataTables.bootstrap4.min.css" />
   <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.1.8/css/fixedHeader.dataTables.min.css" />
   <link rel="stylesheet" href="assets/css/vaccination.css">
-
+  <?php include(google-tag.html); ?>
 </head>
 
 <body class="nk-body">
@@ -30,6 +30,9 @@
       <div class="row">
         <h2 class="col">Vaccination</h2>
       </div>
+      <div class="row mt-5">
+        <h4 class="col">Find Vaccination Centre</h2>
+      </div>
 
       <div class="row">
         <div class="col" style="width: 940px;
@@ -37,6 +40,116 @@
           <iframe class="_3HLqS mt-3 mb-3" title="htmlComp-iframe" name="htmlComp-iframe" width="100%" height="100%"
             data-src=""
             src="https://5059541f-0ede-4d4d-ae71-49b5f75d464e.htmlcomponentservice.com/get_draft?id=505954_99c7956c67195d9423e0ac1fda9694c6.html"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div _ngcontent-dtr-c28="" class="howitworkblock bs-section pt-3 pb-3">
+    <div _ngcontent-dtr-c28="" class="container">
+      <div _ngcontent-dtr-c28="" class="row d-flex mt-1">
+        <div _ngcontent-dtr-c28="" class="col-12 col-md-12 d-sm-block">
+          <h1 _ngcontent-dtr-c28="" class="howitworkcls"> How it Works </h1>
+        </div>
+      </div>
+      <div _ngcontent-dtr-c28="" class="row d-flex mt-4">
+        <div _ngcontent-dtr-c28="" class="col-12 col-md-12">
+          <div _ngcontent-dtr-c28="" class="row m-2 mb-4">
+            <div _ngcontent-dtr-c28="" class="col-12">
+              <div _ngcontent-dtr-c28="" class="row">
+                <div _ngcontent-dtr-c28="" class="col-md-3 col-12 text-center">
+                  <div _ngcontent-dtr-c28="" class="hiw-box">
+                    <div _ngcontent-dtr-c28="" class="stepsimg"><img _ngcontent-dtr-c28=""
+                        src="https://prod-cdn.preprod.co-vin.in/assets/images/s1.svg" alt="about" class="img-fluid">
+                    </div>
+                    <div _ngcontent-dtr-c28="" class="inner">
+                      <h3 _ngcontent-dtr-c28="">Register Yourself </h3>
+                      <p _ngcontent-dtr-c28="">Register using your Mobile no. or Aadhaar no. or any other Identity docs.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div _ngcontent-dtr-c28="" class="col-md-3 col-12 text-center">
+                  <div _ngcontent-dtr-c28="" class="hiw-box">
+                    <div _ngcontent-dtr-c28="" class="stepsimg"><img _ngcontent-dtr-c28=""
+                        src="https://prod-cdn.preprod.co-vin.in/assets/images/s2.svg" alt="about" class="img-fluid">
+                    </div>
+                    <div _ngcontent-dtr-c28="" class="inner">
+                      <h3 _ngcontent-dtr-c28="">Choose Vaccine Location</h3>
+                      <p _ngcontent-dtr-c28="">Select your nearby Vaccine Center for vaccination</p>
+                    </div>
+                  </div>
+                </div>
+                <div _ngcontent-dtr-c28="" class="col-md-3 col-12 text-center">
+                  <div _ngcontent-dtr-c28="" class="hiw-box">
+                    <div _ngcontent-dtr-c28="" class="stepsimg"><img _ngcontent-dtr-c28=""
+                        src="https://prod-cdn.preprod.co-vin.in/assets/images/s3.svg" alt="about" class="img-fluid">
+                    </div>
+                    <div _ngcontent-dtr-c28="" class="inner">
+                      <h3 _ngcontent-dtr-c28="">Confirm your Slot</h3>
+                      <p _ngcontent-dtr-c28="">Book your slot to Get Vaccine</p>
+                    </div>
+                  </div>
+                </div>
+                <div _ngcontent-dtr-c28="" class="col-md-3 col-12 text-center">
+                  <div _ngcontent-dtr-c28="" class="hiw-box">
+                    <div _ngcontent-dtr-c28="" class="stepsimg"><img _ngcontent-dtr-c28=""
+                        src="https://prod-cdn.preprod.co-vin.in/assets/images/s4faqlink.png" alt="about"
+                        class="img-fluid"></div>
+                    <div _ngcontent-dtr-c28="" class="inner">
+                      <h3 _ngcontent-dtr-c28="">Any Question?</h3>
+                      <p _ngcontent-dtr-c28=""> Please follow our <a _ngcontent-dtr-c28="" routerlink="/faq"
+                          data-toggle="tooltip" title="FAQs on CoWIN for Citizens" href="/faq">Frequently asked
+                          questions (FAQ)</a></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div _ngcontent-dtr-c28="" class="col-12 col-md-12">
+          <div _ngcontent-dtr-c28="" class="cm-link-box clearfix">
+            <div _ngcontent-dtr-c28="" class="manual-link"><a _ngcontent-dtr-c28=""
+                href="https://prod-cdn.preprod.co-vin.in/assets/pdf/user-guide-citizen-registration-ver-1.2.pdf"
+                download="" target="_blank" class="user-manual-link">Know how to book your appointment </a></div>
+            <div _ngcontent-dtr-c28="" class="manual-link cm-dos-link"><a _ngcontent-dtr-c28=""
+                href="https://prod-cdn.preprod.co-vin.in/assets/pdf/Dos_and_Donts_for_Citizens.pdf" download=""
+                target="_blank" class="user-manual-link">Dos and Don'ts </a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div _ngcontent-dtr-c28="" class="covidcertificat">
+    <div _ngcontent-dtr-c28="" class="container mb-5 mt-5 mb-0">
+      <div _ngcontent-dtr-c28="" class="row">
+        <div _ngcontent-dtr-c28="" class="col-12">
+          <div _ngcontent-dtr-c28="">
+            <h1 _ngcontent-dtr-c28="" class="howitworkcls"> Get your COVID<br _ngcontent-dtr-c28=""> Vaccination
+              Certificates </h1>
+            <div _ngcontent-dtr-c28="" class="cowin-update">
+              <div _ngcontent-dtr-c28="" class="certiblock">
+                <div _ngcontent-dtr-c28="" class="block1 argypt"><a _ngcontent-dtr-c28=""
+                    href="https://play.google.com/store/apps/details?id=nic.goi.aarogyasetu" target="_blank"><img
+                      _ngcontent-dtr-c28="" src="https://prod-cdn.preprod.co-vin.in/assets/images/aarogya_logo.png"
+                      alt="aarogya setu logo" class="img-fluid"></a></div>
+                <div _ngcontent-dtr-c28="" class="block1 pldg digi-lock"><a _ngcontent-dtr-c28=""
+                    href="https://play.google.com/store/apps/details?id=com.digilocker.android" target="_blank"><img
+                      _ngcontent-dtr-c28="" src="https://prod-cdn.preprod.co-vin.in/assets/images/DigiLocker_logo.png"
+                      alt="digilocker logo" class="img-fluid"></a></div>
+                <div _ngcontent-dtr-c28="" class="block1 pldg umang"><a _ngcontent-dtr-c28=""
+                    href="https://web.umang.gov.in/landing" target="_blank"><img _ngcontent-dtr-c28=""
+                      src="https://prod-cdn.preprod.co-vin.in/assets/images/umang-logo-v1.png" alt="UMANG logo"></a>
+                </div>
+                <div _ngcontent-dtr-c28="" class="block1 pldg cvin"><a _ngcontent-dtr-c28=""
+                    href="https://selfregistration.cowin.gov.in/" target="_blank"><img _ngcontent-dtr-c28=""
+                      src="https://prod-cdn.preprod.co-vin.in/assets/images/cowin-inside-logo.png" alt="cowin logo"
+                      class="img-fluid"></a></div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

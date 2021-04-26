@@ -19,7 +19,7 @@
   <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.1.8/css/fixedHeader.dataTables.min.css" />
   <link rel="stylesheet" href="assets/css/remedesivir.css">
   <style>
-  .alert {
+  .alert:not(.alert-info) {
     top: 80px;
     padding-right: 1.25rem;
   }
