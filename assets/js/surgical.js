@@ -21,9 +21,9 @@ jQuery(
               "Sale",
               "",
               "Available",
-              "Oxygen Regulator available, Bipap Machine from 28/04",
+              "Oxygen Regulator available, Concentrator, Bipap Machine from 28/04",
               "",
-              "26/04/2021 21:00:55"
+              "27/04/2021 12:23:55"
             ],
             [
               data.values.length + 2,
