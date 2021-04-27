@@ -18,8 +18,8 @@
   <link rel="stylesheet" href="assets/css/styles.css">
   <link rel="stylesheet" href="https://cdn.datatables.net/1.10.24/css/dataTables.bootstrap4.min.css" />
   <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.1.8/css/fixedHeader.dataTables.min.css" />
-  <link rel="stylesheet" href="assets/css/remedesivir.css">
-  <?php include(google-tag.html); ?>
+  <link rel="stylesheet" href="assets/css/oxygen.css">
+
 </head>
 
 <body class="nk-body">
@@ -30,12 +30,25 @@
     <div class="container-lg">
       <div class="row mb-3">
         <h2 class="col">Oxygen Supply</h2>
-      </div>
 
-      <div class="row mb-4">
-        <h5 class="col text-center mb-3">Oxygen Refill Service - <small class="text-muted">List by AMC</small></h5>
-
-
+        <div class="col">
+          <p>
+            <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapseExample"
+              aria-expanded="false" aria-controls="collapseExample">
+              Oxygen Refill Service - <small class=""> By AMC</small>
+            </button>
+          </p>
+          <div class="collapse" id="collapseExample">
+            <div class="card card-body text-center">
+              <a href="/assets/images/Regulator-1.JPG" target="_blank"><img class="rounded mb-2 mx-auto"
+                  src="/assets/images/Regulator-1.JPG" width="300" /></a>
+              <a href="/assets/images/Regulator-1.JPG" target="_blank"><img class="rounded mb-2 mx-auto"
+                  src="/assets/images/Regulator-2.JPG" width="300" /></a>
+              <a href="/assets/images/Regulator-1.JPG" target="_blank"><img class="rounded mx-auto"
+                  src="/assets/images/Regulator-3.JPG" width="300" /></a>
+            </div>
+          </div>
+        </div>
       </div>
 
 
