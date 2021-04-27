@@ -66,28 +66,30 @@ jQuery(
           );
           let html = "";
           $.each(data.values, function (i, v) {
-            let date =
-              v[10] != undefined ? moment(v[10], "DD/MM/YYYY HH:mm:ss") : "";
-            let now = moment();
-            let formattedDate = now.from(date, "days") + " ago";
+            if (v != undefined) {
+              let date =
+                v[10] != undefined ? moment(v[10], "DD/MM/YYYY HH:mm:ss") : "";
+              let now = moment();
+              let formattedDate = now.from(date, "days") + " ago";
 
-            html += `<tr><td>${v[0]}</td><td>${v[1]}</td><td>${v[2]}</td><td>${
-              v[3]
-            }</td><td>${v[4]}</td><td>${
-              v[5] != undefined ? v[5] : ""
-            }</td><td>${v[6] != undefined ? v[6] : ""}</td><td>${
-              v[7] != undefined ? v[7] : ""
-            }</td><td>${v[8] != undefined ? v[8] : ""}</td><td data-order=${
-              v[10] != ""
-                ? moment(v[10], "DD/MM/YYYY HH:mm:ss").format("X")
-                : ""
-            }>${
-              formattedDate == "Invalid date ago"
-                ? v[10] == undefined
-                  ? ""
-                  : v[10]
-                : formattedDate
-            }</td></tr>`;
+              html += `<tr><td>${v[0]}</td><td>${v[1]}</td><td>${
+                v[2]
+              }</td><td>${v[3]}</td><td>${v[4]}</td><td>${
+                v[5] != undefined ? v[5] : ""
+              }</td><td>${v[6] != undefined ? v[6] : ""}</td><td>${
+                v[7] != undefined ? v[7] : ""
+              }</td><td>${v[8] != undefined ? v[8] : ""}</td><td data-order=${
+                v[10] != ""
+                  ? moment(v[10], "DD/MM/YYYY HH:mm:ss").format("X")
+                  : ""
+              }>${
+                formattedDate == "Invalid date ago"
+                  ? v[10] == undefined
+                    ? ""
+                    : v[10]
+                  : formattedDate
+              }</td></tr>`;
+            }
           });
 
           $("#surgical-table").html(html);
