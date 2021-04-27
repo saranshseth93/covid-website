@@ -66,7 +66,8 @@ jQuery(
           );
           let html = "";
           $.each(data.values, function (i, v) {
-            let date = moment(v[10], "DD/MM/YYYY HH:mm:ss");
+            let date =
+              v[10] != undefined ? moment(v[10], "DD/MM/YYYY HH:mm:ss") : "";
             let now = moment();
             let formattedDate = now.from(date, "days") + " ago";
 
