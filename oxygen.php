@@ -38,18 +38,18 @@
         <div class="glider-contain">
           <div class="glider oxygen-gallery">
             <div class="text-center">
-              <a href="assets/images/Regulator-1.JPG"><img href="assets/images/Regulator-1.JPG" width="75"
-                  height="75" /></a>
+              <a href="assets/images/Regulator-1.JPG"><img href="assets/images/Regulator-1.JPG" width="200"
+                  height="200" /></a>
             </div>
 
             <div class="text-center">
-              <a href="/assets/images/Regulator-2.JPG"><img href="/assets/images/Regulator-2.JPG" width="75"
-                  height="75" /></a>
+              <a href="/assets/images/Regulator-2.JPG"><img href="/assets/images/Regulator-2.JPG" width="200"
+                  height="200" /></a>
             </div>
 
             <div class="text-center">
-              <a href="/assets/images/Regulator-3.JPG"><img href="/assets/images/Regulator-3.JPG" width="75"
-                  height="75" /></a>
+              <a href="/assets/images/Regulator-3.JPG"><img href="/assets/images/Regulator-3.JPG" width="200"
+                  height="200" /></a>
             </div>
 
 
