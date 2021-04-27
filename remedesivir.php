@@ -130,10 +130,10 @@
             <td>4</td>
             <td>Ahmedabad</td>
             <td>Medical Supritendent, Civil Hospital, Sola, Ahmedabad</td>
-            <td>At venue only</td>
-            <td>Reach via Private Hospital where patient is admitted</td>
+            <td>Available - At venue only</td>
+            <td>A block Room 301</td>
             <td>Aadhar, RTPCR test, Application Form, Prescription</td>
-            <td></td>
+            <td>27/04/2021 10:00:00</td>
           </tr>
           <tr class="table-danger">
             <td>5</td>
