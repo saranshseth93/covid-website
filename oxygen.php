@@ -32,13 +32,13 @@
         <h2 class="col">Oxygen Supply</h2>
       </div>
 
-      <div class="row mb-3">
-        <h5 class="col text-center mb-2">Oxygen Refill Service - <small class="text-muted">List by AMC</small></h5>
+      <div class="row mb-4">
+        <h5 class="col text-center mb-3">Oxygen Refill Service - <small class="text-muted">List by AMC</small></h5>
 
         <div class="glider-contain">
           <div class="glider oxygen-gallery">
             <div class="text-center">
-              <a href="assets/images/Regulator-1.JPG"><img href="assets/images/Regulator-1.JPG" width="200"
+              <a href="/assets/images/Regulator-1.JPG"><img href="/assets/images/Regulator-1.JPG" width="200"
                   height="200" /></a>
             </div>
 
@@ -55,8 +55,8 @@
 
           </div>
 
-          <button aria-label="Previous" class="glider-prev"><i class="fas fa-chevron-left"></i></button>
-          <button aria-label="Next" class="glider-next"><i class="fas fa-chevron-right"></i></button>
+          <button aria-label="Previous" class="glider-prev-oxy"><i class="fas fa-chevron-left"></i></button>
+          <button aria-label="Next" class="glider-next-oxy"><i class="fas fa-chevron-right"></i></button>
           <div role="tablist" class="dots"></div>
         </div>
       </div>

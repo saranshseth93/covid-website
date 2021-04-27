@@ -197,7 +197,7 @@ jQuery(
         ]
       });
 
-      new Glider(document.querySelector(".glider"), {
+      new Glider(document.querySelector(".oxygen-gallery"), {
         // Mobile-first defaults
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -206,8 +206,8 @@ jQuery(
         draggable: true,
         dots: "#resp-dots",
         arrows: {
-          prev: ".glider-prev",
-          next: ".glider-next"
+          prev: ".glider-prev-oxy",
+          next: ".glider-next-oxy"
         },
         responsive: [
           {
