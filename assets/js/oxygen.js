@@ -136,6 +136,19 @@ jQuery(
             "Portable Oxygen Cylinder",
             "12ltr - 400rs Only",
             "26/04/2021 15:00:55"
+          ],
+          [
+            data.values.length + 10,
+            "Ahmedabad",
+            "Oxyboost Brand",
+            "Chirayu Maniar\nSharan Kothari",
+            "91045929989429007080",
+            "Sale",
+            "",
+            "Available",
+            "Portable Oxygen Cylinder",
+            "9ltr - 500rs Only",
+            "27/04/2021 13:10:55"
           ]
         );
         if (
