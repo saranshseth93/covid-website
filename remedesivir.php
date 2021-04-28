@@ -49,6 +49,17 @@
   <div class="top-bar">COVID 19 Helpline <a href="tel:+917926403333">079 26403333</a> | <a href="tel:+917926409999">079
       26409999</a></div>
   <?php include('header-2.html'); ?>
+
+  <div class="alert alert-warning alert-dismissible fade show" role="alert">
+    For more live(non-verified) data <strong><a class="alert-link"
+        href="https://external.sprinklr.com/insights/explorer/dashboard/601b9e214c7a6b689d76f493/tab/6?id=DASHBOARD_601b9e214c7a6b689d76f493&widgetId=60851f50039ec95a0fda35ce">Click
+        Here</a> - <small>Ahmedabad Only</small></strong>
+    <button type="button" class="btn-close float-right" data-dismiss="alert" data-bs-dismiss="alert" aria-label="Close"
+      style="background: transparent; border: none;font-size: 1.25rem;padding: 0;
+    margin: 0;">
+      <i class="far fa-times-circle"></i></button>
+  </div>
+
   <div class="nk-banner">
     <div class="container-lg">
       <div class="row">
