@@ -60,7 +60,7 @@
         href="https://external.sprinklr.com/insights/explorer/dashboard/601b9e214c7a6b689d76f493/tab/6?id=DASHBOARD_601b9e214c7a6b689d76f493&widgetId=60851f50039ec95a0fda35d8">Click
         Here</a> <a
         href="https://external.sprinklr.com/insights/explorer/dashboard/601b9e214c7a6b689d76f493/tab/6?id=DASHBOARD_601b9e214c7a6b689d76f493&widgetId=60851f50039ec95a0fda35d6">ICU
-        & Ventilator data</a> - <small>Ahmedabad Only</small></strong>
+        & Ventilator data</a></strong>
     <button type="button" class="btn-close float-right" data-dismiss="alert" data-bs-dismiss="alert" aria-label="Close"
       style="background: transparent; border: none;font-size: 1.25rem;padding: 0;
     margin: 0;">

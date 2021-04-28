@@ -43,10 +43,8 @@ jQuery(
       ]
     });
 
-    jQuery.noConflict();
-
     $(".popup-gallery").magnificPopup({
-      delegate: "div",
+      delegate: "a",
       type: "image",
       mainClass: "mfp-img-mobile",
       gallery: {
