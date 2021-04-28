@@ -57,8 +57,8 @@
 
   <div class="alert alert-warning alert-dismissible fade show" role="alert">
     For more live(non-verified) data <strong><a class="alert-link"
-        href="https://external.sprinklr.com/insights/explorer/dashboard/601b9e214c7a6b689d76f493/tab/6?id=DASHBOARD_601b9e214c7a6b689d76f493&widgetId=60851f50039ec95a0fda35d8">Click
-        Here</a> <a
+        href="https://external.sprinklr.com/insights/explorer/dashboard/601b9e214c7a6b689d76f493/tab/6?id=DASHBOARD_601b9e214c7a6b689d76f493&widgetId=60851f50039ec95a0fda35d8">Patient
+        Bed data</a> & <a class="alert-link"
         href="https://external.sprinklr.com/insights/explorer/dashboard/601b9e214c7a6b689d76f493/tab/6?id=DASHBOARD_601b9e214c7a6b689d76f493&widgetId=60851f50039ec95a0fda35d6">ICU
         & Ventilator data</a></strong>
     <button type="button" class="btn-close float-right" data-dismiss="alert" data-bs-dismiss="alert" aria-label="Close"
