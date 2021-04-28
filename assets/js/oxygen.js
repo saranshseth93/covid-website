@@ -177,6 +177,14 @@ jQuery(
             "28/04/2021 10:10:55"
           ]
         );
+
+        let stringArray = data.values.map(JSON.stringify);
+        let uniqueStringArray = new Set(stringArray);
+        let uniqueArray = Array.from(uniqueStringArray, JSON.parse);
+
+        console.log(data.values);
+        console.log(uniqueArray);
+
         if (
           data != undefined &&
           data.values != undefined &&
