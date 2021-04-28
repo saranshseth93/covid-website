@@ -18,7 +18,7 @@
   <link rel="stylesheet" href="https://cdn.datatables.net/1.10.24/css/dataTables.bootstrap4.min.css" />
   <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.1.8/css/fixedHeader.dataTables.min.css" />
   <link rel="stylesheet" href="assets/css/vaccination.css">
-  <?php include(google-tag.html); ?>
+
 </head>
 
 <body class="nk-body">
@@ -29,7 +29,12 @@
     <div class="container-lg">
       <div class="row">
         <h2 class="col">Vaccination</h2>
+        <h4 class="text-info col text-center">Register yourself on<a target="_blank"
+            href="https://selfregistration.cowin.gov.in/"><img _ngcontent-vtq-c28=""
+              src="https://prod-cdn.preprod.co-vin.in/assets/images/covid19t.jpg" alt="logo" class="abotcowinlogo"></a>
+          </h3>
       </div>
+
       <div class="row mt-5">
         <h4 class="col">Find Vaccination Centre</h2>
       </div>
