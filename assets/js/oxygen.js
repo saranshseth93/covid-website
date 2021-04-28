@@ -37,14 +37,14 @@ jQuery(
             data.values.length + 3,
             "Ahmedabad",
             "Individual",
-            "Nishalee",
+            "Nishalee Sheth",
             "8758196619",
             "",
             "",
             "Available",
-            "Portable Oxygen Source",
+            "12L Oxygen cans available",
             "",
-            "24/04/2021 18:36:39"
+            "27/04/2021 12:36:39"
           ],
           [
             data.values.length + 4,
@@ -121,8 +121,8 @@ jQuery(
             "",
             "Available",
             "Oxygen Cylinder",
-            "6L - 16k + GST - No pre-booking required",
-            "26/04/2021 13:50:55"
+            "120 Oxygen Cylinders available 28/04. Pre-booking required",
+            "27/04/2021 13:50:55"
           ],
           [
             data.values.length + 9,
@@ -149,6 +149,32 @@ jQuery(
             "Portable Oxygen Cylinder",
             "9ltr - 500rs Only",
             "27/04/2021 13:10:55"
+          ],
+          [
+            data.values.length + 11,
+            "Ahmedabad",
+            "Individual",
+            "Ramesh Patel",
+            "9727722431",
+            "Sale",
+            "",
+            "Available",
+            "Oxygen Refills",
+            "",
+            "28/04/2021 10:10:55"
+          ],
+          [
+            data.values.length + 12,
+            "Ahmedabad",
+            "Individual",
+            "Neha Sejpal",
+            "9998860773",
+            "Sale",
+            "",
+            "Available",
+            "Oxygen Cans",
+            "Available after 12pm.\n8L - 600Rs\n12L - 900Rs",
+            "28/04/2021 10:10:55"
           ]
         );
         if (
@@ -159,8 +185,9 @@ jQuery(
           let html = "";
           $.each(data.values, function (i, v) {
             if (v[2] == "Gujarat Fire System") {
-              v[10] = "26/04/2021 08:25AM";
-              v[8] = v[8] + " <b>Whatsapp only. No Calls Please.</b>";
+              v[10] = "27/04/2021 12:25PM";
+              v[8] =
+                "New stock will arrive 29/04 after 12:00PM <b>Whatsapp only. No Calls Please.</b>";
               v[7] = "Available";
             }
             let date = moment(v[10], "DD/MM/YYYY HH:mm:ss");
