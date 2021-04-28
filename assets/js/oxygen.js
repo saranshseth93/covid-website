@@ -160,6 +160,7 @@ jQuery(
           $.each(data.values, function (i, v) {
             if (v[2] == "Gujarat Fire System") {
               v[10] = "26/04/2021 08:25AM";
+              v[8] = v[8] + " <b>Whatsapp only. No Calls Please.</b>";
               v[7] = "Available";
             }
             let date = moment(v[10], "DD/MM/YYYY HH:mm:ss");
