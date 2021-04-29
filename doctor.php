@@ -40,7 +40,7 @@
           <th>Contact</th>
           <th>Service</th>
           <th>Time</th>
-          <th>Verified On</th>
+          <th>Verified</th>
         </tr>
 
         <tbody id="doctor-table">

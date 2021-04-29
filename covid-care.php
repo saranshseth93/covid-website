@@ -42,7 +42,7 @@
             <th>Contact</th>
             <th>Remarks</th>
             <th>Status</th>
-            <th>Verified On</th>
+            <th>Verified</th>
           </tr>
 
         </thead>

@@ -41,7 +41,7 @@
             <th>Contact</th>
             <th>Status</th>
             <th>Remarks</th>
-            <th>Verified on</th>
+            <th>Verified</th>
           </tr>
         </thead>
         <tbody id="ambulance-table"></tbody>

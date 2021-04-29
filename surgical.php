@@ -43,7 +43,7 @@
             <th>Timings</th>
             <th>Status</th>
             <th>Remarks</th>
-            <th>Verified on</th>
+            <th>Verified</th>
           </tr>
         </thead>
         <tbody id="surgical-table"></tbody>

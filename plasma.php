@@ -77,7 +77,7 @@
             <th>Contact Person</th>
             <th>Contact</th>
             <th>Remarks</th>
-            <th>Verified On</th>
+            <th>Verified</th>
           </tr>
         </thead>
         <tbody id="plasma-table">

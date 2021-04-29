@@ -106,7 +106,7 @@
             <th>Contact</th>
             <th>Status</th>
             <th>Remarks</th>
-            <th>Verified On</th>
+            <th>Verified</th>
           </tr>
         </thead>
         <tbody>
