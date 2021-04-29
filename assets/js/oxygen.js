@@ -63,14 +63,14 @@ jQuery(
             data.values.length + 5,
             "Ahmedabad",
             "Individual",
-            "Dhrumil",
-            "9327384064",
-            "",
+            "Hardik\nDhrumil",
+            "9722398705\n9327384064",
+            "Rent",
             "",
             "Available",
             "Ventilators and Bipap Machine",
-            "",
-            "24/04/2021 18:54:55"
+            "Deposit - 6,00,000Rs\nRent - 50,000Rs for 5 days",
+            "29/04/2021 12:15:55"
           ],
           [
             data.values.length + 6,
@@ -121,8 +121,8 @@ jQuery(
             "",
             "Available",
             "Oxygen Cylinder",
-            "120 Oxygen Cylinders available 28/04. Pre-booking required",
-            "27/04/2021 13:50:55"
+            "Pre-booking required",
+            "29/04/2021 13:50:55"
           ],
           [
             data.values.length + 9,
@@ -175,6 +175,19 @@ jQuery(
             "Oxygen Cans",
             "Available after 12pm.\n8L - 600Rs\n12L - 900Rs",
             "28/04/2021 10:10:55"
+          ],
+          [
+            data.values.length + 13,
+            "Ahmedabad",
+            "Individual",
+            "Nilay Shah",
+            "9978976766",
+            "Sale",
+            "",
+            "Available",
+            "Oxygen Cans",
+            "6L 625Rs.",
+            "29/04/2021 11:10:55"
           ]
         );
 
