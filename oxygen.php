@@ -49,9 +49,9 @@
 
         <div class="col">
           <p>
-            <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapseExample"
+            <button class="btn btn-info float-right" type="button" data-toggle="collapse" data-target="#collapseExample"
               aria-expanded="false" aria-controls="collapseExample">
-              Oxygen Refill Service - <small class=""> By AMC</small>
+              Oxygen Refill Service - <small class=""> List By AMC</small>
             </button>
           </p>
           <div class="collapse" id="collapseExample">
