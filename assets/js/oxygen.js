@@ -188,6 +188,19 @@ jQuery(
             "Oxygen Cans",
             "6L 625Rs.",
             "29/04/2021 11:10:55"
+          ],
+          [
+            data.values.length + 14,
+            "Ahmedabad",
+            "Individual",
+            "Pratik Shah\nAmol Chavan\nJeetu\nBhavin Khona\nAjay Majithia",
+            "9820322484\n9833401505\n9822049469\n9619381829\n7666301306",
+            "Sale",
+            "",
+            "Available",
+            "Oxygen Concentrator",
+            "Shipped across Gujarat\nDon't make full advance payment\nIn-case of concern co-ordinate with:<b>9820666557(Whatsapp only)</b>\nConsult your doctor on the power of available machines",
+            "28/04/2021 20:10:55"
           ]
         );
 
