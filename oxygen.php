@@ -20,6 +20,12 @@
   <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.1.8/css/fixedHeader.dataTables.min.css" />
   <link rel="stylesheet" href="assets/css/oxygen.css">
   <?php include(google-tag.html); ?>
+  <style>
+  .alert {
+    top: 80px;
+    padding-right: 1.25rem;
+  }
+  </style>
 </head>
 
 <body class="nk-body">
