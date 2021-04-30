@@ -1,0 +1,23 @@
+.nk-banner {
+  display: block;
+  padding: 4rem 0 2rem;
+}
+
+.jumbotron {
+  background-color: #73e5c1;
+  position: relative;
+}
+
+.jumbotron img {
+  max-width: 100%;
+  height: auto;
+  width: 29%;
+}
+
+@media screen and (max-width: 769px) {
+  .jumbotron img {
+    max-width: 100%;
+    height: auto;
+    width: 70%;
+  }
+}

@@ -25,7 +25,7 @@
   }
   </style>
 
-  <?php include(google-tag.html); ?>
+  <?php include('google-tag.html'); ?>
 </head>
 
 <body class="nk-body">

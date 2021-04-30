@@ -18,7 +18,7 @@
   <link rel="stylesheet" href="assets/css/styles.css?ver=">
   <link rel="stylesheet" href="assets/css/patient-beds.css?ver=">
 
-  <?php include(google-tag.html); ?>
+  <?php include('google-tag.html'); ?>
 </head>
 <style>
 .btn-success {

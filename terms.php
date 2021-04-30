@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="assets/css/bundle.css">
   <link rel="stylesheet" href="assets/css/styles.css">
 
-  <?php include(google-tag.html); ?>
+  <?php include('google-tag.html'); ?>
 </head>
 
 <body class="nk-body">

@@ -17,8 +17,8 @@
   <link rel="stylesheet" href="assets/css/styles.css">
   <link rel="stylesheet" href="https://cdn.datatables.net/1.10.24/css/dataTables.bootstrap4.min.css" />
   <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.1.8/css/fixedHeader.dataTables.min.css" />
-  <link rel="stylesheet" href="assets/css/remedesivir.css">
-  <?php include(google-tag.html); ?>
+  <link rel="stylesheet" href="assets/css/ambulance.css">
+  <?php include('google-tag.html'); ?>
 </head>
 
 <body class="nk-body">
@@ -26,10 +26,13 @@
       26409999</a></div>
   <?php include('header-2.html'); ?>
   <div class="nk-banner">
-    <div class="container-lg">
-      <div class="row">
-        <h2 class="col">Ambulance Support</h2>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container-fluid text-center">
+        <img src="/assets/images/ambulance.png" />
+        <h1 class="text-secondary text-center">Ambulance Support</h1>
       </div>
+    </div>
+    <div class="container-lg">
 
       <table class="table table-striped table-bordered table-responsive-md mt-3">
         <thead>
@@ -70,7 +73,8 @@
     </section>
   </main>
 
-  <script defer src="/assets/fontawesome/js/all.js"></script> <!--load all styles -->
+  <script defer src="/assets/fontawesome/js/all.js"></script>
+  <!--load all styles -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>

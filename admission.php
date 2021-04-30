@@ -18,7 +18,7 @@
   <link rel="stylesheet" href="assets/css/styles.css">
   <link rel="stylesheet" href="assets/css/admission.css">
 
-  <?php include(google-tag.html); ?>
+  <?php include('google-tag.html'); ?>
 </head>
 
 <body class="nk-body">
