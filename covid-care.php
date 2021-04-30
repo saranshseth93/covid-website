@@ -31,7 +31,7 @@
         <h2 class="col">COVID Care Facilities</h2>
       </div>
 
-      <table class="table mt-3 table-striped table-responsive-md table-bordered">
+      <table class="table mt-3 table-striped table-responsive-lg table-bordered">
         <thead>
           <tr>
             <th>#</th>

@@ -251,6 +251,8 @@ jQuery(
           [9, "desc"]
         ]
       });
+
+      $('input[aria-controls="DataTables_Table_0"]').addClass("form-control");
     });
   })()
 );

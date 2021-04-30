@@ -20,33 +20,6 @@
   <link rel="stylesheet" href="assets/css/styles.css">
   <link rel="stylesheet" href="assets/css/remedesivir.css">
 
-  <style>
-  .btn-success {
-    color: #fff;
-    background-color: #28a745;
-    border-color: #28a745;
-
-    display: inline-block;
-    font-weight: 400;
-    text-align: center;
-    vertical-align: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    line-height: 1.5;
-    border-radius: .25rem;
-    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-  }
-
-  .alert:not(.alert-info) {
-    top: 80px;
-    padding-right: 1.25rem;
-  }
-  </style>
-
   <?php include('google-tag.html'); ?>
 </head>
 
@@ -55,7 +28,7 @@
       26409999</a></div>
   <?php include('header-2.html'); ?>
 
-  <div class="alert alert-dark alert-dismissible fade show" role="alert">
+  <div class="alert alert-warning alert-dismissible fade show" role="alert">
     For more live(non-verified) data <strong><a class="alert-link"
         href="https://external.sprinklr.com/insights/explorer/dashboard/601b9e214c7a6b689d76f493/tab/6?id=DASHBOARD_601b9e214c7a6b689d76f493&widgetId=60851f50039ec95a0fda35ce">Click
         Here</a></strong>
@@ -66,10 +39,16 @@
   </div>
 
   <div class="nk-banner">
-    <div class="container-lg">
-      <div class="row">
-        <h2 class="col">Remedesivir</h2>
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container-fluid text-center">
+        <img src="/assets/images/remedesivir.png" />
+        <h1 class="text-dark text-center">Remedesivir</h1>
       </div>
+    </div>
+
+    <div class="container-lg">
+
       <div class="row mt-3">
         <div class="alert alert-info col-12" role="alert">
           <a href="/assets/pdfs/Remedesivir-eng.pdf" download="/assets/pdfs/Remedesivir-eng.pdf"

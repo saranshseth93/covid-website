@@ -17,13 +17,7 @@
   <link rel="stylesheet" href="assets/css/styles.css">
   <link rel="stylesheet" href="https://cdn.datatables.net/1.10.24/css/dataTables.bootstrap4.min.css" />
   <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.1.8/css/fixedHeader.dataTables.min.css" />
-  <link rel="stylesheet" href="assets/css/remedesivir.css">
-  <style>
-  .alert:not(.alert-warning) {
-    top: 80px;
-    padding-right: 1.25rem;
-  }
-  </style>
+  <link rel="stylesheet" href="assets/css/plasma.css">
 
   <?php include('google-tag.html'); ?>
 </head>
@@ -46,10 +40,15 @@
   </div>
 
   <div class="nk-banner">
-    <div class="container-lg">
-      <div class="row">
-        <h2 class="col">Plasma Support</h2>
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container-fluid text-center">
+        <img src="/assets/images/plasma.png" />
+        <h1 class="text-dark text-center">Plasma Support</h1>
       </div>
+    </div>
+
+    <div class="container-lg">
 
       <div class="row mt-3">
         <div class="alert alert-warning col-12" role="alert">
@@ -68,13 +67,13 @@
         </div>
       </div>
 
-      <div class="row mt-3">
-        <iframe loading="lazy" width="600" height="520"
+      <div class="row mt-3 mb-4">
+        <iframe loading="lazy"
           src="https://datastudio.google.com/embed/reporting/a9730614-a98a-47a5-87e6-b8b6223fe8bc/page/V4yEC"
           frameborder="0" style="border:0" allowfullscreen=""></iframe>
       </div>
 
-      <table class="table table-striped table-responsive-md table-bordered mt-3">
+      <table class="table table-striped table-responsive-lg table-bordered mt-3">
         <thead>
           <tr>
             <th>#</th>

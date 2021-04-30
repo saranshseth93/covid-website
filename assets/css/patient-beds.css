@@ -65,8 +65,46 @@
   cursor: not-allowed;
 }
 
-@media screen and (max-width: 415px) {
+.btn-success {
+  color: #fff;
+  background-color: #198754;
+  border-color: #198754;
+}
+
+.btn-sm {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+  border-radius: 0.2rem;
+}
+
+.alert {
+  top: 80px;
+  padding-right: 1.25rem;
+}
+
+.nk-banner {
+  display: block;
+  padding: 4rem 0 2rem;
+}
+
+.jumbotron {
+  background-color: #ffffff;
+  position: relative;
+}
+
+.jumbotron img {
+  max-width: 100%;
+  height: auto;
+  width: 29%;
+}
+
+@media screen and (max-width: 769px) {
   .pdf-viewer {
     top: 82%;
+  }
+  .jumbotron img {
+    max-width: 100%;
+    height: auto;
+    width: 70%;
   }
 }

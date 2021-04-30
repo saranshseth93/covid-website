@@ -68,7 +68,7 @@
       </div>
 
 
-      <table class="table table-striped table-responsive-md table-bordered">
+      <table class="table table-striped table-responsive-lg table-bordered">
         <thead>
           <tr>
             <th>#</th>

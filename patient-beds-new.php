@@ -21,22 +21,7 @@
   <?php include('google-tag.html'); ?>
 </head>
 <style>
-.btn-success {
-  color: #fff;
-  background-color: #198754;
-  border-color: #198754;
-}
 
-.btn-sm {
-  padding: .25rem .5rem;
-  font-size: .875rem;
-  border-radius: .2rem;
-}
-
-.alert {
-  top: 80px;
-  padding-right: 1.25rem;
-}
 </style>
 
 <body class="nk-body">
@@ -46,8 +31,8 @@
 
   <div class="alert alert-info alert-dismissible fade show" role="alert">
     For more up-to-date data <strong><a class="alert-link"
-        href="/assets/pdfs/AMC REQUISITIONED HOSPITAL STATUS 30-04-2021 9.30 AM  ONLINE.pdf"
-        download="/assets/pdfs/AMC REQUISITIONED HOSPITAL STATUS 30-04-2021 9.30 AM  ONLINE.pdf">Download
+        href="/assets/pdfs/AMC REQUISITIONED HOSPITAL STATUS 30-04-2021 5.00 PM ONLINE.pdf"
+        download="/assets/pdfs/AMC REQUISITIONED HOSPITAL STATUS 30-04-2021 5.00 PM ONLINE.pdf">Download
         PDF</a>.</strong>
     <button type="button" class="btn-close float-right" data-dismiss="alert" data-bs-dismiss="alert" aria-label="Close"
       style="background: transparent; border: none;font-size: 1.25rem;padding: 0;
@@ -68,10 +53,15 @@
   </div>
 
   <div class="nk-banner">
-    <div class="container-lg">
-      <div class="row">
-        <h2 class="col">Availability of COVID Beds in Private Hospitals</h2>
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container-fluid text-center">
+        <img src="/assets/images/hospital-beds.png" />
+        <h1 class="text-dark text-center">Availability of COVID Beds in Private Hospitals</h1>
       </div>
+    </div>
+
+    <div class="container-lg">
 
       <div class="input-group mb-4 mt-4">
         <input type="text" id="search-input" class="form-control"
@@ -122,8 +112,8 @@
         <p class="lead">Displayed <b class="shownLength"></b> Of <b class="listLength"></b> Results.</p>
         <button class="showMore btn btn-primary" type="button">View More</button>
         <a class="btn btn-success btn-sm float-right border-reset"
-          href="/assets/pdfs/AMC REQUISITIONED HOSPITAL STATUS 30-04-2021 9.30 AM  ONLINE.pdf"
-          download="/assets/pdfs/AMC REQUISITIONED HOSPITAL STATUS 30-04-2021 9.30 AM  ONLINE.pdf"><i
+          href="/assets/pdfs/AMC REQUISITIONED HOSPITAL STATUS 30-04-2021 5.00 PM ONLINE.pdf"
+          download="/assets/pdfs/AMC REQUISITIONED HOSPITAL STATUS 30-04-2021 5.00 PM ONLINE.pdf"><i
             class="fas fa-download" style="margin-right:10px;"></i>Download PDF</a>
       </div>
 

@@ -31,7 +31,7 @@
         <h2 class="col">Nursing Staff</h2>
       </div>
 
-      <table class="table table-striped table-bordered table-responsive-md mt-3">
+      <table class="table table-striped table-bordered table-responsive-lg mt-3">
         <thead>
           <tr>
             <th>#</th>

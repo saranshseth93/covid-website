@@ -48,7 +48,7 @@ function setupCards(filter = "all") {
                   : "Not Provided"
               }</small>
 
-              <table class="table table-sm table-responsive-md table-bordered text-center mt-2">
+              <table class="table table-sm table-responsive-lg table-bordered text-center mt-2">
                 <tr>
                   <th>Without Oxygen</th>
                   <th>With Oxygen</th>

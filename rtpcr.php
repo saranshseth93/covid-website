@@ -31,7 +31,7 @@
         <h2 class="col">COVID-19 Testing</h2>
       </div>
 
-      <table class="table table-sm mt-3 table-striped table-responsive-md table-bordered">
+      <table class="table table-sm mt-3 table-striped table-responsive-lg table-bordered">
         <thead>
           <tr>
             <th>#</th>

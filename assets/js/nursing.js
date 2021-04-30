@@ -42,6 +42,8 @@ jQuery(
         aaSorting: [[7, "desc"]],
         fixedHeader: true
       });
+
+      $('input[aria-controls="DataTables_Table_0"]').addClass("form-control");
     });
   })()
 );

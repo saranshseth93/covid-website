@@ -31,7 +31,7 @@
         <h2 class="col">Doctor On Call</h2>
       </div>
 
-      <table class="table mt-3 table-striped table-responsive-md table-bordered">
+      <table class="table mt-3 table-striped table-responsive-lg table-bordered">
 
         <tr>
           <th>#</th>
