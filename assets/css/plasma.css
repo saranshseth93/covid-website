@@ -21,14 +21,14 @@ iframe {
 .jumbotron img {
   max-width: 100%;
   height: auto;
-  width: 29%;
+  width: 35%;
 }
 
 @media screen and (max-width: 769px) {
   .jumbotron img {
     max-width: 100%;
     height: auto;
-    width: 85%;
+    width: 100%;
   }
   iframe {
     height: 250px;

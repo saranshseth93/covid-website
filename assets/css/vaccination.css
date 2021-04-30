@@ -131,7 +131,7 @@ iframe[allow="geolocation"] {
   color: #5f7d95;
   padding: 0;
   margin: 0 0 20px;
-  width: 85%;
+  width: 100%;
 }
 @media only screen and (min-width: 320px) and (max-width: 767px) {
   .about-content p {

@@ -11,7 +11,7 @@
 .jumbotron img {
   max-width: 100%;
   height: auto;
-  width: 29%;
+  width: 35%;
 }
 
 .btn-success {
@@ -44,6 +44,6 @@
   .jumbotron img {
     max-width: 100%;
     height: auto;
-    width: 85%;
+    width: 100%;
   }
 }
