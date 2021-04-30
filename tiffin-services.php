@@ -25,16 +25,20 @@
       26409999</a></div>
   <?php include('header-2.html'); ?>
   <div class="nk-banner">
-    <div class="container-lg">
-      <div class="row">
-        <h2 class="col">Tiffin Services for COVID Patients</h2>
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container-fluid text-center">
+        <img src="/assets/images/tiffin.png" />
+        <h1 class="text-dark text-center">Tiffin Services for COVID Patients</h1>
       </div>
     </div>
+
     <iframe src="https://docs.google.com/spreadsheets/u/0/d/10yAO8TkRff3bcftpM-cSBh7DcT8bJreUbn7hMOYUBWM/htmlview"
       class="pdf-viewer"></iframe>
   </div>
 
-  <script defer src="/assets/fontawesome/js/all.js"></script> <!--load all styles -->
+  <script defer src="/assets/fontawesome/js/all.js"></script>
+  <!--load all styles -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="assets/js/bundle.js"></script>

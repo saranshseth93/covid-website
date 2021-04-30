@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.8.335/pdf_viewer.min.css" />
   <link rel="stylesheet" href="assets/css/bundle.css">
   <link rel="stylesheet" href="assets/css/styles.css">
-  <link rel="stylesheet" href="assets/css/remedesivir.css">
+  <link rel="stylesheet" href="assets/css/doctor.css">
 
   <?php include('google-tag.html'); ?>
 </head>
@@ -26,10 +26,15 @@
       26409999</a></div>
   <?php include('header-2.html'); ?>
   <div class="nk-banner">
-    <div class="container-lg">
-      <div class="row">
-        <h2 class="col">Doctor On Call</h2>
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container-fluid text-center">
+        <img src="/assets/images/doctor.png" />
+        <h1 class="text-dark text-center">Doctor On Call</h1>
       </div>
+    </div>
+
+    <div class="container-lg">
 
       <table class="table mt-3 table-striped table-responsive-lg table-bordered">
 
@@ -74,7 +79,8 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.8.335/pdf.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
-  <script defer src="/assets/fontawesome/js/all.js"></script> <!--load all styles -->
+  <script defer src="/assets/fontawesome/js/all.js"></script>
+  <!--load all styles -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.8.335/pdf.worker.min.js"></script>

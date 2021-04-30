@@ -26,6 +26,14 @@
       26409999</a></div>
   <?php include('header-2.html'); ?>
   <div class="nk-banner">
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container-fluid text-center">
+        <img src="/assets/images/home-care.png" />
+        <h1 class="text-dark text-center">COVID HomeCare Service Provider</h1>
+      </div>
+    </div>
+
     <div class="container-lg">
       <div class="row">
         <h2 class="col">COVID HomeCare Service Provider</h2>
@@ -113,7 +121,8 @@
 
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.8.335/pdf.min.js"></script>
-  <script defer src="/assets/fontawesome/js/all.js"></script> <!--load all styles -->
+  <script defer src="/assets/fontawesome/js/all.js"></script>
+  <!--load all styles -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="assets/js/patient-bed.js"></script>

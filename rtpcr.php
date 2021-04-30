@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.1.8/css/fixedHeader.dataTables.min.css" />
   <link rel="stylesheet" href="assets/css/bundle.css">
   <link rel="stylesheet" href="assets/css/styles.css">
-  <link rel="stylesheet" href="assets/css/remedesivir.css">
+  <link rel="stylesheet" href="assets/css/rtpcr.css">
   <?php include('google-tag.html'); ?>
 </head>
 
@@ -26,10 +26,15 @@
       26409999</a></div>
   <?php include('header-2.html'); ?>
   <div class="nk-banner">
-    <div class="container-lg">
-      <div class="row">
-        <h2 class="col">COVID-19 Testing</h2>
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container-fluid text-center">
+        <img src="/assets/images/rtpcr.png" />
+        <h1 class="text-dark text-center">COVID-19 Testing</h1>
       </div>
+    </div>
+
+    <div class="container-lg">
 
       <table class="table table-sm mt-3 table-striped table-responsive-lg table-bordered">
         <thead>

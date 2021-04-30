@@ -43,9 +43,16 @@
       <i class="far fa-times-circle"></i></button>
   </div>
   <div class="nk-banner">
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container-fluid text-center">
+        <img src="/assets/images/oxygen.png" />
+        <h1 class="text-dark text-center">Oxygen Supply</h1>
+      </div>
+    </div>
+
     <div class="container-lg">
       <div class="row mb-3">
-        <h2 class="col">Oxygen Supply</h2>
 
         <div class="col">
           <p>
