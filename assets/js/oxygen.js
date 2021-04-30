@@ -70,7 +70,7 @@ jQuery(
             "Available",
             "Ventilators and Bipap Machine",
             "Deposit - 6,00,000Rs\nRent - 50,000Rs for 5 days",
-            "29/04/2021 12:15:55"
+            "30/04/2021 12:54:55"
           ],
           [
             data.values.length + 6,
@@ -201,6 +201,45 @@ jQuery(
             "Oxygen Concentrator",
             "Shipped across Gujarat\nDon't make full advance payment\nIn-case of concern co-ordinate with:<b>9820666557(Whatsapp only)</b>\nConsult your doctor on the power of available machines",
             "28/04/2021 20:10:55"
+          ],
+          [
+            data.values.length + 15,
+            "Ahmedabad",
+            "Individual",
+            "Darsh Gandhi",
+            "7383005396",
+            "Sale",
+            "",
+            "Available",
+            "Oxygen Cans",
+            "12L - 650Rs, Bodakdev",
+            "30/04/2021 15:15:55"
+          ],
+          [
+            data.values.length + 16,
+            "Ahmedabad",
+            "Individual",
+            "Maunil Shah",
+            "9099872551",
+            "Sale",
+            "",
+            "Available",
+            "Oxygen",
+            "",
+            "30/04/2021 17:30:55"
+          ],
+          [
+            data.values.length + 17,
+            "Ahmedabad",
+            "Individual",
+            "Archit Agarwal",
+            "9712680576",
+            "Sale",
+            "",
+            "Available",
+            "Oxygen flow meter & Oxygen Cylinders",
+            "",
+            "30/04/2021 17:30:55"
           ]
         );
 
