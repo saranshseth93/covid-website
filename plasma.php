@@ -68,6 +68,12 @@
         </div>
       </div>
 
+      <div class="row mt-3">
+        <iframe loading="lazy" width="600" height="520"
+          src="https://datastudio.google.com/embed/reporting/a9730614-a98a-47a5-87e6-b8b6223fe8bc/page/V4yEC"
+          frameborder="0" style="border:0" allowfullscreen=""></iframe>
+      </div>
+
       <table class="table table-striped table-responsive-md table-bordered mt-3">
         <thead>
           <tr>
