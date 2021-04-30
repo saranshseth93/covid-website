@@ -23,6 +23,14 @@ jQuery(
           $("#doctor-table").html(html);
         }
       }
-    );
+    ).then(function () {
+      $(".table").DataTable({
+        paging: false,
+        info: false,
+        fixedHeader: true
+      });
+
+      $('input[aria-controls="DataTables_Table_0"]').addClass("form-control");
+    });
   })()
 );

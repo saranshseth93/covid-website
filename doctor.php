@@ -37,17 +37,17 @@
     <div class="container-lg">
 
       <table class="table mt-3 table-striped table-responsive-lg table-bordered">
-
-        <tr>
-          <th>#</th>
-          <th>City</th>
-          <th>Doctor</th>
-          <th>Contact</th>
-          <th>Service</th>
-          <th>Time</th>
-          <th>Verified</th>
-        </tr>
-
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>City</th>
+            <th>Doctor</th>
+            <th>Contact</th>
+            <th>Service</th>
+            <th>Time</th>
+            <th>Verified</th>
+          </tr>
+        </thead>
         <tbody id="doctor-table">
 
         </tbody>
@@ -84,8 +84,6 @@
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.8.335/pdf.worker.min.js"></script>
-  <script src="assets/js/bundle.js"></script>
-  <script src="assets/js/scripts.js"></script>
   <script src="assets/js/doctor.js"></script>
 
   <?php include('footer.html'); ?>
