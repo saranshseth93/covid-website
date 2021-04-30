@@ -93,10 +93,10 @@ jQuery(
             "9974965117",
             "Sale",
             "",
-            "Available",
+            "Available - after 12pm",
             "Oxygen Cylinder",
             "Price: 6Ltr - 15k + GST",
-            "26/04/2021 12:25:55"
+            "30/04/2021 10:00:55"
           ],
           [
             data.values.length + 7,
@@ -147,8 +147,8 @@ jQuery(
             "",
             "Available",
             "Portable Oxygen Cylinder",
-            "9ltr - 500rs Only",
-            "27/04/2021 13:10:55"
+            "12ltr - 650rs Only",
+            "30/04/2021 10:55:55"
           ],
           [
             data.values.length + 11,
