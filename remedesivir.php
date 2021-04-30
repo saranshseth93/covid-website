@@ -40,6 +40,11 @@
     border-radius: .25rem;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
   }
+
+  .alert:not(.alert-info) {
+    top: 80px;
+    padding-right: 1.25rem;
+  }
   </style>
 
   <?php include(google-tag.html); ?>
@@ -67,25 +72,6 @@
       </div>
       <div class="row mt-3">
         <div class="alert alert-info col-12" role="alert">
-          <h4>Note:</h4>
-          As per Govt of Gujarat guideline, the Remedesivir can now only be availed through govt hospitals by private
-          hospitals <br />where patient is admitted.
-          <hr>
-          For Ahmedabad : Checklist for getting Remdesivir from SVP Hospital in Ahmedabad.<br />
-          1) Patient should be admitted on oxygen bed in Hospital with in AMC limit. <i
-            class="fas fa-check-circle"></i><br />
-          2) Doc1 - Hospital should have Valid C Form issued from AMC <i class="fas fa-check-circle"></i><br />
-          3) Doc2 - RTPCR report of Patient should be recent, not older than 15 days. <i
-            class="fas fa-check-circle"></i><br />
-          4) Doc3 - Doctors should fill the format given on last page <i class="fas fa-check-circle"></i><br />
-          5) Doc4 - Hospital staff icard who will come for collection <i class="fas fa-check-circle"></i><br />
-          <hr>
-
-          Send <i class="fas fa-envelope"></i> email to <a href="mailto: remdesivir.tossilamc@gmail.com"
-            class="alert-link">remdesivir.tossilamc@gmail.com</a> with above mentioned 4 documents from hospital ID.
-          If any documents are missing, application can be rejected.
-          Successful application will get appointment for collecting.
-          <br />
           <a href="/assets/pdfs/Remedesivir-eng.pdf" download="/assets/pdfs/Remedesivir-eng.pdf"
             class="btn btn-success m-2">Download English Form</a>
           <a href="/assets/pdfs/Remedesivir-guj.pdf" download="/assets/pdfs/Remedesivir-guj.pdf"
