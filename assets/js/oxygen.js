@@ -240,6 +240,71 @@ jQuery(
             "Oxygen flow meter & Oxygen Cylinders",
             "",
             "30/04/2021 17:30:55"
+          ],
+          [
+            data.values.length + 18,
+            "Ahmedabad",
+            "Individual",
+            "Tehzib Shaikh",
+            "8849809889",
+            "Sale",
+            "",
+            "Available",
+            "Oxygen Cylinders",
+            "",
+            "30/04/2021 17:30:55"
+          ],
+          [
+            data.values.length + 19,
+            "Ahmedabad",
+            "Gujarat Safety Godown No. GF 2",
+            "",
+            "9909947759",
+            "Sale",
+            "",
+            "Available",
+            "Oxygen Cylinders",
+            "B/H Kiran Motors, Sarkhej.",
+            "30/04/2021 17:30:55"
+          ],
+          [
+            data.values.length + 20,
+            "Ahmedabad",
+            "Chamunda Gas",
+            "",
+            "9879409854\n9574844035",
+            "Sale",
+            "",
+            "Available",
+            "Oxygen Refills",
+            "",
+            "30/04/2021 17:30:55"
+          ],
+          [
+            data.values.length + 21,
+            "Ahmedabad",
+            "Apoorva Patel",
+            "",
+            "800067825",
+            "Sale",
+            "",
+            "Available - After 7th May",
+            "Oxygen Concentrator",
+            "",
+            "30/04/2021 20:30:55"
+          ],
+          [
+            data.values.length + 22,
+            "Ahmedabad",
+            "Nidhi Chaudhary",
+            "",
+            "9924674062",
+            "Sale",
+            "",
+            "Available - After 3rd May - Prebooking started",
+            "Oxygen Concentrator",
+            "",
+            "30/04/2021 20:30:55"
           ]
         );
 
