@@ -106,8 +106,8 @@
             <td>4</td>
             <td>Ahmedabad</td>
             <td>Medical Supritendent, Civil Hospital, Sola, Ahmedabad</td>
-            <td>Exhausted - At venue only</td>
-            <td>A block Room 301</td>
+            <td>A block Room 301 - At venue only</td>
+            <td>Exhausted</td>
             <td>Aadhar, RTPCR test, Application Form, Prescription</td>
             <td>27/04/2021 10:00:00</td>
           </tr>
