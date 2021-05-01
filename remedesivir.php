@@ -43,7 +43,7 @@
     <div class="jumbotron jumbotron-fluid">
       <div class="container-fluid text-center">
         <img src="/assets/images/remedesivir.png" />
-        <h1 class="text-dark text-center">Remedesivir</h1>
+        <h1 class="text-dark text-center">COVID Medications</h1>
       </div>
     </div>
 
@@ -52,13 +52,13 @@
       <div class="row mt-3">
         <div class="alert alert-info col-12" role="alert">
           <a href="/assets/pdfs/Remedesivir-eng.pdf" download="/assets/pdfs/Remedesivir-eng.pdf"
-            class="btn btn-success m-2">Download English Form</a>
+            class="btn btn-success m-2">Download English Form for Remedesivir</a>
           <a href="/assets/pdfs/Remedesivir-guj.pdf" download="/assets/pdfs/Remedesivir-guj.pdf"
-            class="btn btn-success m-2">Download Gujarati Form</a>
+            class="btn btn-success m-2">Download Gujarati Form for Remedesivir</a>
           <hr>
-          There is a very big shortage state-wide for Remedesivir. It is highly recommended to be patient. These numbers
-          are verified, but it might be possible that it might not be working when you call or might be busy. <b>We are
-            trying our best to serve the most updated resources.</b>
+          According to guidelines Remedesivir and Tocilizumab will only be given directly to the hospital. Home
+          quarantined patients won't be allowed, and doctors should not prescribe it to home quarantined patients as it
+          won't be ethical.</b>
         </div>
       </div>
 
@@ -106,7 +106,7 @@
             <td>4</td>
             <td>Ahmedabad</td>
             <td>Medical Supritendent, Civil Hospital, Sola, Ahmedabad</td>
-            <td>Available - At venue only</td>
+            <td>Exhausted - At venue only</td>
             <td>A block Room 301</td>
             <td>Aadhar, RTPCR test, Application Form, Prescription</td>
             <td>27/04/2021 10:00:00</td>
@@ -158,7 +158,7 @@
             <td>CIPLA</td>
             <td><a href="tel:+918657311088">8657311088</a><a
                 href="mailto:info.availaibility@cipla.com">info.availaibility@cipla.com</a></td>
-            <td>Available</td>
+            <td>Exhausted</td>
             <td>Won't sell it directly to individual, only sent to hospitals</td>
             <td>26/04/2021 06:20PM</td>
           </tr>
@@ -227,7 +227,7 @@
             <td>Ahmedabad</td>
             <td>Hetero</td>
             <td><a href="tel:+919768283810">9768283810</a></td>
-            <td>Available</td>
+            <td>Exhausted</td>
             <td>Read notes</td>
             <td>24/04/2021</td>
           </tr>
@@ -236,7 +236,7 @@
             <td>Ahmedabad</td>
             <td>Deep</td>
             <td><a href="tel:+918097253459">8097253459</a><br /><a href="tel:+918999375256">8999375256</a></td>
-            <td>Available</td>
+            <td>Exhausted</td>
             <td>Read notes - Remedesivir 100/Actimera 400</td>
             <td>24/04/2021</td>
           </tr>
@@ -245,7 +245,7 @@
             <td>Ahmedabad</td>
             <td>Nexus</td>
             <td><a href="tel:+919664400575">9664400575</a></td>
-            <td>Available</td>
+            <td>Exhausted</td>
             <td>Read notes - Remedesivir 100/Actimera 400</td>
             <td>24/04/2021</td>
           </tr>
@@ -254,7 +254,7 @@
             <td>Ahmedabad</td>
             <td>Royal</td>
             <td><a href="tel:+919820344456">9820344456</a></td>
-            <td>Available</td>
+            <td>Exhausted</td>
             <td>Read notes - Remedesivir 100/Actimera 400</td>
             <td>24/04/2021</td>
           </tr>
@@ -263,7 +263,7 @@
             <td>Ahmedabad</td>
             <td></td>
             <td><a href="tel:+918048881954">8048881954</a></td>
-            <td>Available</td>
+            <td>Exhausted</td>
             <td><b>Tocilizumab</b></td>
             <td>24/04/2021</td>
           </tr>
@@ -275,6 +275,60 @@
             <td>Unreachable</td>
             <td><b>Remedesivir, Tocilizumab, Bevacizumab</b> - 1 or 2 days waiting</td>
             <td>25/04/2021 06:00PM</td>
+          </tr>
+          <tr class="">
+            <td>22</td>
+            <td>Ahmedabad</td>
+            <td>Prarambh Medicines</td>
+            <td><a href="tel:+919023728047">9023728047</a></td>
+            <td>Available</td>
+            <td>Fabiflu & Other Covid Meds</td>
+            <td>01/05/2021 02:00PM</td>
+          </tr>
+          <tr class="">
+            <td>23</td>
+            <td>Ahmedabad</td>
+            <td>Devendra Medicines</td>
+            <td><a href="tel:+919974444918">9974444918</a></td>
+            <td>Available</td>
+            <td>Fabiflu & Other Covid Meds</td>
+            <td>01/05/2021 02:10PM</td>
+          </tr>
+          <tr class="">
+            <td>24</td>
+            <td>Ahmedabad</td>
+            <td>Devendra Medicines</td>
+            <td><a href="tel:+919974444918">9974444918</a></td>
+            <td>Available</td>
+            <td>Fabiflu & Other Covid Meds</td>
+            <td>01/05/2021 02:10PM</td>
+          </tr>
+          <tr class="">
+            <td>25</td>
+            <td>Ahmedabad</td>
+            <td>Nidhi Chaudhary</td>
+            <td><a href="tel:+919924674062">9924674062</a></td>
+            <td>Available</td>
+            <td>PPE kits, Masks, Sanitisers</td>
+            <td>30/04/2021 04:10PM</td>
+          </tr>
+          <tr class="">
+            <td>26</td>
+            <td>Ahmedabad</td>
+            <td>Health Medcare, Chandkheda</td>
+            <td><a href="tel:+919586052525">9586052525</a></td>
+            <td>Available</td>
+            <td>Fabiflu, Zincovit, Limcee, Mucinac, Doxy, Ivermectin</td>
+            <td>01/05/2021 03:10PM</td>
+          </tr>
+          <tr class="">
+            <td>27</td>
+            <td>Ahmedabad</td>
+            <td>Akshay Aayush</td>
+            <td><a href="tel:+919662302142">9662302142</a></td>
+            <td>Available</td>
+            <td>Fabiflu & Other Covid Meds</td>
+            <td>01/05/2021 03:10PM</td>
           </tr>
         </tbody>
       </table>

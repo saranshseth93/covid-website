@@ -331,6 +331,19 @@ jQuery(
             "Oxygen Cans",
             "6L - 825 per can",
             "01/05/2021 09:55:55"
+          ],
+          [
+            data.values.length + 25,
+            "Ahmedabad",
+            "Individual",
+            "Vatsal",
+            "8128135201",
+            "Sale",
+            "",
+            "Available",
+            "Bi-pap machine & Oxygen Concentrator",
+            "",
+            "01/05/2021 12:55:55"
           ]
         );
 
