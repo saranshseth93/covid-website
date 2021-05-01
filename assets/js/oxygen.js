@@ -316,7 +316,7 @@ jQuery(
           let html = "";
           $.each(data.values, function (i, v) {
             if (v[2] == "Gujarat Fire System") {
-              v[10] = "27/04/2021 12:25PM";
+              v[10] = "30/04/2021 18:30:00";
               v[8] =
                 "New stock will arrive 29/04 after 12:00PM <b>Whatsapp only. No Calls Please.</b>";
               v[7] = "Available";
