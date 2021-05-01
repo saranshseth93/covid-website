@@ -73,7 +73,8 @@
           frameborder="0" style="border:0" allowfullscreen=""></iframe>
       </div>
 
-      <div class="alert alert-dark text-center" style="top:0;" role="alert">Data may be delayed or partial. Please
+      <div class="alert alert-dark text-center card-alert" style="top:0;" role="alert">Data may be delayed or partial.
+        Please
         verify with the
         hospital.</div>
 

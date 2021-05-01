@@ -10,10 +10,12 @@ jQuery(
 
         let html = "";
         let bloodGroup = "";
+        let availability = 0;
         if (plasma != undefined && plasma != "") {
           $.each(plasma, function (index, value) {
             if (value.availability != undefined) {
               $.each(value.availability, function (i, v) {
+                availability++;
                 bloodGroup += `<button type="button" class="btn btn-outline-success">${i} - ${v}</button>`;
               });
 
@@ -57,6 +59,12 @@ jQuery(
           });
 
           $(".cards").html(html);
+        } else if (availability == 0) {
+          $(".cards").hide();
+          $(".card-alert").hide();
+        } else {
+          $(".cards").hide();
+          $(".card-alert").hide();
         }
       }
     );
