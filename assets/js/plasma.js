@@ -36,7 +36,7 @@ jQuery(
                 ${bloodGroup}
               </div>
               <div class="card-footer">
-              <small class=""text-muted float-left">Updated 
+              <small class=""text-muted float-left">
                 ${
                   value.last_updated_on != undefined
                     ? moment(value.last_updated_on).fromNow()
