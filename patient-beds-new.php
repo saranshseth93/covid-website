@@ -76,11 +76,6 @@
         <h3>OR</h3>
       </div>
 
-      <!-- <input class="form-control" list="area-filter" id="area-filter-input" placeholder="Search Area...">
-      <datalist id="area-filter">
-
-      </datalist> -->
-
 
       <div class="mt-3 mb-3">
         <button type="button" onClick="filterCards(this);" data-click="all" class="btn btn-outline-primary m-1">All

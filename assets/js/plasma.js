@@ -3,6 +3,65 @@ jQuery(
     "use strict";
 
     $.getJSON(
+      "https://covidamd.com/data/covidamd.com/plasma_data.json?_=" +
+        moment().format("YYYYMMDDHH"),
+      function (plasma) {
+        console.log(plasma);
+
+        let html = "";
+        let bloodGroup = "";
+        if (plasma != undefined && plasma != "") {
+          $.each(plasma, function (index, value) {
+            if (value.availability != undefined) {
+              $.each(value.availability, function (i, v) {
+                bloodGroup += `<button type="button" class="btn btn-outline-success">${i} - ${v}</button>`;
+              });
+
+              html += `<div class="col card-component">
+            <div class="card mt-3">
+              <div class="card-body">
+                <h5 class="card-title capitalize">${value.name.toLowerCase()} - <small>(${
+                value.org_type
+              })</small></h5>
+                <small class="card-text capitalize"><b>Address: </b>${
+                  value.address != undefined
+                    ? value.address.toLowerCase()
+                    : "Not Provided"
+                }</small><br/>
+                <small><b>Phone: </b>${
+                  value.phone != undefined ? value.phone : "Not Provided"
+                }</small><br/><br/>
+                ${bloodGroup}
+              </div>
+              <div class="card-footer">
+              <small class=""text-muted float-left">Updated 
+                ${
+                  value.last_updated_on != undefined
+                    ? moment(value.last_updated_on).fromNow()
+                    : ""
+                }
+              </small>
+                <small class="text-muted float-right"><b>Email: </b>${
+                  value.email != undefined
+                    ? "<a href='mailto:" +
+                      value.email +
+                      "'>" +
+                      value.email +
+                      "</a>"
+                    : "Not Provided"
+                }</small>
+              </div>
+            </div>
+          </div>`;
+            }
+          });
+
+          $(".cards").html(html);
+        }
+      }
+    );
+
+    $.getJSON(
       "https://content-sheets.googleapis.com/v4/spreadsheets/1ZyrYsowjk6PdC9N5yKBxMslI7FypoeIqDvlAYrqprL8/values/Plasma%20Support!A3%3AH?key=AIzaSyCAp-t_WKWx0sfpOM5_-5yeC9g-ZcrkWcI",
       function (data) {
         console.log(data);
