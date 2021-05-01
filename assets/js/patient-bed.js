@@ -25,7 +25,7 @@ function setupAreas() {
   });
 }
 
-function setupCards(filter = "all") {
+function setupCards(filter = "available") {
   $.getJSON(
     "https://covidamd.com/data/covidamd.com/bed_data.json?_=" +
       moment().format("YYYYMMDDHH"),
@@ -243,8 +243,8 @@ function resetFilters() {
     .removeClass("active")
     .attr("disabled", true)
     .addClass("no-pointer");
-  $('[data-click="all"]').addClass("active");
-  setupCards("all");
+  $('[data-click="available"]').addClass("active");
+  setupCards("available");
 }
 
 function setFilters() {
@@ -254,8 +254,8 @@ function setFilters() {
     .removeClass("active")
     .attr("disabled", false)
     .removeClass("no-pointer");
-  $('[data-click="all"]').addClass("active");
-  setupCards("all");
+  $('[data-click="available"]').addClass("active");
+  setupCards("available");
 }
 
 function resetSearch() {
