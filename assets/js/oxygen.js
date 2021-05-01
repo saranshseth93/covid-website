@@ -121,8 +121,8 @@ jQuery(
             "",
             "Available",
             "Oxygen Cylinder",
-            "Pre-booking required",
-            "29/04/2021 13:50:55"
+            "6L - 16500 + GST",
+            "01/05/2021 11:23:55"
           ],
           [
             data.values.length + 9,
@@ -305,6 +305,32 @@ jQuery(
             "Oxygen Concentrator - After 3rd May - Prebooking started",
             "",
             "30/04/2021 20:30:55"
+          ],
+          [
+            data.values.length + 23,
+            "Ahmedabad",
+            "",
+            "",
+            "9825465454\n07926588372\n07926580668",
+            "Sale",
+            "",
+            "Available",
+            "Oxygen Cans",
+            "6L - 625 per can - Address: Chunilal Mayachand Mehta & Co.\n1 Mil Officers Colony, Gr. Floor Behind old Reserve Bank of India Ashram Road.",
+            "01/05/2021 11:20:55"
+          ],
+          [
+            data.values.length + 24,
+            "Ahmedabad",
+            "Individual",
+            "Abhishek Shah",
+            "6352550359",
+            "Sale",
+            "",
+            "Available",
+            "Oxygen Cans",
+            "6L - 825 per can",
+            "01/05/2021 09:55:55"
           ]
         );
 
