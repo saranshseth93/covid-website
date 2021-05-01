@@ -83,11 +83,10 @@
 
 
       <div class="mt-3 mb-3">
-        <button type="button" onClick="filterCards(this);" data-click="all"
-          class="btn btn-outline-primary m-1 active">All
+        <button type="button" onClick="filterCards(this);" data-click="all" class="btn btn-outline-primary m-1">All
           Results</button>
         <button type="button" onClick="filterCards(this);" data-click="available"
-          class="btn btn-outline-primary m-1">Available Only</button>
+          class="btn btn-outline-primary m-1 active">Available Only</button>
         <button type="button" onClick="filterCards(this);" data-click="oxygen" class="btn btn-outline-primary m-1">With
           Oxygen</button>
         <button type="button" onClick="filterCards(this);" data-click="no-oxygen"
