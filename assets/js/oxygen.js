@@ -288,8 +288,8 @@ jQuery(
             "800067825",
             "Sale",
             "",
-            "Available - After 7th May",
-            "Oxygen Concentrator",
+            "Available",
+            "Oxygen Concentrator - After 7th May",
             "",
             "30/04/2021 20:30:55"
           ],
@@ -301,8 +301,8 @@ jQuery(
             "9924674062",
             "Sale",
             "",
-            "Available - After 3rd May - Prebooking started",
-            "Oxygen Concentrator",
+            "Available",
+            "Oxygen Concentrator - After 3rd May - Prebooking started",
             "",
             "30/04/2021 20:30:55"
           ]
