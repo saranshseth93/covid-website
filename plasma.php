@@ -78,7 +78,7 @@
         verify with the
         hospital.</div>
 
-      <div class="row row-cols-1 row-cols-md-2 g-4 cards"></div>
+      <div class="row row-cols-1 row-cols-md-2 g-4 cards mb-3"></div>
 
       <table class="table table-striped table-responsive-lg table-bordered mt-3">
         <thead>
