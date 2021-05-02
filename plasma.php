@@ -30,7 +30,9 @@
 
   <div class="alert alert-info alert-dismissible fade show" role="alert">
     Plasma from recovered COVID-19 patients is urgently needed across hospitals in India. <strong><u><a
-          class="alert-link" href="https://dhoondh.com/">Please donate Plasma if you have recently recovered from
+          class="alert-link"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSfKyBTgGjriYcWnYqL491OAqO1H7PhKF2Rvn0EefvxaofSEkA/viewform">Please
+          donate Plasma if you have recently recovered from
           COVID-19 or know someone
           who can.</a></u></strong>
     <button type="button" class="btn-close float-right" data-dismiss="alert" data-bs-dismiss="alert" aria-label="Close"
