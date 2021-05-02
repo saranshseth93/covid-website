@@ -75,6 +75,36 @@
         <div class="col card-component">
           <div class="card mt-3">
             <div class="card-body">
+              <h5 class="card-title capitalize">Medicity Campus Hospital</h5>
+              <small class="card-text capitalize"><b>Phone: </b>Not Provided</small><br /><br />
+              <button type="button" class="btn btn-outline-success">112 - General</button><button type="button"
+                class="btn btn-outline-success">10 - Oxygen</button>
+              <button type="button" class="btn btn-outline-success">04 - ICU</button>
+            </div>
+            <div class="card-footer">
+              <small class="verified-on text-muted float-left">Updated on <b>30/04/2021 06:00PM</b></small>
+            </div>
+          </div>
+        </div>
+
+        <div class="col card-component">
+          <div class="card mt-3">
+            <div class="card-body">
+              <h5 class="card-title capitalize">Medicity Campus Hospital</h5>
+              <small class="card-text capitalize"><b>Phone: </b>Not Provided</small><br /><br />
+              <button type="button" class="btn btn-outline-success">112 - General</button><button type="button"
+                class="btn btn-outline-success">10 - Oxygen</button>
+              <button type="button" class="btn btn-outline-success">04 - ICU</button>
+            </div>
+            <div class="card-footer">
+              <small class="verified-on text-muted float-left">Updated on <b>30/04/2021 06:00PM</b></small>
+            </div>
+          </div>
+        </div>
+
+        <div class="col card-component">
+          <div class="card mt-3">
+            <div class="card-body">
               <h5 class="card-title capitalize">Om Hospital</h5>
               <small class="card-text capitalize"><b>Phone: </b>9725317434</small><br /><br />
               <button type="button" class="btn btn-outline-success">04 - General</button><button type="button"
