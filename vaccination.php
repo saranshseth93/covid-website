@@ -27,8 +27,6 @@
   <?php include('header-2.html'); ?>
   <div class="nk-banner">
 
-    <script src="/assets/js/lottie-player.js"></script>
-
     <div class="jumbotron jumbotron-fluid">
       <div class="container-fluid text-center">
         <lottie-player src="/assets/lottie/vaccine.json" background="transparent" speed="1" loop autoplay>

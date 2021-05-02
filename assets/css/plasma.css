@@ -18,10 +18,11 @@ iframe {
   position: relative;
 }
 
-.jumbotron img {
+.jumbotron lottie-player {
   max-width: 100%;
   height: auto;
-  width: 35%;
+  width: 60%;
+  margin: auto;
 }
 
 .capitalize {
@@ -51,7 +52,7 @@ iframe {
 }
 
 @media screen and (max-width: 769px) {
-  .jumbotron img {
+  .jumbotron lottie-player {
     max-width: 100%;
     height: auto;
     width: 100%;

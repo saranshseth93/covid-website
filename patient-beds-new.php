@@ -9,7 +9,7 @@
   <!-- Fav Icon  -->
   <link rel="shortcut icon" href="images/favicon.svg">
   <!-- Site Title  -->
-  <title>COVID-19 Madad | Availability of COVID Beds in Private Hospitals</title>
+  <title>COVID-19 Madad | Availability of COVID Beds</title>
   <!-- Bundle and Base CSS -->
   <link href="/assets/fontawesome/css/all.css" rel="stylesheet">
   <!--load all styles -->
@@ -62,7 +62,8 @@
 
     <div class="jumbotron jumbotron-fluid">
       <div class="container-fluid text-center">
-        <img src="/assets/images/hospital-beds.png" />
+        <lottie-player src="/assets/lottie/patient-bed.json" background="transparent" speed="1" loop autoplay>
+        </lottie-player>
         <h1 class="text-dark text-center">Availability of COVID Beds</h1>
       </div>
     </div>

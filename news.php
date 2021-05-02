@@ -48,6 +48,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.8.335/pdf.worker.min.js"></script>
 
+<script src="/assets/js/lottie-player.js"></script>
 <script src="/assets/js/glider.min.js"></script>
 <script src="assets/js/jquery.magnific-popup.js"></script>
 <script src="assets/js/bundle.js"></script>
