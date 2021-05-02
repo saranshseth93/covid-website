@@ -49,15 +49,15 @@ jQuery(
           [
             data.values.length + 4,
             "Ahmedabad",
-            "Individual",
-            "Everest",
-            "9925023784",
+            "Everest Industrial Gases, Vatva",
+            "",
+            "9925023784\n07925831585",
             "",
             "",
             "Available",
             "Oxygen Refill",
             "",
-            "24/04/2021 18:54:39"
+            "02/05/2021 18:54:39"
           ],
           [
             data.values.length + 5,
@@ -357,6 +357,19 @@ jQuery(
             "Oxygen Concentrator",
             "",
             "01/05/2021 12:55:55"
+          ],
+          [
+            data.values.length + 27,
+            "Ahmedabad",
+            "R.R Patel Gas, Sarkhej",
+            "Bhavin Patel",
+            "6AM to 2PM - 9099938147\n2PM to 10PM - 9723751150\n10PM to 6AM - 9099082019",
+            "Sale",
+            "",
+            "Available",
+            "Oxygen Refill",
+            "Confirm and then go",
+            "02/05/2021 18:55:55"
           ]
         );
 
