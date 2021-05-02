@@ -239,7 +239,7 @@ jQuery(
             "Available",
             "Oxygen flow meter & Oxygen Cylinders",
             "",
-            "30/04/2021 17:30:55"
+            "01/05/2021 20:30:55"
           ],
           [
             data.values.length + 18,
@@ -289,7 +289,7 @@ jQuery(
             "Sale",
             "",
             "Available",
-            "Oxygen Concentrator - After 7th May",
+            "Oxygen Concentrator - After 6th May",
             "",
             "30/04/2021 20:30:55"
           ],
@@ -342,6 +342,19 @@ jQuery(
             "",
             "Available",
             "Bi-pap machine & Oxygen Concentrator",
+            "",
+            "01/05/2021 12:55:55"
+          ],
+          [
+            data.values.length + 26,
+            "Ahmedabad",
+            "Individual",
+            "Bhavin Patel",
+            "9998517492",
+            "Sale",
+            "",
+            "Available",
+            "Oxygen Concentrator",
             "",
             "01/05/2021 12:55:55"
           ]
