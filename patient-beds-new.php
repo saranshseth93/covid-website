@@ -40,6 +40,12 @@
       <i class="far fa-times-circle"></i></button>
   </div>
 
+  <div class="alert alert-info alert-dismissible fade show" role="alert">
+    Patient bed data for
+    <a class="alert-link" href="https://vmc.gov.in/HospitalModuleGMC/Default.aspx">
+      Gandhinagar</a>
+  </div>
+
   <div class="alert alert-dark alert-dismissible fade show" role="alert">
     For more live(non-verified) data <strong><a class="alert-link"
         href="https://external.sprinklr.com/insights/explorer/dashboard/601b9e214c7a6b689d76f493/tab/6?id=DASHBOARD_601b9e214c7a6b689d76f493&widgetId=60851f50039ec95a0fda35d8">Patient
@@ -57,11 +63,76 @@
     <div class="jumbotron jumbotron-fluid">
       <div class="container-fluid text-center">
         <img src="/assets/images/hospital-beds.png" />
-        <h1 class="text-dark text-center">Availability of COVID Beds in Private Hospitals</h1>
+        <h1 class="text-dark text-center">Availability of COVID Beds</h1>
       </div>
     </div>
 
     <div class="container-lg">
+
+      <div class="row row-cols-1 row-cols-md-2 g-4 other-hospitals mb-3">
+
+        <div class="col card-component">
+          <div class="card mt-3">
+            <div class="card-body">
+              <h5 class="card-title capitalize">SVP</h5>
+              <small class="card-text capitalize"><b>Phone: </b>079 2643 5555</small><br /><br />
+              <button type="button" class="btn btn-outline-success">283 - General</button><button type="button"
+                class="btn btn-outline-success">9 - Oxygen</button><button type="button"
+                class="btn btn-outline-success">1
+                - ICU Non Ventilator</button>
+            </div>
+            <div class="card-footer">
+              <small class="verified-on text-muted float-left">Updated on <b>01/05/2021 11:23AM</b></small>
+            </div>
+          </div>
+        </div>
+
+        <div class="col card-component">
+          <div class="card mt-3">
+            <div class="card-body">
+              <h5 class="card-title capitalize">SCL</h5>
+              <small class="card-text capitalize"><b>Phone: </b>079 2292 4261</small><br /><br />
+              <button type="button" class="btn btn-outline-success">78 - General</button><button type="button"
+                class="btn btn-outline-success">1 - Oxygen</button>
+            </div>
+            <div class="card-footer">
+              <small class="verified-on text-muted float-left">Updated on <b>01/05/2021 11:42AM</b></small>
+            </div>
+          </div>
+        </div>
+
+        <div class="col card-component">
+          <div class="card mt-3">
+            <div class="card-body">
+              <h5 class="card-title capitalize">Avalon Hotel</h5>
+              <small class="card-text capitalize"><b>Phone: </b>9913886695, 9016902006</small><br /><br />
+              <button type="button" class="btn btn-outline-success">20 - General</button><button type="button"
+                class="btn btn-outline-success">20 - Oxygen</button>
+            </div>
+            <div class="card-footer">
+              <small class="verified-on text-muted float-left">Updated on <b>30/04/2021 08:23PM</b></small>
+            </div>
+          </div>
+        </div>
+
+        <div class="col card-component">
+          <div class="card mt-3">
+            <div class="card-body">
+              <h5 class="card-title capitalize">Civil</h5>
+              <small class="card-text capitalize"><b>Phone: </b>079 2268 3721</small><br /><br />
+              <button type="button" class="btn btn-outline-success">42 - General</button><button type="button"
+                class="btn btn-outline-success">16 - Oxygen</button>
+              <button type="button" class="btn btn-outline-success">1 - ICU with Ventilator</button>
+            </div>
+            <div class="card-footer">
+              <small class="verified-on text-muted float-left">Updated on <b>01/05/2021 12:43PM</b></small>
+            </div>
+          </div>
+        </div>
+
+      </div> <!-- end -->
+
+
 
       <div class="input-group mb-4 mt-4">
         <input type="text" id="search-input" class="form-control"
