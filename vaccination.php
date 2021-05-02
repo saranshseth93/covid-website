@@ -27,7 +27,7 @@
   <?php include('header-2.html'); ?>
   <div class="nk-banner">
 
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="/assets/js/lottie-player.js"></script>
 
     <div class="jumbotron jumbotron-fluid">
       <div class="container-fluid text-center">
