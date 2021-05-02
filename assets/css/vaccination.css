@@ -952,3 +952,33 @@ iframe[allow="geolocation"] {
   width: 140px;
   vertical-align: middle;
 }
+
+.alert:not(.alert-warning) {
+  top: 80px;
+  padding-right: 1.25rem;
+}
+
+.nk-banner {
+  display: block;
+  padding: 4rem 0 2rem;
+}
+
+.jumbotron {
+  background-color: #fff;
+  position: relative;
+}
+
+.jumbotron lottie-player {
+  max-width: 100%;
+  height: auto;
+  width: 60%;
+  margin: auto;
+}
+
+@media screen and (max-width: 769px) {
+  .jumbotron lottie-player {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+  }
+}

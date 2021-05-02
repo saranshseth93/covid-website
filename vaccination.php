@@ -26,9 +26,18 @@
       26409999</a></div>
   <?php include('header-2.html'); ?>
   <div class="nk-banner">
+
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container-fluid text-center">
+        <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_p2evb1ab.json" background="transparent"
+          speed="1" loop autoplay></lottie-player>
+        <h1 class="text-dark text-center">Vaccination</h1>
+      </div>
+    </div>
     <div class="container-lg">
       <div class="row">
-        <h2 class="col">Vaccination</h2>
         <h4 class="text-info col text-center">Register yourself on<a target="_blank"
             href="https://selfregistration.cowin.gov.in/"><img _ngcontent-vtq-c28=""
               src="https://prod-cdn.preprod.co-vin.in/assets/images/covid19t.jpg" alt="logo" class="abotcowinlogo"></a>
