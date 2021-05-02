@@ -74,15 +74,13 @@
         <div class="col card-component">
           <div class="card mt-3">
             <div class="card-body">
-              <h5 class="card-title capitalize">SVP</h5>
-              <small class="card-text capitalize"><b>Phone: </b>079 2643 5555</small><br /><br />
-              <button type="button" class="btn btn-outline-success">283 - General</button><button type="button"
-                class="btn btn-outline-success">9 - Oxygen</button><button type="button"
-                class="btn btn-outline-success">1
-                - ICU Non Ventilator</button>
+              <h5 class="card-title capitalize">Om Hospital</h5>
+              <small class="card-text capitalize"><b>Phone: </b>9725317434</small><br /><br />
+              <button type="button" class="btn btn-outline-success">04 - General</button><button type="button"
+                class="btn btn-outline-success">04 - Oxygen</button>
             </div>
             <div class="card-footer">
-              <small class="verified-on text-muted float-left">Updated on <b>01/05/2021 11:23AM</b></small>
+              <small class="verified-on text-muted float-left">Updated on <b>30/04/2021 05:00PM</b></small>
             </div>
           </div>
         </div>
@@ -90,13 +88,14 @@
         <div class="col card-component">
           <div class="card mt-3">
             <div class="card-body">
-              <h5 class="card-title capitalize">SCL</h5>
-              <small class="card-text capitalize"><b>Phone: </b>079 2292 4261</small><br /><br />
-              <button type="button" class="btn btn-outline-success">78 - General</button><button type="button"
-                class="btn btn-outline-success">1 - Oxygen</button>
+              <h5 class="card-title capitalize">Civil, Asarwa.</h5>
+              <small class="card-text capitalize"><b>Phone: </b>079 2268 3721, 079 2268 3421</small><br /><br />
+              <button type="button" class="btn btn-outline-success">70 - General</button><button type="button"
+                class="btn btn-outline-success">11 - Oxygen</button>
+              <button type="button" class="btn btn-outline-success">02 - ICU with Ventilator</button>
             </div>
             <div class="card-footer">
-              <small class="verified-on text-muted float-left">Updated on <b>01/05/2021 11:42AM</b></small>
+              <small class="verified-on text-muted float-left">Updated on <b>01/05/2021 03:00PM</b></small>
             </div>
           </div>
         </div>
@@ -104,13 +103,12 @@
         <div class="col card-component">
           <div class="card mt-3">
             <div class="card-body">
-              <h5 class="card-title capitalize">Avalon Hotel</h5>
-              <small class="card-text capitalize"><b>Phone: </b>9913886695, 9016902006</small><br /><br />
-              <button type="button" class="btn btn-outline-success">20 - General</button><button type="button"
-                class="btn btn-outline-success">20 - Oxygen</button>
+              <h5 class="card-title capitalize">Lifeline group of Hospitals, Chandkheda</h5>
+              <small class="card-text capitalize"><b>Phone: </b>09898122262</small><br /><br />
+              <button type="button" class="btn btn-outline-success">Oxygen Beds available</button>
             </div>
             <div class="card-footer">
-              <small class="verified-on text-muted float-left">Updated on <b>30/04/2021 08:23PM</b></small>
+              <small class="verified-on text-muted float-left">Updated on <b>02/05/2021 10:23AM</b></small>
             </div>
           </div>
         </div>
@@ -118,14 +116,12 @@
         <div class="col card-component">
           <div class="card mt-3">
             <div class="card-body">
-              <h5 class="card-title capitalize">Civil</h5>
-              <small class="card-text capitalize"><b>Phone: </b>079 2268 3721</small><br /><br />
-              <button type="button" class="btn btn-outline-success">42 - General</button><button type="button"
-                class="btn btn-outline-success">16 - Oxygen</button>
-              <button type="button" class="btn btn-outline-success">1 - ICU with Ventilator</button>
+              <h5 class="card-title capitalize">LG Hospital</h5>
+              <small class="card-text capitalize"><b>Phone: </b>079 2546 1380</small><br /><br />
+              <button type="button" class="btn btn-outline-success">124 - General</button>
             </div>
             <div class="card-footer">
-              <small class="verified-on text-muted float-left">Updated on <b>01/05/2021 12:43PM</b></small>
+              <small class="verified-on text-muted float-left">Updated on <b>02/05/2021 10:00AM</b></small>
             </div>
           </div>
         </div>
