@@ -46,7 +46,7 @@
 
     <div class="jumbotron jumbotron-fluid">
       <div class="container-fluid text-center">
-        <img src="/assets/images/oxygen.png" />
+        <img src="/assets/images/oxygen.jpg" />
         <h1 class="text-dark text-center">Oxygen Supply</h1>
       </div>
     </div>

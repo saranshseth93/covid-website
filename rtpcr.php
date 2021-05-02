@@ -29,7 +29,7 @@
 
     <div class="jumbotron jumbotron-fluid">
       <div class="container-fluid text-center">
-        <img src="/assets/images/rtpcr.png" />
+        <img src="/assets/images/rtpcr-2.png" />
         <h1 class="text-dark text-center">COVID-19 Testing</h1>
       </div>
     </div>

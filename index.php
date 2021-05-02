@@ -25,6 +25,204 @@
     <header class="nk-header bg-light has-overlay" id="home">
       <div class="top-bar">COVID 19 Helpline <a href="tel:+917926403333">079 26403333</a> | <a
           href="tel:+917926409999">079 26409999</a></div>
+
+      <style>
+      .text-heading {
+        color: #020101BD;
+        font-family: "Roboto", Sans-serif;
+        font-size: 48px;
+        font-weight: 900;
+        line-height: 1.1em;
+        margin-top: -50px;
+      }
+
+      .jumbotron {
+        background-color: #fff;
+        position: relative;
+        z-index: 5;
+      }
+
+      .help {
+        max-width: 100%;
+        height: auto;
+        width: 45%;
+        margin: auto;
+      }
+
+      .card {
+        background: #fff;
+        border: none;
+        box-shadow: 0px 0px 30px 0px rgb(0 0 0 / 9%);
+        cursor: pointer;
+      }
+
+      .card-body {
+        flex: 1 1 auto;
+        min-height: 338.9px;
+        max-height: 338.9px;
+        padding: 1.25rem;
+      }
+
+      .card lottie-player {
+        max-width: 100%;
+        height: 248px;
+        width: 100%;
+        margin: auto;
+      }
+
+      .jumbotron img {
+        max-width: 100%;
+        height: 220px;
+        width: 100%;
+      }
+
+
+      @media screen and (max-width: 769px) {
+        .help {
+          max-width: 100%;
+          height: auto;
+          width: 100%;
+        }
+
+        .jumbotron img {
+          max-width: 100%;
+          height: auto;
+          width: 100%;
+        }
+      }
+      </style>
+
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container-fluid text-center">
+          <lottie-player class="help" src="/assets/lottie/help.json" background="transparent" speed="1" loop autoplay>
+          </lottie-player>
+          <h1 class="text-dark text-heading text-center">How can we help?</h1>
+
+          <div class="container-lg">
+            <div class="row row-cols-1 row-cols-md-3 g-4 mt-3 mb-3">
+
+              <div class="col card-component" onClick="location.href='/patient-beds-new.php';">
+                <div class="card mt-3">
+                  <div class="card-body">
+                    <lottie-player src="/assets/lottie/patient-bed.json" background="transparent" speed="1" loop
+                      autoplay>
+                    </lottie-player>
+                    <h2 class="card-title text-dark capitalize">Bed Availability</h2>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col card-component" onClick="location.href='/oxygen.php';">
+                <div class="card mt-3">
+                  <div class="card-body">
+                    <img src="/assets/images/oxygen.jpg" />
+                    <h2 class="card-title text-dark capitalize mt-4">Oxygen</h2>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col card-component" onClick="location.href='/plasma.php';">
+                <div class="card mt-3">
+                  <div class="card-body">
+                    <lottie-player src="/assets/lottie/plasma.json" background="transparent" speed="1" loop autoplay>
+                    </lottie-player>
+                    <h2 class="card-title text-dark capitalize">Plasma</h2>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col card-component" onClick="location.href='/remedesivir.php';">
+                <div class="card mt-3">
+                  <div class="card-body">
+                    <img src="/assets/images/remedesivir.png" />
+                    <h2 class="card-title text-dark capitalize mt-4">Covid Medication</h2>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col card-component" onClick="location.href='/ambulance.php';">
+                <div class="card mt-3">
+                  <div class="card-body">
+                    <lottie-player src="/assets/lottie/ambulance.json" background="transparent" speed="1" loop autoplay>
+                    </lottie-player>
+                    <h2 class="card-title text-dark capitalize">Ambulance</h2>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col card-component" onClick="location.href='/covid-care.php';">
+                <div class="card mt-3">
+                  <div class="card-body">
+                    <img src="/assets/images/covid-care.png" style="width: 240px;" />
+                    <h2 class="card-title text-dark capitalize mt-4">Covid Care Centre</h2>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col card-component" onClick="location.href='/doctor.php';">
+                <div class="card mt-3">
+                  <div class="card-body">
+                    <lottie-player src="/assets/lottie/doctor.json" background="transparent" speed="1" loop autoplay>
+                    </lottie-player>
+                    <h2 class="card-title text-dark capitalize">Doctor on Call</h2>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col card-component" onClick="location.href='/rtpcr.php';">
+                <div class="card mt-3">
+                  <div class="card-body">
+                    <img src="/assets/images/rtpcr-2.png" style="width: 240px;" />
+                    <h2 class="card-title text-dark capitalize mt-4">Covid Testing</h2>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col card-component" onClick="location.href='/tiffin-services.php';">
+                <div class="card mt-3">
+                  <div class="card-body">
+                    <lottie-player src="/assets/lottie/food.json" background="transparent" speed="1" loop autoplay>
+                    </lottie-player>
+                    <h2 class="card-title text-dark capitalize">Tiffin Service</h2>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col card-component" onClick="location.href='/surgical.php';">
+                <div class="card mt-3">
+                  <div class="card-body">
+                    <img src="/assets/images/surgical-2.png" style="width: 240px;" />
+                    <h2 class="card-title text-dark capitalize mt-4">Surgical Supplies</h2>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col card-component" onClick="location.href='/home-care.php';">
+                <div class="card mt-3">
+                  <div class="card-body">
+                    <lottie-player src="/assets/lottie/home-care.json" background="transparent" speed="1" loop autoplay>
+                    </lottie-player>
+                    <h2 class="card-title text-dark capitalize">Home Care Facility</h2>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col card-component" onClick="location.href='/nursing.php';">
+                <div class="card mt-3">
+                  <div class="card-body">
+                    <lottie-player src="/assets/lottie/nurse.json" background="transparent" speed="1" loop autoplay>
+                    </lottie-player>
+                    <h2 class="card-title text-dark capitalize">Nursing Facility</h2>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class="overlay shape shape-a"></div><!-- Overlay Shape -->
       <?php include('header.html'); ?>
       <div class="nk-banner">
@@ -1419,7 +1617,8 @@
   <!-- JavaScript -->
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
-  <script defer src="/assets/fontawesome/js/all.js"></script> <!--load all styles -->
+  <script defer src="/assets/fontawesome/js/all.js"></script>
+  <!--load all styles -->
 
   <?php include('modal.html'); ?>
 </body>

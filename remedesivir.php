@@ -44,7 +44,7 @@
       <div class="container-fluid text-center">
         <lottie-player src="/assets/lottie/medicine.json" background="transparent" speed="1" loop autoplay>
         </lottie-player>
-        <h1 class="text-dark text-center">COVID Medications</h1>
+        <h1 class="text-dark text-center">COVID Medication</h1>
       </div>
     </div>
 

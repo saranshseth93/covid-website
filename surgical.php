@@ -29,7 +29,7 @@
 
     <div class="jumbotron jumbotron-fluid">
       <div class="container-fluid text-center">
-        <img src="/assets/images/surgical.png" />
+        <img src="/assets/images/surgical-2.png" />
         <h1 class="text-dark text-center">Surgical Supplies</h1>
       </div>
     </div>
