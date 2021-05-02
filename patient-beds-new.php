@@ -118,10 +118,11 @@
             <div class="card-body">
               <h5 class="card-title capitalize">LG Hospital</h5>
               <small class="card-text capitalize"><b>Phone: </b>079 2546 1380</small><br /><br />
-              <button type="button" class="btn btn-outline-success">124 - General</button>
+              <button type="button" class="btn btn-outline-success">137 - General</button>
+              <button type="button" class="btn btn-outline-success">02 - Oxygen</button>
             </div>
             <div class="card-footer">
-              <small class="verified-on text-muted float-left">Updated on <b>02/05/2021 10:00AM</b></small>
+              <small class="verified-on text-muted float-left">Updated on <b>02/05/2021 06:00PM</b></small>
             </div>
           </div>
         </div>
