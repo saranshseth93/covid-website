@@ -103,19 +103,6 @@
         <div class="col card-component">
           <div class="card mt-3">
             <div class="card-body">
-              <h5 class="card-title capitalize">Lifeline group of Hospitals, Chandkheda</h5>
-              <small class="card-text capitalize"><b>Phone: </b>09898122262</small><br /><br />
-              <button type="button" class="btn btn-outline-success">Oxygen Beds available</button>
-            </div>
-            <div class="card-footer">
-              <small class="verified-on text-muted float-left">Updated on <b>02/05/2021 10:23AM</b></small>
-            </div>
-          </div>
-        </div>
-
-        <div class="col card-component">
-          <div class="card mt-3">
-            <div class="card-body">
               <h5 class="card-title capitalize">LG Hospital</h5>
               <small class="card-text capitalize"><b>Phone: </b>079 2546 1380</small><br /><br />
               <button type="button" class="btn btn-outline-success">137 - General</button>
@@ -123,6 +110,19 @@
             </div>
             <div class="card-footer">
               <small class="verified-on text-muted float-left">Updated on <b>02/05/2021 06:00PM</b></small>
+            </div>
+          </div>
+        </div>
+
+        <div class="col card-component">
+          <div class="card mt-3">
+            <div class="card-body">
+              <h5 class="card-title capitalize">Lifeline group of Hospitals, Chandkheda</h5>
+              <small class="card-text capitalize"><b>Phone: </b>09898122262</small><br /><br />
+              <button type="button" class="btn btn-outline-success">Oxygen Beds available</button>
+            </div>
+            <div class="card-footer">
+              <small class="verified-on text-muted float-left">Updated on <b>02/05/2021 10:23AM</b></small>
             </div>
           </div>
         </div>
