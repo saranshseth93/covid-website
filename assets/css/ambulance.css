@@ -4,18 +4,19 @@
 }
 
 .jumbotron {
-  background-color: #73e5c1;
+  background-color: #fff;
   position: relative;
 }
 
-.jumbotron img {
+.jumbotron lottie-player {
   max-width: 100%;
   height: auto;
-  width: 35%;
+  width: 60%;
+  margin: auto;
 }
 
 @media screen and (max-width: 769px) {
-  .jumbotron img {
+  .jumbotron lottie-player {
     max-width: 100%;
     height: auto;
     width: 100%;

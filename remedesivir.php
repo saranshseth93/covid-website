@@ -42,7 +42,8 @@
 
     <div class="jumbotron jumbotron-fluid">
       <div class="container-fluid text-center">
-        <img src="/assets/images/remedesivir.png" />
+        <lottie-player src="/assets/lottie/medicine.json" background="transparent" speed="1" loop autoplay>
+        </lottie-player>
         <h1 class="text-dark text-center">COVID Medications</h1>
       </div>
     </div>

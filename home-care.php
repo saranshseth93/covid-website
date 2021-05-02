@@ -29,7 +29,8 @@
 
     <div class="jumbotron jumbotron-fluid">
       <div class="container-fluid text-center">
-        <img src="/assets/images/home-care.png" />
+        <lottie-player src="/assets/lottie/home-care.json" background="transparent" speed="1" loop autoplay>
+        </lottie-player>
         <h1 class="text-dark text-center">COVID HomeCare Service Provider</h1>
       </div>
     </div>

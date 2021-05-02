@@ -28,7 +28,8 @@
 
     <div class="jumbotron jumbotron-fluid">
       <div class="container-fluid text-center">
-        <img src="/assets/images/tiffin.png" />
+        <lottie-player src="/assets/lottie/food.json" background="transparent" speed="1" loop autoplay>
+        </lottie-player>
         <h1 class="text-dark text-center">Tiffin Services for COVID Patients</h1>
       </div>
     </div>
@@ -41,6 +42,8 @@
   <!--load all styles -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+  <script src="/assets/js/lottie-player.js"></script>
   <script src="assets/js/bundle.js"></script>
   <script src="assets/js/scripts.js"></script>
 </body>

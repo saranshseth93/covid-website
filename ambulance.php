@@ -28,7 +28,8 @@
   <div class="nk-banner">
     <div class="jumbotron jumbotron-fluid">
       <div class="container-fluid text-center">
-        <img src="/assets/images/ambulance.png" />
+        <lottie-player src="/assets/lottie/ambulance.json" background="transparent" speed="1" loop autoplay>
+        </lottie-player>
         <h1 class="text-secondary text-center">Ambulance Support</h1>
       </div>
     </div>
