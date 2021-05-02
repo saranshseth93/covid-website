@@ -90,14 +90,14 @@
         <div class="col card-component">
           <div class="card mt-3">
             <div class="card-body">
-              <h5 class="card-title capitalize">Medicity Campus Hospital</h5>
-              <small class="card-text capitalize"><b>Phone: </b>Not Provided</small><br /><br />
-              <button type="button" class="btn btn-outline-success">112 - General</button><button type="button"
-                class="btn btn-outline-success">10 - Oxygen</button>
-              <button type="button" class="btn btn-outline-success">04 - ICU</button>
+              <h5 class="card-title capitalize">Shaiva Hospital, Bapunagar</h5>
+              <small class="card-text capitalize"><b>Phone: </b>09974376848</small><br /><br />
+              <button type="button" class="btn btn-outline-success">2 - General</button><button type="button"
+                class="btn btn-outline-success">2 - Oxygen</button>
+
             </div>
             <div class="card-footer">
-              <small class="verified-on text-muted float-left">Updated on <b>30/04/2021 06:00PM</b></small>
+              <small class="verified-on text-muted float-left">Updated on <b>30/04/2021 07:00PM</b></small>
             </div>
           </div>
         </div>
