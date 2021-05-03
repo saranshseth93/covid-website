@@ -26,13 +26,14 @@
         <p>Be it medicine or grocery or tiffin, whatsapp us the list of things you want and we will deliver
           it to you</p>
         <p>Stay home, stay safe, whatsapp us in need!</p>
-        <h4>City ni Ambulance by Radio City</h4>
-        <div class="row row-cols-1 row-cols-md-4 g-4 mb-3 p-3">
+        <h4>City ni Ambulance by Radio City<img src="/assets/images/radiocity.png" width="90" class="float-right" />
+        </h4>
+        <div class="row row-cols-1 row-cols-md-3 g-4 mb-3 p-3">
           <a target="_blank" href="https://wa.me/7573911911" class="btn btn-outline-success m-2">Ahmedabad</a>
           <a target="_blank" href="https://wa.me/7572911911" class="btn btn-outline-success m-2">Vadodara</a>
           <a target="_blank" href="https://wa.me/6359911911" class="btn btn-outline-success m-2">Surat</a>
         </div>
-        <h4>Home Deliver Service by Ahmedabad Covid Support</h4>
+        <h4>Home Delivery Service by Ahmedabad Covid Support</h4>
         <a target="_blank" href="https://wa.me/9099158883" class="btn btn-outline-success m-2">Whatsapp
           them</a><br /><br />
         <p class="text-danger"><strong>Note: We can not arrange beds, oxygens etc. So please only contact for getting
