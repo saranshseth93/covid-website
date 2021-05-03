@@ -383,6 +383,19 @@ jQuery(
             "Oxygen Supplier",
             "Confirm and then go",
             "02/05/2021 12:55:55"
+          ],
+          [
+            data.values.length + 29,
+            "Ahmedabad",
+            "",
+            "Dr. Bhupesh D Shah",
+            "<a target='_blank' href='https://wa.me/9825073465'>9825073465</a>",
+            "Sale",
+            "",
+            "Available",
+            "Oxygen Concentrator",
+            "Free of Cost for Needy People. Whatsapp only",
+            "03/05/2021 22:55:55"
           ]
         );
 
