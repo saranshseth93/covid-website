@@ -31,7 +31,8 @@
   <div class="alert alert-info alert-dismissible fade show" role="alert">
     Plasma from recovered COVID-19 patients is urgently needed across hospitals in India. <strong><u><a
           class="alert-link"
-          href="https://docs.google.com/forms/d/e/1FAIpQLSfKyBTgGjriYcWnYqL491OAqO1H7PhKF2Rvn0EefvxaofSEkA/viewform">Please
+          href="https://docs.google.com/forms/d/e/1FAIpQLSfKyBTgGjriYcWnYqL491OAqO1H7PhKF2Rvn0EefvxaofSEkA/viewform">Gujarat,
+          Please
           donate Plasma if you have recently recovered from
           COVID-19 or know someone
           who can.</a></u></strong>
