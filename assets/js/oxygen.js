@@ -376,7 +376,7 @@ jQuery(
             "Ahmedabad",
             "Shiva Enterprise",
             "",
-            "7573953844\nenterpiseshivaa@gmail.com",
+            "<a target='_blank' href='tel:7573953844'>7573953844</a>\n<a target='_blank' href='mailto:enterpiseshivaa@gmail.com'>enterpiseshivaa@gmail.com</a>",
             "Sale",
             "",
             "Available",
