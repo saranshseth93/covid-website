@@ -32,69 +32,7 @@
           href="tel:+917926409999">079 26409999</a></div>
 
       <style>
-      .text-heading {
-        color: #020101BD;
-        font-family: "Roboto", Sans-serif;
-        font-size: 48px;
-        font-weight: 900;
-        line-height: 1.1em;
-        margin-top: -50px;
-      }
 
-      .jumbotron {
-        background-color: #fff;
-        position: relative;
-        z-index: 5;
-      }
-
-      .help {
-        max-width: 100%;
-        height: auto;
-        width: 45%;
-        margin: auto;
-      }
-
-      .card {
-        background: #fff;
-        border: none;
-        box-shadow: 0px 0px 30px 0px rgb(0 0 0 / 9%);
-        cursor: pointer;
-      }
-
-      .card-body {
-        flex: 1 1 auto;
-        min-height: 338.9px;
-        max-height: 338.9px;
-        padding: 1.25rem;
-      }
-
-      .card lottie-player {
-        max-width: 100%;
-        height: 248px;
-        width: 100%;
-        margin: auto;
-      }
-
-      .jumbotron img {
-        max-width: 100%;
-        height: 220px;
-        width: 100%;
-      }
-
-
-      @media screen and (max-width: 769px) {
-        .help {
-          max-width: 100%;
-          height: auto;
-          width: 100%;
-        }
-
-        .jumbotron img {
-          max-width: 100%;
-          height: auto;
-          width: 100%;
-        }
-      }
       </style>
 
       <div class="jumbotron jumbotron-fluid">
