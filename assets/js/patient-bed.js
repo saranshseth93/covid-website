@@ -14,13 +14,15 @@ jQuery(
             let date = moment(v[7], "DD/MM/YYYY HH:mm:ss");
             let now = moment();
             let formattedDate = now.from(date, "days") + " ago";
+            let difference = moment(now).diff(date, "days");
 
-            html += `<div class="col card-component">
+            if (difference < 2) {
+              html += `<div class="col card-component">
             <div class="card mt-3">
               <div class="card-body">
                 <h5 class="card-title capitalize">${v[0]}${
-              v[1] != undefined && v[1] != "" ? ", " + v[1] : ""
-            }</h5>
+                v[1] != undefined && v[1] != "" ? ", " + v[1] : ""
+              }</h5>
                 <small class="card-text capitalize"><b>Phone: </b>${
                   v[2] != undefined && v[2] != "" ? v[2] : "Not Provided"
                 }</small><br /><br />
@@ -65,6 +67,7 @@ jQuery(
               </div>
             </div>
           </div>`;
+            }
           });
 
           $(".other-hospitals").html(html);
