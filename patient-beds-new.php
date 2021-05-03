@@ -75,6 +75,21 @@
         <div class="col card-component">
           <div class="card mt-3">
             <div class="card-body">
+              <h5 class="card-title capitalize">SVP</h5>
+              <small class="card-text capitalize"><b>Phone: </b>079 2643 5555</small><br /><br />
+              <button type="button" class="btn btn-outline-success">215 - General</button>
+              <button type="button" class="btn btn-outline-success">08 - Oxygen</button>
+
+            </div>
+            <div class="card-footer">
+              <small class="verified-on text-muted float-left">Updated on <b>03/05/2021 09:00AM</b></small>
+            </div>
+          </div>
+        </div>
+
+        <div class="col card-component">
+          <div class="card mt-3">
+            <div class="card-body">
               <h5 class="card-title capitalize">Ortho D Hospital, Memnagar</h5>
               <small class="card-text capitalize"><b>Phone: </b>7600764211</small><br /><br />
               <button type="button" class="btn btn-outline-success">03 - Oxygen</button>
