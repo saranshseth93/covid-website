@@ -71,120 +71,6 @@
     <div class="container-lg">
 
       <div class="row row-cols-1 row-cols-md-2 g-4 other-hospitals mb-3">
-
-        <div class="col card-component">
-          <div class="card mt-3">
-            <div class="card-body">
-              <h5 class="card-title capitalize">Civil, Asarwa.</h5>
-              <small class="card-text capitalize"><b>Phone: </b>079 2268 3721, 079 2268 3421</small><br /><br />
-              <button type="button" class="btn btn-outline-success">86 - General</button><button type="button"
-                class="btn btn-outline-success">12 - Oxygen</button>
-              <button type="button" class="btn btn-outline-success">09 - ICU</button>
-            </div>
-            <div class="card-footer">
-              <small class="verified-on text-muted float-left">Updated on <b>03/05/2021 12:00PM</b></small>
-            </div>
-          </div>
-        </div>
-
-        <div class="col card-component">
-          <div class="card mt-3">
-            <div class="card-body">
-              <h5 class="card-title capitalize">Anand Niketan, Shilaj.</h5>
-              <small class="card-text capitalize"><b>Phone: </b>9737047305</small><br /><br />
-              <button type="button" class="btn btn-outline-success">Oxygen Beds Available</button>
-            </div>
-            <div class="card-footer">
-              <small class="verified-on text-muted float-left">Updated on <b>03/05/2021 01:00PM</b></small>
-            </div>
-          </div>
-        </div>
-
-        <div class="col card-component">
-          <div class="card mt-3">
-            <div class="card-body">
-              <h5 class="card-title capitalize">Ortho D Hospital, Memnagar</h5>
-              <small class="card-text capitalize"><b>Phone: </b>7600764211</small><br /><br />
-              <button type="button" class="btn btn-outline-success">03 - Oxygen</button>
-
-            </div>
-            <div class="card-footer">
-              <small class="verified-on text-muted float-left">Updated on <b>02/05/2021 09:55PM</b></small>
-            </div>
-          </div>
-        </div>
-
-        <div class="col card-component">
-          <div class="card mt-3">
-            <div class="card-body">
-              <h5 class="card-title capitalize">Medicity Campus Hospital</h5>
-              <small class="card-text capitalize"><b>Phone: </b>Not Provided</small><br /><br />
-              <button type="button" class="btn btn-outline-success">86 - General</button><button type="button"
-                class="btn btn-outline-success">12 - Oxygen</button>
-              <button type="button" class="btn btn-outline-success">09 - ICU</button>
-            </div>
-            <div class="card-footer">
-              <small class="verified-on text-muted float-left">Updated on <b>03/05/2021 12:00PM</b></small>
-            </div>
-          </div>
-        </div>
-
-        <div class="col card-component">
-          <div class="card mt-3">
-            <div class="card-body">
-              <h5 class="card-title capitalize">Shaiva Hospital, Bapunagar</h5>
-              <small class="card-text capitalize"><b>Phone: </b>09974376848</small><br /><br />
-              <button type="button" class="btn btn-outline-success">2 - General</button><button type="button"
-                class="btn btn-outline-success">2 - Oxygen</button>
-
-            </div>
-            <div class="card-footer">
-              <small class="verified-on text-muted float-left">Updated on <b>02/05/2021 07:00PM</b></small>
-            </div>
-          </div>
-        </div>
-
-        <div class="col card-component">
-          <div class="card mt-3">
-            <div class="card-body">
-              <h5 class="card-title capitalize">Om Hospital</h5>
-              <small class="card-text capitalize"><b>Phone: </b>9725317434</small><br /><br />
-              <button type="button" class="btn btn-outline-success">04 - General</button><button type="button"
-                class="btn btn-outline-success">04 - Oxygen</button>
-            </div>
-            <div class="card-footer">
-              <small class="verified-on text-muted float-left">Updated on <b>02/05/2021 05:00PM</b></small>
-            </div>
-          </div>
-        </div>
-
-        <div class="col card-component">
-          <div class="card mt-3">
-            <div class="card-body">
-              <h5 class="card-title capitalize">LG Hospital</h5>
-              <small class="card-text capitalize"><b>Phone: </b>079 2546 1380</small><br /><br />
-              <button type="button" class="btn btn-outline-success">137 - General</button>
-              <button type="button" class="btn btn-outline-success">02 - Oxygen</button>
-            </div>
-            <div class="card-footer">
-              <small class="verified-on text-muted float-left">Updated on <b>02/05/2021 06:00PM</b></small>
-            </div>
-          </div>
-        </div>
-
-        <div class="col card-component">
-          <div class="card mt-3">
-            <div class="card-body">
-              <h5 class="card-title capitalize">Lifeline group of Hospitals, Chandkheda</h5>
-              <small class="card-text capitalize"><b>Phone: </b>09898122262</small><br /><br />
-              <button type="button" class="btn btn-outline-success">Oxygen Beds available</button>
-            </div>
-            <div class="card-footer">
-              <small class="verified-on text-muted float-left">Updated on <b>02/05/2021 10:23AM</b></small>
-            </div>
-          </div>
-        </div>
-
       </div> <!-- end -->
 
 
@@ -268,8 +154,8 @@
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="https://apis.google.com/js/api.js"></script>
-
-  <script src="assets/js/patient-bed.js"></script>
+  <script src="assets/js/patient-bed.js">
+  </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.8.335/pdf.worker.min.js"></script>
   <?php include('footer.html'); ?>
 </body>

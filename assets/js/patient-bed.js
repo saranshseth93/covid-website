@@ -2,58 +2,75 @@ jQuery(
   (function () {
     "use strict";
 
-    // function authenticate() {
-    //   return gapi.auth2
-    //     .getAuthInstance()
-    //     .signIn({
-    //       scope:
-    //         "https://www.googleapis.com/auth/drive https://www.googleapis.com/auth/drive.file https://www.googleapis.com/auth/drive.readonly https://www.googleapis.com/auth/spreadsheets https://www.googleapis.com/auth/spreadsheets.readonly"
-    //     })
-    //     .then(
-    //       function () {
-    //         console.log("Sign-in successful");
-    //       },
-    //       function (err) {
-    //         console.error("Error signing in", err);
-    //       }
-    //     );
-    // }
-    // function loadClient() {
-    //   gapi.client.setApiKey("AIzaSyBveiHShw1LaPLCWYiuSPW_fzIb7Gtan68");
-    //   return gapi.client
-    //     .load("https://sheets.googleapis.com/$discovery/rest?version=v4")
-    //     .then(
-    //       function () {
-    //         console.log("GAPI client loaded for API");
-    //       },
-    //       function (err) {
-    //         console.error("Error loading GAPI client for API", err);
-    //       }
-    //     );
-    // }
-    // // Make sure the client is loaded and sign-in is complete before calling this method.
-    // function execute() {
-    //   return gapi.client.sheets.spreadsheets.values
-    //     .get({
-    //       spreadsheetId: "1TWR-pn9606h-xJ2sTr9wpkn84STsJh7xUWskONlIoNs",
-    //       range: "A1:F31"
-    //     })
-    //     .then(
-    //       function (response) {
-    //         // Handle the results here (response.result has the parsed body).
-    //         console.log("Response", response);
-    //       },
-    //       function (err) {
-    //         console.error("Execute error", err);
-    //       }
-    //     );
-    // }
-    // gapi.load("client:auth2", function () {
-    //   gapi.auth2.init({
-    //     client_id:
-    //       "139355695477-o4vg341blhjcnccaf3dncj5bdpeua2ka.apps.googleusercontent.com"
-    //   });
-    // });
+    //Live Hospital Data
+    $.getJSON(
+      "https://content-sheets.googleapis.com/v4/spreadsheets/1TWR-pn9606h-xJ2sTr9wpkn84STsJh7xUWskONlIoNs/values/Patient%20Bed%20Data!A2%3AH9?key=AIzaSyBveiHShw1LaPLCWYiuSPW_fzIb7Gtan68",
+      function (response) {
+        console.log(response);
+        if (response != undefined && response.values != undefined) {
+          let html = "";
+
+          $.each(response.values, function (i, v) {
+            let date = moment(v[7], "DD/MM/YYYY HH:mm:ss");
+            let now = moment();
+            let formattedDate = now.from(date, "days") + " ago";
+
+            html += `<div class="col card-component">
+            <div class="card mt-3">
+              <div class="card-body">
+                <h5 class="card-title capitalize">${v[0]}${
+              v[1] != undefined && v[1] != "" ? ", " + v[1] : ""
+            }</h5>
+                <small class="card-text capitalize"><b>Phone: </b>${
+                  v[2] != undefined && v[2] != "" ? v[2] : "Not Provided"
+                }</small><br /><br />
+                ${
+                  v[3] != undefined && v[3] != ""
+                    ? '<button type="button" class="btn btn-outline-success">' +
+                      v[3] +
+                      " - General</button>"
+                    : ""
+                }
+                ${
+                  v[4] != undefined && v[4] != ""
+                    ? '<button type="button" class="btn btn-outline-success">' +
+                      v[4] +
+                      " - Oxygen</button>"
+                    : ""
+                }
+                ${
+                  v[5] != undefined && v[5] != ""
+                    ? '<button type="button" class="btn btn-outline-success">' +
+                      v[5] +
+                      " - ICU</button>"
+                    : ""
+                }
+                ${
+                  v[6] != undefined && v[6] != ""
+                    ? '<button type="button" class="btn btn-outline-success">' +
+                      v[6] +
+                      " - ICU with Ventilator</button>"
+                    : ""
+                }
+  
+              </div>
+              <div class="card-footer">
+                <small class="verified-on text-muted float-left">Updated <b>${
+                  formattedDate == "Invalid date ago"
+                    ? v[7] == undefined
+                      ? ""
+                      : v[7]
+                    : formattedDate
+                }</b></small>
+              </div>
+            </div>
+          </div>`;
+          });
+
+          $(".other-hospitals").html(html);
+        }
+      }
+    );
 
     // setupAreas();
     setupCards();
@@ -86,7 +103,6 @@ function setupCards(filter = "available") {
       let html = "";
       // JSON result in `data` letiable
       if (data !== null || data !== undefined) {
-        console.log(data);
         $.each(data, function (index, value) {
           let display = filterData(value, filter);
           display = html += `<div class="col card-component ${
