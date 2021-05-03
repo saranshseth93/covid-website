@@ -75,14 +75,27 @@
         <div class="col card-component">
           <div class="card mt-3">
             <div class="card-body">
-              <h5 class="card-title capitalize">SVP</h5>
-              <small class="card-text capitalize"><b>Phone: </b>079 2643 5555</small><br /><br />
-              <button type="button" class="btn btn-outline-success">215 - General</button>
-              <button type="button" class="btn btn-outline-success">08 - Oxygen</button>
-
+              <h5 class="card-title capitalize">Civil, Asarwa.</h5>
+              <small class="card-text capitalize"><b>Phone: </b>079 2268 3721, 079 2268 3421</small><br /><br />
+              <button type="button" class="btn btn-outline-success">86 - General</button><button type="button"
+                class="btn btn-outline-success">12 - Oxygen</button>
+              <button type="button" class="btn btn-outline-success">09 - ICU</button>
             </div>
             <div class="card-footer">
-              <small class="verified-on text-muted float-left">Updated on <b>03/05/2021 09:00AM</b></small>
+              <small class="verified-on text-muted float-left">Updated on <b>03/05/2021 12:00PM</b></small>
+            </div>
+          </div>
+        </div>
+
+        <div class="col card-component">
+          <div class="card mt-3">
+            <div class="card-body">
+              <h5 class="card-title capitalize">Anand Niketan, Shilaj.</h5>
+              <small class="card-text capitalize"><b>Phone: </b>9737047305</small><br /><br />
+              <button type="button" class="btn btn-outline-success">Oxygen Beds Available</button>
+            </div>
+            <div class="card-footer">
+              <small class="verified-on text-muted float-left">Updated on <b>03/05/2021 01:00PM</b></small>
             </div>
           </div>
         </div>
@@ -106,12 +119,12 @@
             <div class="card-body">
               <h5 class="card-title capitalize">Medicity Campus Hospital</h5>
               <small class="card-text capitalize"><b>Phone: </b>Not Provided</small><br /><br />
-              <button type="button" class="btn btn-outline-success">112 - General</button><button type="button"
-                class="btn btn-outline-success">10 - Oxygen</button>
-              <button type="button" class="btn btn-outline-success">04 - ICU</button>
+              <button type="button" class="btn btn-outline-success">86 - General</button><button type="button"
+                class="btn btn-outline-success">12 - Oxygen</button>
+              <button type="button" class="btn btn-outline-success">09 - ICU</button>
             </div>
             <div class="card-footer">
-              <small class="verified-on text-muted float-left">Updated on <b>02/05/2021 06:00PM</b></small>
+              <small class="verified-on text-muted float-left">Updated on <b>03/05/2021 12:00PM</b></small>
             </div>
           </div>
         </div>
@@ -141,21 +154,6 @@
             </div>
             <div class="card-footer">
               <small class="verified-on text-muted float-left">Updated on <b>02/05/2021 05:00PM</b></small>
-            </div>
-          </div>
-        </div>
-
-        <div class="col card-component">
-          <div class="card mt-3">
-            <div class="card-body">
-              <h5 class="card-title capitalize">Civil, Asarwa.</h5>
-              <small class="card-text capitalize"><b>Phone: </b>079 2268 3721, 079 2268 3421</small><br /><br />
-              <button type="button" class="btn btn-outline-success">70 - General</button><button type="button"
-                class="btn btn-outline-success">11 - Oxygen</button>
-              <button type="button" class="btn btn-outline-success">02 - ICU with Ventilator</button>
-            </div>
-            <div class="card-footer">
-              <small class="verified-on text-muted float-left">Updated on <b>01/05/2021 03:00PM</b></small>
             </div>
           </div>
         </div>
@@ -269,6 +267,8 @@
   <!--load all styles -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://apis.google.com/js/api.js"></script>
+
   <script src="assets/js/patient-bed.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.8.335/pdf.worker.min.js"></script>
   <?php include('footer.html'); ?>
