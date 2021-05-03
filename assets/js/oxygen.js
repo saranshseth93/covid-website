@@ -389,7 +389,7 @@ jQuery(
             "Ahmedabad",
             "",
             "Dr. Bhupesh D Shah",
-            "<a target='_blank' href='https://wa.me/9825073465'>9825073465</a>",
+            "<a target='_blank' href='https://wa.me/+919825073465'>9825073465</a>",
             "Sale",
             "",
             "Available",
