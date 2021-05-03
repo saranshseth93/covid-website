@@ -62,6 +62,19 @@ jQuery(
               "Bipap Machine - from 29/04",
               "",
               "26/04/2021 21:00:55"
+            ],
+            [
+              data.values.length + 5,
+              "Ahmedabad",
+              "Individual",
+              "",
+              "9818770103",
+              "Sale",
+              "",
+              "Available",
+              "Flow Meter",
+              "",
+              "03/05/2021 18:00:55"
             ]
           );
           let html = "";

@@ -11,6 +11,22 @@ jQuery(
           data.values != undefined &&
           data.values.length != 0
         ) {
+          data.values.push([
+            data.values.length + 1,
+            "Ahmedabad",
+            "",
+            "Rahul Shah",
+            "7600424207",
+            "",
+            "Yes",
+            "Yes",
+            "",
+            "",
+            "Available",
+            "Can come for home collection",
+            "03/05/2021 18:00:00"
+          ]);
+
           let html = "";
           $.each(data.values, function (i, v) {
             let date = moment(v[9], "DD/MM/YYYY HH:mm:ss");
