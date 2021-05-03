@@ -11,21 +11,68 @@ jQuery(
           data.values != undefined &&
           data.values.length != 0
         ) {
-          data.values.push([
-            data.values.length + 1,
-            "Ahmedabad",
-            "",
-            "Rahul Shah",
-            "7600424207",
-            "",
-            "Yes",
-            "Yes",
-            "",
-            "",
-            "Available",
-            "Can come for home collection",
-            "03/05/2021 18:00:00"
-          ]);
+          data.values.push(
+            [
+              data.values.length + 1,
+              "Ahmedabad",
+              "",
+              "Rahul Shah",
+              "7600424207",
+              "",
+              "Yes",
+              "Yes",
+              "",
+              "",
+              "Available",
+              "Can come for home collection",
+              "03/05/2021 18:00:00"
+            ],
+            [
+              data.values.length + 2,
+              "Ahmedabad",
+              "",
+              "Prijesh",
+              "6352893973",
+              "",
+              "Yes",
+              "Yes",
+              "",
+              "",
+              "Available",
+              "Can come for home collection",
+              "03/05/2021 18:00:00"
+            ],
+            [
+              data.values.length + 3,
+              "Ahmedabad",
+              "",
+              "Kunjal",
+              "8160853367",
+              "",
+              "Yes",
+              "Yes",
+              "",
+              "",
+              "Available",
+              "Can come for home collection",
+              "03/05/2021 18:00:00"
+            ],
+            [
+              data.values.length + 4,
+              "Ahmedabad",
+              "",
+              "VIP Lab",
+              "07948488412",
+              "",
+              "Yes",
+              "Yes",
+              "",
+              "",
+              "Available",
+              "Can come for home collection",
+              "03/05/2021 18:00:00"
+            ]
+          );
 
           let html = "";
           $.each(data.values, function (i, v) {
