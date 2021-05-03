@@ -4,7 +4,7 @@ jQuery(
 
     //Live Hospital Data
     $.getJSON(
-      "https://content-sheets.googleapis.com/v4/spreadsheets/1TWR-pn9606h-xJ2sTr9wpkn84STsJh7xUWskONlIoNs/values/Patient%20Bed%20Data!A2%3AH11?key=AIzaSyBveiHShw1LaPLCWYiuSPW_fzIb7Gtan68",
+      "https://content-sheets.googleapis.com/v4/spreadsheets/1TWR-pn9606h-xJ2sTr9wpkn84STsJh7xUWskONlIoNs/values/Patient%20Bed%20Data!A2%3AH12?key=AIzaSyBveiHShw1LaPLCWYiuSPW_fzIb7Gtan68",
       function (response) {
         console.log(response);
         if (response != undefined && response.values != undefined) {
