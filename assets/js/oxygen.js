@@ -370,6 +370,19 @@ jQuery(
             "Oxygen Refill",
             "Confirm and then go",
             "02/05/2021 18:55:55"
+          ],
+          [
+            data.values.length + 28,
+            "Ahmedabad",
+            "Shiva Enterprise",
+            "",
+            "7573953844\nenterpiseshivaa@gmail.com",
+            "Sale",
+            "",
+            "Available",
+            "Oxygen Supplier",
+            "Confirm and then go",
+            "02/05/2021 12:55:55"
           ]
         );
 
