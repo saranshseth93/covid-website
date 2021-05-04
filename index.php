@@ -160,6 +160,18 @@
                 </div>
               </div>
 
+              <div></div>
+
+              <div class="col card-component" onClick="location.href='/sanitise.php';">
+                <div class="card mt-3">
+                  <div class="card-body">
+                    <lottie-player src="/assets/lottie/sanitise.json" background="transparent" speed="1" loop autoplay>
+                    </lottie-player>
+                    <h2 class="card-title text-dark capitalize">Sanitisation</h2>
+                  </div>
+                </div>
+              </div>
+
 
             </div>
           </div>

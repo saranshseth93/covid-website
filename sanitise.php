@@ -37,7 +37,7 @@
 
     <div class="jumbotron jumbotron-fluid">
       <div class="container-fluid text-center">
-        <lottie-player src="/assets/lottie/home-care.json" background="transparent" speed="1" loop autoplay>
+        <lottie-player src="/assets/lottie/sanitise.json" background="transparent" speed="1" loop autoplay>
         </lottie-player>
         <h1 class="text-dark text-center">Sanitisation Services</h1>
       </div>
@@ -51,7 +51,8 @@
             <th>Organisation</th>
             <th>Area</th>
             <th>Contact</th>
-            <th>Alternate Number</th>
+            <th>Remarks</th>
+            <th>Status</th>
           </tr>
         </thead>
         <tbody id="sanitise-table"></tbody>
@@ -87,7 +88,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
     <script src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/fixedheader/3.1.8/js/dataTables.fixedHeader.min.js"></script>
-    <script src="assets/js/home-care.js"></script>
+    <script src="assets/js/sanitise.js"></script>
     <?php include('footer.html'); ?>
 </body>
 
