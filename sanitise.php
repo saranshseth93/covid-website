@@ -14,7 +14,7 @@
   <!-- Fav Icon  -->
   <link rel="shortcut icon" href="images/favicon.svg">
   <!-- Site Title  -->
-  <title>COVID-19 Madad | Home Care Service Provider</title>
+  <title>COVID-19 Madad | Sanitisation Services</title>
   <!-- Bundle and Base CSS -->
   <link href="/assets/fontawesome/css/all.css" rel="stylesheet">
   <!--load all styles -->
@@ -39,7 +39,7 @@
       <div class="container-fluid text-center">
         <lottie-player src="/assets/lottie/home-care.json" background="transparent" speed="1" loop autoplay>
         </lottie-player>
-        <h1 class="text-dark text-center">Home Care Service Provider</h1>
+        <h1 class="text-dark text-center">Sanitisation Services</h1>
       </div>
     </div>
 
@@ -54,7 +54,7 @@
             <th>Alternate Number</th>
           </tr>
         </thead>
-        <tbody id="home-table"></tbody>
+        <tbody id="sanitise-table"></tbody>
 
       </table>
     </div>

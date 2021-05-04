@@ -63,7 +63,7 @@ jQuery(
               }</td><td data-order=${
                 v[8] != ""
                   ? moment(v[8], "DD/MM/YYYY HH:mm:ss").format("X")
-                  : ""
+                  : "Unknown"
               }>${
                 formattedDate == "Invalid date ago"
                   ? v[9] == undefined
