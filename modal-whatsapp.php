@@ -33,9 +33,6 @@
           <a target="_blank" href="https://wa.me/+917572911911" class="btn btn-outline-success m-2">Vadodara</a>
           <a target="_blank" href="https://wa.me/+916359911911" class="btn btn-outline-success m-2">Surat</a>
         </div>
-        <h4>Home Delivery Service by Ahmedabad Covid Support</h4>
-        <a target="_blank" href="https://wa.me/+919099158883" class="btn btn-outline-success m-2">Whatsapp
-          them</a><br /><br />
         <p class="text-danger"><strong>Note: We can not arrange beds, oxygens etc. So please only contact for getting
             items at your doorstep.</strong></p>
       </div>
