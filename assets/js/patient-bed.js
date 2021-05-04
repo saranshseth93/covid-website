@@ -15,8 +15,8 @@ jQuery(
             let now = moment();
             let formattedDate = now.from(date, "days") + " ago";
             let difference = moment(now).diff(date, "days");
-console.log(difference);
-            if (difference < 2) {
+
+            if (difference < 1) {
               html += `<div class="col card-component">
             <div class="card mt-3">
               <div class="card-body">
