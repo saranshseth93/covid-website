@@ -6,8 +6,11 @@
   <meta name="author" content="Saransh Seth">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="An Initiative to help COVID Affected">
-  <meta property="og:description" content="A volunteer-driven crowd sourced effort to track available hospital beds, plasma, food, ambulance and other critical services for Corona in Ahmedabad region." data-rh="true">
-  <meta name="keywords" content="hospital, beds, vacancy, ventilator, gujarat, ahmedabad, oxygen, concentrator, icu, covid, covid19, covid-19, coronavirus, corona, india, virus, pandemic, disease, carona, karona, korona, food, gandhinagar, amreli, tiffin, food, home care, covid care, plasma, vaccination, rtpcr, remedesivir, nursing, ambulance">
+  <meta property="og:description"
+    content="A volunteer-driven crowd sourced effort to track available hospital beds, plasma, food, ambulance and other critical services for Corona in Ahmedabad region."
+    data-rh="true">
+  <meta name="keywords"
+    content="hospital, beds, vacancy, ventilator, gujarat, ahmedabad, oxygen, concentrator, icu, covid, covid19, covid-19, coronavirus, corona, india, virus, pandemic, disease, carona, karona, korona, food, gandhinagar, amreli, tiffin, food, home care, covid care, plasma, vaccination, rtpcr, remedesivir, nursing, ambulance">
   <!-- Fav Icon  -->
   <link rel="shortcut icon" href="images/favicon.svg">
   <!-- Site Title  -->
@@ -100,6 +103,8 @@
     </div>
   </div>
 
+  <?php include('modal-oxygen.php'); ?>
+
   <main class="nk-pages">
     <section class="section section-l bg-light section-spread" id="news">
       <div class="container">
@@ -127,7 +132,9 @@
   <!--load all styles -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.8.335/pdf.worker.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+    integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous">
+  </script>
   <script src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
   <script src="https://cdn.datatables.net/fixedheader/3.1.8/js/dataTables.fixedHeader.min.js"></script>
   <script src="assets/js/oxygen.js"></script>

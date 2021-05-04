@@ -448,6 +448,8 @@ jQuery(
       });
 
       $('input[aria-controls="DataTables_Table_0"]').addClass("form-control");
+
+      $("#oxygen").modal("show");
     });
   })()
 );
