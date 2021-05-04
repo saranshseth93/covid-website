@@ -74,7 +74,7 @@
                 </div>
               </div>
 
-              <div class="col card-component" onClick="location.href='/remedesivir.php';">
+              <div class="col card-component" onClick="location.href='/medicine.php';">
                 <div class="card mt-3">
                   <div class="card-body">
                     <img src="/assets/images/remedesivir.png" />
