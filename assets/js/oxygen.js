@@ -396,6 +396,32 @@ jQuery(
             "Oxygen Concentrator",
             "Free of Cost for Needy People. Whatsapp only",
             "03/05/2021 22:55:55"
+          ],
+          [
+            data.values.length + 30,
+            "Ahmedabad",
+            "",
+            "Ahmedabad Cares",
+            "<a target='_blank' href='www.ahmcares.in'>www.ahmcares.in</a>\n07948062000",
+            "Sale",
+            "",
+            "Available",
+            "Oxygen Cylinder",
+            "Free of Cost for Needy People",
+            "03/05/2021 22:55:55"
+          ],
+          [
+            data.values.length + 31,
+            "Ahmedabad",
+            "",
+            "",
+            "9824081339\n9558186642",
+            "Refill",
+            "",
+            "Available",
+            "Oxygen Refill",
+            "Free of Cost for COVID Patients",
+            "04/05/2021 13:55:55"
           ]
         );
 
