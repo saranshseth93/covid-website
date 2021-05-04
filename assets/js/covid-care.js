@@ -23,7 +23,7 @@ jQuery(
                 ? "9825065275\n9825065605\nwww.devasyahospital.com"
                 : v[5]
             }</td><td>${v[6]}</td><td>${
-              v[7] != undefined ? v[7] : ""
+              v[7] != undefined ? v[7] : "Need to check"
             }</td><td data-order=${
               v[9] != "" ? moment(v[9], "DD/MM/YYYY HH:mm:ss").format("X") : ""
             }>${
@@ -59,11 +59,11 @@ jQuery(
                   ? "9825065275\n9825065605\nwww.devasyahospital.com"
                   : v[5]
               }</td><td>${v[6]}</td><td>${
-                v[7] != undefined ? v[7] : ""
+                v[7] != undefined ? v[7] : "Need to check"
               }</td><td data-order=${
                 v[8] != ""
                   ? moment(v[8], "DD/MM/YYYY HH:mm:ss").format("X")
-                  : "Unknown"
+                  : ""
               }>${
                 formattedDate == "Invalid date ago"
                   ? v[9] == undefined
