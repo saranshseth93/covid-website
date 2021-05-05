@@ -68,8 +68,8 @@ jQuery(
             "Rent",
             "",
             "Available",
-            "Ventilators and Bipap Machine",
-            "Deposit - 6,00,000Rs\nRent - 50,000Rs for 5 days",
+            "Ventilators and Bipap Machine - Deposit - 6,00,000Rs\nRent - 50,000Rs for 5 days",
+            "",
             "30/04/2021 12:54:55"
           ],
           [
@@ -81,8 +81,8 @@ jQuery(
             "Rent or Sale",
             "",
             "Available",
-            "Medical Oxygen gases & Equipments",
-            "Pre-booking required",
+            "Medical Oxygen gases & Equipments - Pre-booking required",
+            "",
             "26/04/2021 08:25:55"
           ],
           [
@@ -94,8 +94,8 @@ jQuery(
             "Sale",
             "",
             "Available - after 12pm",
-            "Oxygen Cylinder",
-            "Price: 6Ltr - 15k + GST",
+            "Oxygen Cylinder - Price: 6Ltr - 15k + GST",
+            "",
             "30/04/2021 10:00:55"
           ],
           [
@@ -107,8 +107,8 @@ jQuery(
             "Sale",
             "",
             "Available",
-            "Oxygen Cylinder",
-            "9L - Need to collect from Paldi - Accepting PAYTM",
+            "Oxygen Cylinder - 9L - Need to collect from Paldi - Accepting PAYTM",
+            "",
             "26/04/2021 12:40:55"
           ],
           [
@@ -120,8 +120,8 @@ jQuery(
             "Sale",
             "",
             "Available",
-            "Oxygen Cylinder",
-            "6L - 16500 + GST",
+            "Oxygen Cylinder - 6L - 16500 + GST",
+            "",
             "01/05/2021 11:23:55"
           ],
           [
@@ -133,8 +133,8 @@ jQuery(
             "Sale",
             "",
             "Available",
-            "Portable Oxygen Cylinder",
-            "12ltr - 400rs Only",
+            "Portable Oxygen Cylinder - 12ltr - 400rs Only",
+            "",
             "26/04/2021 15:00:55"
           ],
           [
@@ -146,8 +146,8 @@ jQuery(
             "Sale",
             "",
             "Available",
-            "Portable Oxygen Cylinder",
-            "12ltr - 650rs Only",
+            "Portable Oxygen Cylinder - 12ltr - 650rs Only",
+            "",
             "30/04/2021 10:55:55"
           ],
           [
@@ -172,8 +172,8 @@ jQuery(
             "Sale",
             "",
             "Available",
-            "Oxygen Cans",
-            "Available after 12pm.\n8L - 600Rs\n12L - 900Rs",
+            "Oxygen Cans - Available after 12pm.\n8L - 600Rs\n12L - 900Rs",
+            "",
             "28/04/2021 10:10:55"
           ],
           [
@@ -185,8 +185,8 @@ jQuery(
             "Sale",
             "",
             "Available",
-            "Oxygen Cans",
-            "6L 625Rs.",
+            "Oxygen Cans - 6L 625Rs.",
+            "",
             "29/04/2021 11:10:55"
           ],
           [
@@ -198,8 +198,8 @@ jQuery(
             "Sale",
             "",
             "Available",
-            "Oxygen Concentrator",
-            "Shipped across Gujarat\nDon't make full advance payment\nIn-case of concern co-ordinate with:<b>9820666557(Whatsapp only)</b>\nConsult your doctor on the power of available machines",
+            "Oxygen Concentrator - Shipped across Gujarat\nDon't make full advance payment\nIn-case of concern co-ordinate with:<b>9820666557(Whatsapp only)</b>\nConsult your doctor on the power of available machines",
+            "",
             "28/04/2021 20:10:55"
           ],
           [
@@ -211,8 +211,8 @@ jQuery(
             "Sale",
             "",
             "Available",
-            "Oxygen Cans",
-            "12L - 650Rs, Bodakdev",
+            "Oxygen Cans - 12L - 650Rs, Bodakdev",
+            "",
             "30/04/2021 15:15:55"
           ],
           [
@@ -263,8 +263,8 @@ jQuery(
             "Sale",
             "",
             "Available",
-            "Oxygen Cylinders",
-            "B/H Kiran Motors, Sarkhej.",
+            "Oxygen Cylinders - B/H Kiran Motors, Sarkhej.",
+            "",
             "30/04/2021 17:30:55"
           ],
           [
@@ -315,8 +315,8 @@ jQuery(
             "Sale",
             "",
             "Available",
-            "Oxygen Cans",
-            "6L - 625 per can - Address: Chunilal Mayachand Mehta & Co.\n1 Mil Officers Colony, Gr. Floor Behind old Reserve Bank of India Ashram Road.",
+            "Oxygen Cans - 6L - 625 per can - Address: Chunilal Mayachand Mehta & Co.\n1 Mil Officers Colony, Gr. Floor Behind old Reserve Bank of India Ashram Road.",
+            "",
             "01/05/2021 11:20:55"
           ],
           [
@@ -328,8 +328,8 @@ jQuery(
             "Sale",
             "",
             "Available",
-            "Oxygen Cans",
-            "6L - 825 per can",
+            "Oxygen Cans - 6L - 825 per can",
+            "",
             "01/05/2021 09:55:55"
           ],
           [
@@ -367,8 +367,8 @@ jQuery(
             "Sale",
             "",
             "Available",
-            "Oxygen Refill",
-            "Confirm and then go",
+            "Oxygen Refill - Confirm and then go",
+            "",
             "02/05/2021 18:55:55"
           ],
           [
@@ -380,8 +380,8 @@ jQuery(
             "Sale",
             "",
             "Available",
-            "Oxygen Supplier",
-            "Confirm and then go",
+            "Oxygen Supplier - Confirm and then go",
+            "",
             "02/05/2021 12:55:55"
           ],
           [
@@ -393,8 +393,8 @@ jQuery(
             "Sale",
             "",
             "Available",
-            "Oxygen Concentrator",
-            "Free of Cost for Needy People. Whatsapp only",
+            "Oxygen Concentrator - Free of Cost for Needy People. Whatsapp only",
+            "",
             "03/05/2021 22:55:55"
           ],
           [
@@ -406,8 +406,8 @@ jQuery(
             "Sale",
             "",
             "Available",
-            "Oxygen Cylinder",
-            "Free of Cost for Needy People",
+            "Oxygen Cylinder - Free of Cost for Needy People",
+            "",
             "03/05/2021 22:55:55"
           ],
           [
@@ -419,9 +419,61 @@ jQuery(
             "Refill",
             "",
             "Available",
-            "Oxygen Refill",
-            "Free of Cost for COVID Patients",
+            "Oxygen Refill - Free of Cost for COVID Patients",
+            "",
             "04/05/2021 13:55:55"
+          ],
+          [
+            data.values.length + 32,
+            "Ahmedabad",
+            "Jay Gayatri",
+            "",
+            "9737276902",
+            "Sale/Rent",
+            "",
+            "Available",
+            "Oxygen Cylinder",
+            "",
+            "05/05/2021 13:55:55"
+          ],
+          [
+            data.values.length + 33,
+            "Ahmedabad",
+            "Khokhra Circle, Maninagar",
+            "",
+            "9712680576",
+            "Sale/Rent",
+            "",
+            "Available",
+            "Oxygen Cylinder - 6L",
+            "",
+            "05/05/2021 13:55:55"
+          ],
+          [
+            data.values.length + 34,
+            "Ahmedabad",
+            "",
+            "",
+            "9099872551",
+            "Sale/Rent",
+            "",
+            "Available",
+            "Oxygen Cylinder - 9L - They will deliver at your house",
+            "",
+            "05/05/2021 13:55:55"
+          ],
+          [
+            data.values.length + 35,
+            "Ahmedabad",
+            "",
+            "",
+            "8160829821",
+            "Sale/Rent",
+            "",
+            "Available",
+            "Oxygen Cylinder - Pickup only, Chandekheda",
+            "",
+            "05/05/2021 13:55:55"
           ]
         );
 
