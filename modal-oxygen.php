@@ -62,7 +62,7 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-success" data-dismiss="modal"><i class="fas fa-thumbs-up"
-            style="font-size: 18px;"></i>I understand</button>
+            style="font-size: 18px;margin-right: 10px;"></i>I understand</button>
       </div>
     </div>
   </div>
