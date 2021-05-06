@@ -20,14 +20,18 @@
 
   <?php include('google-tag.html'); ?>
 </head>
-<style>
-
-</style>
 
 <body class="nk-body">
   <div class="top-bar">COVID 19 Helpline <a href="tel:+917926403333">079 26403333</a> | <a href="tel:+917926409999">079
       26409999</a></div>
   <?php include('header-2.html'); ?>
+
+  <div class="alert alert-danger alert-dismissible fade show" role="alert">
+    <b>Patient bed data from AMC</b>
+    <a target="_blank" class="blink"
+      href="https://ahmedabadcity.gov.in/portal/web?requestType=ApplicationRH&actionVal=loadCoronaRelatedDtls&queryType=Select&screenId=114#divCovidBedDtls">
+      Click Here!</a>
+  </div>
 
   <div class="alert alert-info alert-dismissible fade show" role="alert">
     For more up-to-date data <strong><a class="alert-link"
