@@ -29,7 +29,7 @@
       </div>
       <div class="modal-footer">
         <a href="https://ahmedabadcity.gov.in/portal/web?requestType=ApplicationRH&actionVal=loadCoronaRelatedDtls&queryType=Select&screenId=114"
-          class="btn btn-success" target="_blank" data-dismiss="modal"><i class="fas fa-external-link-square-alt"
+          class="btn btn-success" target="_blank"><i class="fas fa-external-link-square-alt"
             style="font-size: 18px;margin-right: 10px;"></i>Open Link</a>
       </div>
     </div>
