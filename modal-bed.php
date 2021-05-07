@@ -20,7 +20,7 @@
         <lottie-player src="/assets/lottie/data.json" background="transparent" speed="1"
           style="margin: auto; width: 75%;" loop autoplay>
         </lottie-player>
-        <h2 class="text-center text-info">For up-to-date data please visit the below link</h2>
+        <h2 class="text-center text-info">For up-to-date data please visit the below link and click on the popup</h2>
         <br />
 
         <a href="https://ahmedabadcity.gov.in/portal/web?requestType=ApplicationRH&actionVal=loadCoronaRelatedDtls&queryType=Select&screenId=114"

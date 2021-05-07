@@ -67,7 +67,7 @@
         <lottie-player src="/assets/lottie/data.json" background="transparent" speed="1"
           style="margin: auto; width: 55%;" loop autoplay>
         </lottie-player>
-        <h2>For up-to-date data please visit the below link</h2><br />
+        <h2>For up-to-date data please visit the below link and click on the popup</h2><br />
         <a href="https://ahmedabadcity.gov.in/portal/web?requestType=ApplicationRH&actionVal=loadCoronaRelatedDtls&queryType=Select&screenId=114"
           class="alert-link text-center blink" target="_blank" style="font-size: 2.5rem;"><img
             src="/assets/images/AMC_logo.png" height="80" /><br />AMC Bed Portal</a>
