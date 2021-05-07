@@ -26,12 +26,12 @@
       26409999</a></div>
   <?php include('header-2.html'); ?>
 
-  <div class="alert alert-danger alert-dismissible fade show" role="alert">
+  <!-- <div class="alert alert-danger alert-dismissible fade show" role="alert">
     <b>Patient bed data from AMC</b>
     <a target="_blank" class="blink"
       href="https://ahmedabadcity.gov.in/portal/web?requestType=ApplicationRH&actionVal=loadCoronaRelatedDtls&queryType=Select&screenId=114#divCovidBedDtls">
       Click Here!</a>
-  </div>
+  </div> -->
 
   <div class="alert alert-info alert-dismissible fade show" role="alert">
     For more up-to-date data <strong><a class="alert-link"
@@ -50,18 +50,6 @@
       Gandhinagar</a>
   </div>
 
-  <div class="alert alert-dark alert-dismissible fade show" role="alert">
-    For more live(non-verified) data <strong><a class="alert-link"
-        href="https://external.sprinklr.com/insights/explorer/dashboard/601b9e214c7a6b689d76f493/tab/6?id=DASHBOARD_601b9e214c7a6b689d76f493&tabId=6%246_Hospital%20Beds">Patient
-        Bed data</a> & <a class="alert-link"
-        href="https://external.sprinklr.com/insights/explorer/dashboard/601b9e214c7a6b689d76f493/tab/6?id=DASHBOARD_601b9e214c7a6b689d76f493&tabId=6%246_Hospital%20Beds">ICU
-        & Ventilator data</a></strong>
-    <button type="button" class="btn-close float-right" data-dismiss="alert" data-bs-dismiss="alert" aria-label="Close"
-      style="background: transparent; border: none;font-size: 1.25rem;padding: 0;
-    margin: 0;">
-      <i class="far fa-times-circle"></i></button>
-  </div>
-
   <div class="nk-banner">
 
     <div class="jumbotron jumbotron-fluid">
@@ -72,10 +60,22 @@
       </div>
     </div>
 
+
     <div class="container-lg">
 
+      <div class="text-center pb-5">
+        <lottie-player src="/assets/lottie/data.json" background="transparent" speed="1"
+          style="margin: auto; width: 55%;" loop autoplay>
+        </lottie-player>
+        <h2>For up-to-date data please visit the below link</h2><br />
+        <a href="https://ahmedabadcity.gov.in/portal/web?requestType=ApplicationRH&actionVal=loadCoronaRelatedDtls&queryType=Select&screenId=114"
+          class="alert-link text-center blink" target="_blank" style="font-size: 2.5rem;"><img
+            src="/assets/images/AMC_logo.png" height="80" /><br />AMC Bed Portal</a>
+      </div>
+
+      <!--
       <div class="row row-cols-1 row-cols-md-2 g-4 other-hospitals mb-3">
-      </div> <!-- end -->
+      </div>
 
 
 
@@ -128,40 +128,47 @@
       </div>
 
     </div>
-  </div>
+    -->
+    </div>
 
-  <main class="nk-pages">
-    <section class="section section-l bg-light section-spread" id="news">
-      <div class="container">
-        <div class="section-content">
-          <div class="row g-gs justify-content-between">
-            <div class="col-lg-auto">
-              <div class="text-block text-center mb-4">
-                <h5 class="subtitle">Latest</h5>
-                <h2 class="title">News & Updates</h2>
-                <h6 class="subtitle">*Sharing as received*</h6>
+
+    <?php include('modal-bed.php'); ?>
+
+    <main class="nk-pages">
+      <section class="section section-l bg-light section-spread" id="news">
+        <div class="container">
+          <div class="section-content">
+            <div class="row g-gs justify-content-between">
+              <div class="col-lg-auto">
+                <div class="text-block text-center mb-4">
+                  <h5 class="subtitle">Latest</h5>
+                  <h2 class="title">News & Updates</h2>
+                  <h6 class="subtitle">*Sharing as received*</h6>
+                </div>
+                <?php include('news.php'); ?>
               </div>
-              <?php include('news.php'); ?>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-  </main>
+      </section>
+    </main>
 
 
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.8.335/pdf.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
-  <script defer src="/assets/fontawesome/js/all.js"></script>
-  <!--load all styles -->
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  <script src="https://apis.google.com/js/api.js"></script>
-  <script src="assets/js/patient-bed.js">
-  </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.8.335/pdf.worker.min.js"></script>
-  <?php include('footer.html'); ?>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.8.335/pdf.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script defer src="/assets/fontawesome/js/all.js"></script>
+    <!--load all styles -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+      integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous">
+    </script>
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="assets/js/patient-bed.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.8.335/pdf.worker.min.js"></script>
+    <?php include('footer.html'); ?>
 </body>
 
 </html>

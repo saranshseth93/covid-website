@@ -2,85 +2,87 @@ jQuery(
   (function () {
     "use strict";
 
+    $("#bed").modal("show");
+
     //Live Hospital Data
-    $.getJSON(
-      "https://content-sheets.googleapis.com/v4/spreadsheets/1TWR-pn9606h-xJ2sTr9wpkn84STsJh7xUWskONlIoNs/values/Patient%20Bed%20Data!A2%3AH43?key=AIzaSyBveiHShw1LaPLCWYiuSPW_fzIb7Gtan68",
-      function (response) {
-        console.log(response);
-        if (response != undefined && response.values != undefined) {
-          let html = "";
+    // $.getJSON(
+    //   "https://content-sheets.googleapis.com/v4/spreadsheets/1TWR-pn9606h-xJ2sTr9wpkn84STsJh7xUWskONlIoNs/values/Patient%20Bed%20Data!A2%3AH43?key=AIzaSyBveiHShw1LaPLCWYiuSPW_fzIb7Gtan68",
+    //   function (response) {
+    //     console.log(response);
+    //     if (response != undefined && response.values != undefined) {
+    //       let html = "";
 
-          $.each(response.values, function (i, v) {
-            let date = moment(v[7], "DD/MM/YYYY HH:mm:ss");
-            let now = moment();
-            let formattedDate = now.from(date, "days") + " ago";
-            let difference = moment(now).diff(date, "days");
+    //       $.each(response.values, function (i, v) {
+    //         let date = moment(v[7], "DD/MM/YYYY HH:mm:ss");
+    //         let now = moment();
+    //         let formattedDate = now.from(date, "days") + " ago";
+    //         let difference = moment(now).diff(date, "days");
 
-            if (difference < 1) {
-              html += `<div class="col card-component">
-            <div class="card mt-3">
-              <div class="card-body">
-                <h5 class="card-title capitalize">${v[0]}${
-                v[1] != undefined && v[1] != "" ? ", " + v[1] : ""
-              }</h5>
-                <small class="card-text capitalize"><b>Phone: </b>${
-                  v[2] != undefined && v[2] != "" ? v[2] : "Not Provided"
-                }</small><br /><br />
-                ${
-                  v[3] != undefined && v[3] != ""
-                    ? '<button type="button" class="btn btn-outline-success">' +
-                      v[3] +
-                      " - General</button>"
-                    : ""
-                }
-                ${
-                  v[4] != undefined && v[4] != ""
-                    ? '<button type="button" class="btn btn-outline-success">' +
-                      v[4] +
-                      " - Oxygen</button>"
-                    : ""
-                }
-                ${
-                  v[5] != undefined && v[5] != ""
-                    ? '<button type="button" class="btn btn-outline-success">' +
-                      v[5] +
-                      " - ICU</button>"
-                    : ""
-                }
-                ${
-                  v[6] != undefined && v[6] != ""
-                    ? '<button type="button" class="btn btn-outline-success">' +
-                      v[6] +
-                      " - ICU with Ventilator</button>"
-                    : ""
-                }
-  
-              </div>
-              <div class="card-footer">
-                <small class="verified-on text-muted float-left">Updated <b>${
-                  formattedDate == "Invalid date ago"
-                    ? v[7] == undefined
-                      ? ""
-                      : v[7]
-                    : formattedDate
-                }</b></small>
-              </div>
-            </div>
-          </div>`;
-            }
-          });
+    //         if (difference < 1) {
+    //           html += `<div class="col card-component">
+    //         <div class="card mt-3">
+    //           <div class="card-body">
+    //             <h5 class="card-title capitalize">${v[0]}${
+    //             v[1] != undefined && v[1] != "" ? ", " + v[1] : ""
+    //           }</h5>
+    //             <small class="card-text capitalize"><b>Phone: </b>${
+    //               v[2] != undefined && v[2] != "" ? v[2] : "Not Provided"
+    //             }</small><br /><br />
+    //             ${
+    //               v[3] != undefined && v[3] != ""
+    //                 ? '<button type="button" class="btn btn-outline-success">' +
+    //                   v[3] +
+    //                   " - General</button>"
+    //                 : ""
+    //             }
+    //             ${
+    //               v[4] != undefined && v[4] != ""
+    //                 ? '<button type="button" class="btn btn-outline-success">' +
+    //                   v[4] +
+    //                   " - Oxygen</button>"
+    //                 : ""
+    //             }
+    //             ${
+    //               v[5] != undefined && v[5] != ""
+    //                 ? '<button type="button" class="btn btn-outline-success">' +
+    //                   v[5] +
+    //                   " - ICU</button>"
+    //                 : ""
+    //             }
+    //             ${
+    //               v[6] != undefined && v[6] != ""
+    //                 ? '<button type="button" class="btn btn-outline-success">' +
+    //                   v[6] +
+    //                   " - ICU with Ventilator</button>"
+    //                 : ""
+    //             }
 
-          $(".other-hospitals").html(html);
-        }
-      }
-    );
+    //           </div>
+    //           <div class="card-footer">
+    //             <small class="verified-on text-muted float-left">Updated <b>${
+    //               formattedDate == "Invalid date ago"
+    //                 ? v[7] == undefined
+    //                   ? ""
+    //                   : v[7]
+    //                 : formattedDate
+    //             }</b></small>
+    //           </div>
+    //         </div>
+    //       </div>`;
+    //         }
+    //       });
 
-    // setupAreas();
-    setupCards();
+    //       $(".other-hospitals").html(html);
+    //     }
+    //   }
+    // );
 
-    $("#search-input").focus(function () {
-      resetFilters();
-    });
+    // // setupAreas();
+    // setupCards();
+
+    // $("#search-input").focus(function () {
+    //   resetFilters();
+    // });
   })()
 );
 
