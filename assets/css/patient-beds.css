@@ -140,7 +140,8 @@
   .pdf-viewer {
     top: 82%;
   }
-  .jumbotron lottie-player {
+  .jumbotron lottie-player,
+  .container-lg lottie-player {
     max-width: 100%;
     height: auto;
     width: 100%;
