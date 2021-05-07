@@ -306,13 +306,19 @@ jQuery(
         let dailyData = processData(data);
 
         $(".covid-stats-cases-24").html(
-          new Intl.NumberFormat().format(dailyData[0].value)
+          dailyData[0] != undefined
+            ? new Intl.NumberFormat().format(dailyData[0].value)
+            : "~"
         );
         $(".covid-stats-death-24").html(
-          new Intl.NumberFormat().format(dailyData[2].value)
+          dailyData[2] != undefined
+            ? new Intl.NumberFormat().format(dailyData[2].value)
+            : "~"
         );
         $(".covid-stats-recovered-24").html(
-          new Intl.NumberFormat().format(dailyData[1].value)
+          dailyData[1] != undefined
+            ? new Intl.NumberFormat().format(dailyData[1].value)
+            : "~"
         );
       }
     });
@@ -334,7 +340,6 @@ jQuery(
       }
 
       let yestDate = "Date:" + moment().subtract(1, "days").format("DD-MMM-YY");
-
       var result = arrayRemove(lines, yestDate);
 
       let dailyData = [];
