@@ -26,17 +26,17 @@
       26409999</a></div>
   <?php include('header-2.html'); ?>
 
-  <!-- <div class="alert alert-danger alert-dismissible fade show" role="alert">
-    <b>Patient bed data from AMC</b>
-    <a target="_blank" class="blink"
-      href="https://ahmedabadcity.gov.in/portal/web?requestType=ApplicationRH&actionVal=loadCoronaRelatedDtls&queryType=Select&screenId=114#divCovidBedDtls">
-      Click Here!</a>
-  </div> -->
+  <div class="alert alert-danger alert-dismissible fade show" role="alert">
+    Admin Contact List for Private Hospitals by AMC <a target="_blank" class="alert-link"
+      href="/assets/pdf/Admin Contact List of Covid-19 Private Hospital.pdf"
+      download="/assets/pdf/Admin Contact List of Covid-19 Private Hospital.pdf">
+      Download PDF</a>
+  </div>
 
   <div class="alert alert-info alert-dismissible fade show" role="alert">
-    For more up-to-date data <strong><a class="alert-link"
-        href="/assets/pdfs/AMC REQUISITIONED HOSPITAL STATUS 08-05-2021 5.00 PM ONLINE.pdf"
-        download="/assets/pdfs/AMC REQUISITIONED HOSPITAL STATUS 08-05-2021 5.00 PM ONLINE.pdf">Download
+    Hospital Data by AMC <strong><a class="alert-link"
+        href="/assets/pdfs/AMC REQUISITIONED HOSPITAL STATUS 10-05-2021 9.30 AM  ONLINE.pdf"
+        download="/assets/pdfs/AMC REQUISITIONED HOSPITAL STATUS 10-05-2021 9.30 AM  ONLINE.pdf">Download
         PDF</a>.</strong>
     <button type="button" class="btn-close float-right" data-dismiss="alert" data-bs-dismiss="alert" aria-label="Close"
       style="background: transparent; border: none;font-size: 1.25rem;padding: 0;
@@ -122,8 +122,8 @@
         <p class="lead">Displayed <b class="shownLength"></b> Of <b class="listLength"></b> Results.</p>
         <button class="showMore btn btn-primary" type="button">View More</button>
         <a class="btn btn-success btn-sm float-right border-reset"
-          href="/assets/pdfs/AMC REQUISITIONED HOSPITAL STATUS 08-05-2021 5.00 PM ONLINE.pdf"
-          download="/assets/pdfs/AMC REQUISITIONED HOSPITAL STATUS 08-05-2021 5.00 PM ONLINE.pdf"><i
+          href="/assets/pdfs/AMC REQUISITIONED HOSPITAL STATUS 10-05-2021 9.30 AM  ONLINE.pdf"
+          download="/assets/pdfs/AMC REQUISITIONED HOSPITAL STATUS 10-05-2021 9.30 AM  ONLINE.pdf"><i
             class="fas fa-download" style="margin-right:10px;"></i>Download PDF</a>
       </div>
 
