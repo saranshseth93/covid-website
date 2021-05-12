@@ -6,8 +6,11 @@
   <meta name="author" content="Covid Madad">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="An Initiative to help COVID Affected">
-  <meta property="og:description" content="A volunteer-driven crowd sourced effort to track available hospital beds, plasma, food, ambulance and other critical services for Corona in Ahmedabad region." data-rh="true">
-  <meta name="keywords" content="hospital, beds, vacancy, ventilator, gujarat, ahmedabad, oxygen, concentrator, icu, covid, covid19, covid-19, coronavirus, corona, india, virus, pandemic, disease, carona, karona, korona, food, gandhinagar, amreli, tiffin, food, home care, covid care, plasma, vaccination, rtpcr, remedesivir, nursing, ambulance">
+  <meta property="og:description"
+    content="A volunteer-driven crowd sourced effort to track available hospital beds, plasma, food, ambulance and other critical services for Corona in Ahmedabad region."
+    data-rh="true">
+  <meta name="keywords"
+    content="hospital, beds, vacancy, ventilator, gujarat, ahmedabad, oxygen, concentrator, icu, covid, covid19, covid-19, coronavirus, corona, india, virus, pandemic, disease, carona, karona, korona, food, gandhinagar, amreli, tiffin, food, home care, covid care, plasma, vaccination, rtpcr, remedesivir, nursing, ambulance">
   <!-- Fav Icon  -->
   <link rel="shortcut icon" href="images/favicon.svg">
   <!-- Site Title  -->
@@ -24,8 +27,9 @@
 </head>
 
 <body class="nk-body">
-  <div class="top-bar">COVID 19 Helpline <a href="tel:+917926403333">079 26403333</a> | <a href="tel:+917926409999">079
-      26409999</a></div>
+  <div class="top-bar">COVID 19 Helpline <a href="tel:07923250818">07923250818</a> | <a
+      href="tel:07923251900">07923251900</a> | <a href="tel:104">104</a> | Whatsapp Helpline <a
+      href="https://wa.me/+917433000104">+91 7433000104</a></div>
   <?php include('header-2.html'); ?>
   <div class="nk-banner">
     <div class="container-lg">

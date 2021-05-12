@@ -459,11 +459,11 @@ h6,
 .has-overlay {
   position: relative;
 }
-.has-overlay > div:not(.overlay):not(.is-sticky),
+/* .has-overlay > div:not(.overlay):not(.is-sticky),
 .has-overlay > ul:not(.overlay) {
   /* z-index: 5; */
-  /* position: relative; */
-}
+/* position: relative; 
+} */
 
 .overlay {
   position: absolute;
@@ -2724,6 +2724,8 @@ select ~ .error:after {
   text-align: center;
   background-color: antiquewhite;
   font-size: 16px;
+  position: relative;
+  z-index: 99;
 }
 
 .svg-inline--fa {
