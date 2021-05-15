@@ -27,13 +27,14 @@
 </head>
 
 <body class="nk-body">
-  <div class="top-bar">COVID 19 Helpline <a href="tel:07923250818">07923250818</a> | <a href="tel:07923251900">07923251900</a> | <a href="tel:104">104</a> | Whatsapp Helpline <a
+  <div class="top-bar">COVID 19 Helpline <a href="tel:07923250818">07923250818</a> | <a
+      href="tel:07923251900">07923251900</a> | <a href="tel:104">104</a> | Whatsapp Helpline <a
       href="https://wa.me/+917433000104">+91 7433000104</a></div>
   <?php include('header-2.html'); ?>
 
   <div class="alert alert-danger alert-dismissible fade show" role="alert">
     List of Private Laboratories for RTPCR approved by Govt. of Gujarat <a target="_blank" class="alert-link"
-      href="/assets/pdf/rtpcr_approved_amc.pdf" download="/assets/pdf/rtpcr_approved_amc.pdf">
+      href="/assets/pdfs/rtpcr_approved_amc.pdf" download="/assets/pdf/rtpcr_approved_amc.pdf">
       Download PDF</a>
   </div>
 

@@ -22,21 +22,22 @@
 </head>
 
 <body class="nk-body">
-  <div class="top-bar">COVID 19 Helpline <a href="tel:07923250818">07923250818</a> | <a href="tel:07923251900">07923251900</a> | <a href="tel:104">104</a> | Whatsapp Helpline <a
+  <div class="top-bar">COVID 19 Helpline <a href="tel:07923250818">07923250818</a> | <a
+      href="tel:07923251900">07923251900</a> | <a href="tel:104">104</a> | Whatsapp Helpline <a
       href="https://wa.me/+917433000104">+91 7433000104</a></div>
   <?php include('header-2.html'); ?>
 
   <div class="alert alert-danger alert-dismissible fade show" role="alert">
     Admin Contact List for Private Hospitals by AMC <a target="_blank" class="alert-link"
-      href="/assets/pdf/Admin Contact List of Covid-19 Private Hospital.pdf"
-      download="/assets/pdf/Admin Contact List of Covid-19 Private Hospital.pdf">
+      href="/assets/pdfs/Admin Contact List of Covid-19 Private Hospital.pdf"
+      download="/assets/pdfs/Admin Contact List of Covid-19 Private Hospital.pdf">
       Download PDF</a>
   </div>
 
   <div class="alert alert-info alert-dismissible fade show" role="alert">
     Hospital Data by AMC <strong><a class="alert-link"
-        href="/assets/pdfs/AMC REQUISITIONED HOSPITAL STATUS 12-05-2021 5.00 PM ONLINE.pdf"
-        download="/assets/pdfs/AMC REQUISITIONED HOSPITAL STATUS 12-05-2021 5.00 PM ONLINE.pdf">Download
+        href="/assets/pdfs/AMC REQUISITIONED HOSPITAL STATUS 15-05-2021 5.00 PM ONLINE.pdf"
+        download="/assets/pdfs/AMC REQUISITIONED HOSPITAL STATUS 15-05-2021 5.00 PM ONLINE.pdf">Download
         PDF</a>.</strong>
     <button type="button" class="btn-close float-right" data-dismiss="alert" data-bs-dismiss="alert" aria-label="Close"
       style="background: transparent; border: none;font-size: 1.25rem;padding: 0;
@@ -122,8 +123,8 @@
         <p class="lead">Displayed <b class="shownLength"></b> Of <b class="listLength"></b> Results.</p>
         <button class="showMore btn btn-primary" type="button">View More</button>
         <a class="btn btn-success btn-sm float-right border-reset"
-          href="/assets/pdfs/AMC REQUISITIONED HOSPITAL STATUS 12-05-2021 5.00 PM ONLINE.pdf"
-          download="/assets/pdfs/AMC REQUISITIONED HOSPITAL STATUS 12-05-2021 5.00 PM ONLINE.pdf"><i
+          href="/assets/pdfs/AMC REQUISITIONED HOSPITAL STATUS 15-05-2021 5.00 PM ONLINE.pdf"
+          download="/assets/pdfs/AMC REQUISITIONED HOSPITAL STATUS 15-05-2021 5.00 PM ONLINE.pdf"><i
             class="fas fa-download" style="margin-right:10px;"></i>Download PDF</a>
       </div>
 
