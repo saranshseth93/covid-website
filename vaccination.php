@@ -32,7 +32,8 @@
       href="https://wa.me/+917433000104">+91 7433000104</a></div>
   <?php include('header-2.html'); ?>
 
-  <div class="alert alert-danger alert-dismissible fade show d-none d-sm-block d-md-block d-lg-none d-xl-none"
+  <div
+    class="alert alert-danger alert-dismissible fade show d-none d-xs-block d-sm-block d-md-block d-lg-none d-xl-none"
     role="alert">
     <a target="_blank" class="alert-link" href="https://verify.cowin.gov.in/" target="_blank">
       Verify Vaccine Certificate</a>
