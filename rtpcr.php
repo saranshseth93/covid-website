@@ -34,7 +34,7 @@
 
   <div class="alert alert-danger alert-dismissible fade show" role="alert">
     List of Private Laboratories for RTPCR approved by Govt. of Gujarat <a target="_blank" class="alert-link"
-      href="/assets/pdfs/rtpcr_approved_amc.pdf" download="/assets/pdf/rtpcr_approved_amc.pdf">
+      href="/assets/pdfs/rtpcr_approved_amc.pdf" download="/assets/pdfs/rtpcr_approved_amc.pdf">
       Download PDF</a>
   </div>
 

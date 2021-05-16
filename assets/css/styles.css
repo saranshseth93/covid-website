@@ -2814,11 +2814,14 @@ select ~ .error:after {
     height: auto;
     width: 100%;
   }
-  .nk-navbar {
-    top: 70px;
-  }
   .nk-navbar.has-fixed.is-light {
     top: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .nk-navbar {
+    top: 70px;
   }
 }
 

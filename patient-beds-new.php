@@ -36,8 +36,8 @@
 
   <div class="alert alert-info alert-dismissible fade show" role="alert">
     Hospital Data by AMC <strong><a class="alert-link"
-        href="/assets/pdfs/AMC REQUISITIONED HOSPITAL STATUS 15-05-2021 5.00 PM ONLINE.pdf"
-        download="/assets/pdfs/AMC REQUISITIONED HOSPITAL STATUS 15-05-2021 5.00 PM ONLINE.pdf">Download
+        href="/assets/pdfs/AMC REQUISITIONED HOSPITAL STATUS 16-05-2021 5.00 PM ONLINE.pdf"
+        download="/assets/pdfs/AMC REQUISITIONED HOSPITAL STATUS 16-05-2021 5.00 PM ONLINE.pdf">Download
         PDF</a>.</strong>
     <button type="button" class="btn-close float-right" data-dismiss="alert" data-bs-dismiss="alert" aria-label="Close"
       style="background: transparent; border: none;font-size: 1.25rem;padding: 0;
@@ -123,8 +123,8 @@
         <p class="lead">Displayed <b class="shownLength"></b> Of <b class="listLength"></b> Results.</p>
         <button class="showMore btn btn-primary" type="button">View More</button>
         <a class="btn btn-success btn-sm float-right border-reset"
-          href="/assets/pdfs/AMC REQUISITIONED HOSPITAL STATUS 15-05-2021 5.00 PM ONLINE.pdf"
-          download="/assets/pdfs/AMC REQUISITIONED HOSPITAL STATUS 15-05-2021 5.00 PM ONLINE.pdf"><i
+          href="/assets/pdfs/AMC REQUISITIONED HOSPITAL STATUS 16-05-2021 5.00 PM ONLINE.pdf"
+          download="/assets/pdfs/AMC REQUISITIONED HOSPITAL STATUS 16-05-2021 5.00 PM ONLINE.pdf"><i
             class="fas fa-download" style="margin-right:10px;"></i>Download PDF</a>
       </div>
 
