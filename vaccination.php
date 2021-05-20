@@ -35,7 +35,9 @@
   <div class="alert alert-danger alert-dismissible fade show d-lg-none" role="alert"><i
       class="fas fa-user-check mr-2"></i>
     <a target="_blank" class="alert-link" href="https://verify.cowin.gov.in/" target="_blank">
-      Verify Vaccine Certificate</a>
+      Verify Vaccine Certificate</a><br />
+    <p class="text-muted" style="font-style: italic;">Tip: Zoom in your barcode on the certificate for smoother scanning
+      process.</p>
   </div>
 
   <div class="nk-banner">
